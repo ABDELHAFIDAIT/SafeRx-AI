@@ -3,7 +3,7 @@ version: '3.8'
 services:
   db:
     image: postgres:15
-    container_name: saferxcdss_db
+    container_name: saferxai_db
     restart: always
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -16,7 +16,7 @@ services:
 
   adminer:
     image: adminer
-    container_name: saferxcdss_adminer
+    container_name: saferxai_adminer
     restart: always
     ports:
       - "8080:8080"
@@ -25,7 +25,7 @@ services:
   
   api:
     build: .
-    container_name: saferxcdss_api
+    container_name: saferxai_backend
     restart: always
     depends_on: 
       - db
@@ -42,7 +42,7 @@ services:
   frontend:
     build:
       context: ./frontend
-    container_name: saferxcdss_frontend
+    container_name: saferxai_frontend
     restart: always
     ports:
       - "5173:5173"
