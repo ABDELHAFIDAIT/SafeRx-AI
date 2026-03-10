@@ -36,6 +36,7 @@ SafeRx-AI est un système d’aide à la décision clinique (CDSS) qui analyse l
 │       └── 📄 all_drugs_med_ma.csv
 ├── 📁 etl
 │   ├── 🐳 Dockerfile
+│   ├── 🐍 load_med_ma.py
 │   ├── 📄 requirements.txt
 │   └── 🐍 transform_med_ma.py
 ├── 📁 frontend

@@ -9,6 +9,9 @@ from contextlib import asynccontextmanager
 from backend.app.db.init_db import init_db
 from backend.app.models import user
 from backend.app.models import drug
+from backend.app.models import patient
+from backend.app.models import prescription
+from backend.app.models import cds_alert
 
 
 Base.metadata.create_all(bind=engine)
