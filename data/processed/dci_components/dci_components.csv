@@ -1,0 +1,6270 @@
+drug_id,dci,position
+1,Aide acétylsalicylique,1
+1,Vitamine B1,2
+1,Vitamine C,3
+2,Acide acetylsalicylique,1
+2,Vitamine C,2
+2,Vitamine B1,3
+3,Aripiprazole,1
+4,Abiraterone,1
+5,Abiratérone,1
+6,Fentanyl,1
+7,Fentanyl,1
+8,Fentanyl,1
+9,Argile,1
+9,Charbon végétal,2
+10,"Tensioactifs doux (sodium acylsarcosinate et sucrose ester), agent humectant, colorant d'origine végétale, excipients qsp 100 %. Formule colorée sans conservateur, d'origine naturelle.",1
+11,Paracetamol,1
+11,Thiocolchicoside,2
+12,Acide folique,1
+13,Aciclovir,1
+14,Aciclovir,1
+15,Aciclovir,1
+16,Alendronate,1
+17,Acide zolédronique,1
+18,Acide zolédronique,1
+19,Acide zolédronique,1
+20,Acide tiaprofénique,1
+21,Acide tiaprofénique,1
+22,Acide zolédronique,1
+23,Amoxicilline,1
+23,Acide clavulanique,2
+24,Amoxicilline,1
+24,Acide clavulanique,2
+25,Amoxicilline,1
+25,Acide clavulanique,2
+26,Amoxicilline,1
+26,Acide clavulanique,2
+27,Amoxicilline,1
+27,Acide clavulanique,2
+28,Amoxicilline,1
+28,Acide clavulanique,2
+29,Amoxicilline,1
+29,Acide clavulanique,2
+30,Amoxicilline,1
+30,Acide clavulanique,2
+31,Amoxicilline,1
+31,Acide clavulanique,2
+32,Amoxicilline,1
+32,Acide clavulanique,2
+33,Amoxicilline,1
+33,Acide clavulanique,2
+34,Amoxicilline,1
+34,Acide clavulanique,2
+35,Amoxicilline,1
+35,Acide clavulanique,2
+36,Isotrétinoïne,1
+37,Isotrétinoïne,1
+38,Isotrétinoïne,1
+39,Isotrétinoïne,1
+40,Metformine,1
+41,Lévonorgestrel,1
+42,Vaccin Haemophilus Type B Conjugué,1
+43,Donépezil,1
+44,Donépezil,1
+45,Charbon végétal,1
+45,saccharomyces Boulardii,2
+45,inuline,3
+46,Tocilizumab,1
+47,Tocilizumab,1
+48,Tocilizumab,1
+49,Tocilizumab,1
+50,Charbon activé,1
+50,Papavérine,2
+51,"Charbon Actif, extrait sec de gingembre, extrait sec de fenouil, extrait sec de mélisse, stéarate de magnésium, gélule d’origine bovine Halal.",1
+52,"Charbon Actif, extrait sec de rhubarbe, extrait sec de guimauve, extrait sec de fenouil, extrait sec de séné, gélule d’origine bovine Halal.",1
+53,Probiotiques et prébiotiques,1
+54,Sirop d'agave,1
+54,figue,2
+54,pruneau,3
+54,artichaut,4
+54,tamarin,5
+54,rhubarbe,6
+55,Sirop d'agave,1
+55,figue,2
+55,pruneau,3
+55,artichaut,4
+55,tamarin,5
+55,rhubarbe,6
+56,Insuline Humaine Biogénétique,1
+57,Vitamine B9,1
+57,Acide folique,2
+58,Vitamine D,1
+59,Carboplatine,1
+60,Carboplatine,1
+61,Néfopam,1
+62,Paclitaxel,1
+63,"ANATOXINE TETANIQUE, ANATOXINE DIPHTERIQUE, VACCIN ANTICOQUELUCHEUX ACELLULAIRE",1
+64,Magnésium,1
+65,Vitamines,1
+65,Minéraux,2
+65,Oligo-éléments,3
+66,Multivitamines,1
+66,Minéraux,2
+66,Oligo-éléments,3
+67,Alfuzosine,1
+68,Alfuzosine,1
+69,Lévonorgestrel,1
+69,Ethinylestradiol,2
+70,Centella asiatica,1
+70,Calendula,2
+70,Élastine,3
+71,DOCETAXEL,1
+72,DOCETAXEL,1
+73,Metformine,1
+74,Metformine,1
+75,Metformine,1
+76,Metformine,1
+77,Metformine,1
+78,Metformine,1
+79,Adrenaline,1
+80,Alendronat,1
+81,Hydroxychloroquine,1
+82,Desloratadine,1
+83,Desloratadine,1
+84,Desloratadine,1
+85,Isoflurane,1
+86,Evérolimus,1
+87,Meloxicam,1
+88,Meloxicam,1
+89,Meloxicam,1
+90,Meloxicam,1
+91,Meloxicam,1
+92,Meloxicam,1
+93,Ciprofloxacine,1
+94,Ciprofloxacine,1
+95,Ciprofloxacine,1
+96,Fluconazole,1
+97,Fluconazole,1
+98,Fluconazole,1
+99,Fluconazole,1
+100,Calcium,1
+100,Vitamine C,2
+100,Magnésium,3
+101,Acide fusidique,1
+102,Acide fucidique,1
+103,Ibuprofène,1
+104,Ibuprofène,1
+105,Glimépiride,1
+106,Glimépiride,1
+107,Glimépiride,1
+108,Glimépiride,1
+109,Glimépiride,1
+110,Glimépiride,1
+111,Tirofiban,1
+112,Clopidogrel,1
+113,Clopidogrel,1
+114,Méclozine,1
+115,Polymères bio-adhésifs,1
+116,Actifs naturels,1
+117,Béclométasone,1
+118,Montelukast,1
+119,Cétirizine,1
+120,Cétirizine,1
+121,Cétirizine,1
+122,Dextrométhorphane,1
+123,Dextrométhorphane,1
+124,Albumine humaine,1
+125,Albumine humaine,1
+126,Albumine humaine,1
+128,Spironolactone,1
+128,Altizide,2
+129,Spironolactone,1
+130,Spironolactone,1
+131,L-méthyldopa,1
+132,L-Methyldopa,1
+133,Laronidase,1
+134,Alectinib,1
+135,Carbamazépine,1
+136,Cétirizine,1
+137,Cétirizine,1
+138,Cétirizine,1
+139,Cétirizine,1
+140,Olopatadine,1
+141,Amoxicilline,1
+142,Amoxicilline,1
+143,Amoxicilline,1
+144,Amoxicilline,1
+145,Amoxicilline,1
+146,Amoxicilline,1
+147,Amoxicilline,1
+148,Amoxicilline,1
+149,Amoxicilline,1
+150,Amoxicilline,1
+151,Ciprofloxacine,1
+152,Ciprofloxacine,1
+153,Ciprofloxacine,1
+154,Ciprofloxacine,1
+155,Ciprofloxacine,1
+156,Céfaclor,1
+157,Céfaclor,1
+158,Céfaclor,1
+159,Bifidobacterium infantis,1
+160,Ibuprofène,1
+161,Ibuprofène,1
+162,Ibuprofène,1
+163,Ibuprofène,1
+164,Ibuprofène,1
+165,Ibuprofène,1
+166,Ibuprofène,1
+167,Ibuprofène,1
+168,Paracétamol,1
+168,Caféine,2
+169,Paracétamol,1
+169,Caféine,2
+170,Dichlorhydrate de histamine,1
+170,capsicine,2
+170,nicotate de méthyle,3
+170,salicylate de glycol,4
+170,méphénésine,5
+171,Naproxène,1
+172,Naproxène,1
+173,Ibuprofène,1
+174,Pemetrexed,1
+175,Pemetrexed,1
+176,Sulpiride,1
+177,Donepezil,1
+178,DONEPEZIL,1
+179,Melphalan,1
+180,Lévocétirizine,1
+181,Lévocétirizine,1
+182,Loratadine,1
+183,Loratadine,1
+184,Cromoglycate de sodium,1
+185,Memantine,1
+186,Mémantine,1
+187,Lodoxamide,1
+187,Trométamol,2
+188,Desloratadine,1
+189,Desloratadine,1
+190,Desloratadine,1
+191,Méloxicam,1
+192,Méloxicam,1
+193,Méloxicam,1
+194,Meloxicam,1
+195,Amisulpride,1
+196,Amisulpride,1
+197,Amisulpride,1
+198,Amisulpride,1
+199,Chymotrypsine,1
+199,Phénylbutazone,2
+200,Brimonidine,1
+201,Alprazolam,1
+202,Alprazolam,1
+203,Alprazolam,1
+204,Ramipril,1
+205,Ramipril,1
+206,Ramipril,1
+207,Diltiazem,1
+208,Complexe vitaminé,1
+209,Fenugrec,1
+209,Lysine,2
+209,Vitamines,3
+209,Zinc,4
+210,Gelée royale,1
+210,Vitamines,2
+210,Zinc,3
+210,Fer,4
+211,Ginseng,1
+211,Caféine,2
+211,Vitamines,3
+211,Minéraux,4
+212,Vitamines,1
+212,Minéraux,2
+213,Vitamines,1
+213,Minéraux,2
+214,Vitamines,1
+214,Minéraux,2
+214,Oligo-éléments,3
+215,Vitamines,1
+216,Prégabaline,1
+217,Prégabaline,1
+218,Prégabaline,1
+219,Carbamazepine,1
+220,Carbamazépine,1
+221,Carbamazépine,1
+222,Carbamazépine,1
+223,Oméprazole,1
+224,Oméprazole,1
+225,Oméprazole,1
+226,Amlodipine,1
+227,Amlodipine,1
+228,Amlodipine,1
+229,Amlodipine,1
+230,Glimépiride,1
+231,Glimépiride,1
+232,Glimépiride,1
+233,Glimépiride,1
+234,Amphotéricine B,1
+235,Amlodipine,1
+236,Amlodipine,1
+237,Amlodipine,1
+238,Amlodipine,1
+239,Amlodipine,1
+240,Amlodipine,1
+241,Amlodipine,1
+242,Amlodipine,1
+243,Amlodipine,1
+244,Amlodipine,1
+245,Amlodipine,1
+246,Adalimumab,1
+247,Amisulpride,1
+248,Amisulpride,1
+249,Amisulpride,1
+250,Amisulpiride,1
+251,Ciprofloxacine,1
+252,Amikacine,1
+253,Amisulpride,1
+254,Amisulpride,1
+255,Amisulpride,1
+256,Amlodipine,1
+257,Amlodipine,1
+258,Amlodipine,1
+259,Amlodipine,1
+260,Amlodipine,1
+261,Amlodipine,1
+262,Amlodipine,1
+263,Amlodipine,1
+263,Atrovastatine,2
+264,Amlodipine,1
+264,Atrovastatine,2
+265,Amlodipine,1
+266,Amlodipine,1
+267,Amlodipine,1
+268,Amlodipine,1
+269,Amlodipine,1
+270,Amoxicilline,1
+271,Amoxicilline,1
+272,Amoxicilline,1
+273,Amoxicilline,1
+274,Amoxicilline,1
+275,Amoxicilline,1
+276,Amoxicilline,1
+277,Amoxicilline,1
+278,Amoxicilline,1
+279,Amoxicilline,1
+280,Amoxicilline,1
+281,Terbinafine,1
+282,Alpha amylase,1
+283,Prednisolone,1
+284,Prednisolone,1
+285,Anastrozole,1
+286,Anastrozole,1
+287,ANASTROZOLE,1
+288,Anastrozole,1
+289,Anastrozole,1
+290,Losartan,1
+291,Losartan,1
+291,Hydrochlorothiazide,2
+292,Losartan,1
+292,Hydrochlorothiazide,2
+293,Paracétamol,1
+294,Paracétamol,1
+295,Paracetamol,1
+296,Paracétamol,1
+297,Paracétamol,1
+298,Paracétamol,1
+298,Acide ascorbique,2
+299,Cyprotérone,1
+300,Mayo-Inositol,1
+300,Vitamine E,2
+300,L-Carnitine,3
+300,L-Arginine,4
+300,Sélénium,5
+300,Acide folique,6
+301,Testostérone,1
+302,Losartan,1
+303,Losartan,1
+304,Losartan,1
+305,Losartan,1
+306,"Hyaluronate de sodium, glycérine, extrait de Malva sylvestris, extrait de Chamomilla recutita, phosphate de sodium bibasique, phosphate de sodium monobasique, chlorure de sodium, chlorite de sodium, hydroxyde de potassium, eau purifiée.",1
+307,Amlodipine,1
+308,Amlodipine,1
+309,Alendronate,1
+310,Alendronate,1
+311,Alendronate,1
+312,Alendronate,1
+313,Uméclidinium,1
+313,Vilantérol,2
+314,Passiflore extrait sec,1
+314,Rhdiole extrait sec,2
+314,Scutellaire extrait sec,3
+315,Cimétidine,1
+316,Cimétidine,1
+317,Hydrocortisone,1
+317,Cinchocaïne,2
+318,Hydrocortisone acétate,1
+318,esculoside benzocaïne,2
+319,Mebeverine,1
+320,Fluocinolone,1
+320,Polymixine B,2
+320,Neomycine,3
+322,Cyproheptadine,1
+323,Cyproheptadine,1
+324,Antisérum et immunoglobulines Immunoglobuline tétanique,1
+325,Bromazépam,1
+326,Paclitaxel,1
+327,Indapamide,1
+328,RASAGILINE,1
+329,Nifuroxazide,1
+330,Tadalafil,1
+331,Tadalafil,1
+332,Fénugrec plus complexe vitaminé,1
+333,Cyproheptadine,1
+334,Cyproheptadine,1
+335,Cyproheptadine,1
+336,Insuline glulisine,1
+337,Gelée royale,1
+341,"Miel d’eucalyptus, sorbitol, eau purifiée, propolis, huiles essentielles (Eucalyptus, menthe arvensis et thym), acide citrique, sorbate de potassium, benzoate de sodium.",1
+346,Paracétamol,1
+347,"Vitamine D3, Vitamine E, Vitamine C, Thiamine, Riboflavine, Niacine, Vitamine B6, Acide folique, Vitamine B12, Biotine, Acide pantothénique, Chrome, Cuivre, Fer, Manganèse, Molybdènes, Sélénium, Zinc, Extrait de Guarana titré à 25% en caféine, Stéarate de magnésium, gélule d’origine bovine Halal.",1
+349,Extrait de propolis et d'échinacée,1
+350,Extrait de propolis et d'échinacée,1
+351,Film mucoadhésif,1
+352,Lévocétirizine,1
+353,Lévocétirizine,1
+354,Fer,1
+355,Apomorphine,1
+356,Apomorphine,1
+357,Paracetamol,1
+358,Amlodipine,1
+358,Irbesartan,2
+359,Amlodipine,1
+359,Irbesartan,2
+360,Amlodipine,1
+360,Irbesartan,2
+361,Amlodipine,1
+361,Irbesartan,2
+362,Irbésartan,1
+363,Irbésartan,1
+364,APIXABAN,1
+365,APIXABAN,1
+366,APIXABAN,1
+367,APIXABAN,1
+368,APIXABAN,1
+369,Paracétamol,1
+370,Moxifloxacine,1
+371,Moxifloxacine,1
+372,Moxifloxacine,1
+373,Cyproheptadine,1
+374,Cyproheptadine,1
+375,Cytarabine,1
+376,Cytarabine,1
+377,Cytarabine,1
+378,Losartan,1
+379,Losartan,1
+380,Darbepoeitin Alfa,1
+381,Darbepoeitin Alfa,1
+382,Darbepoeitin Alfa,1
+383,Darbepoeitin Alfa,1
+384,Darbepoeitin Alfa,1
+385,Darbepoeitin Alfa,1
+386,Darbepoeitin Alfa,1
+387,Darbepoeitin Alfa,1
+388,Irbesartan,1
+389,Irbésartan,1
+390,Irbesartan,1
+391,Irbesartan,1
+392,Losartan,1
+393,Losartan,1
+394,Leflunomide,1
+395,Étoricoxib,1
+396,Étoricoxib,1
+397,Étoricoxib,1
+398,Étoricoxib,1
+399,Étoricoxib,1
+400,Ciprofloxacine,1
+401,Ciprofloxacine,1
+402,Ciprofloxacine,1
+403,Ciprofloxacine,1
+404,Argent colloïdale,1
+405,Arginine,1
+406,Arginine,1
+407,Alginate de sodium,1
+407,Bicarbonate de sodium,2
+408,Donépezil,1
+409,Donépezil,1
+410,Anastrozole,1
+411,Aripiprazole,1
+412,Aripiprazole,1
+413,Aripiprazole,1
+414,Aripiprazole,1
+415,Anastrozole,1
+416,Etoricoxib,1
+417,Étoricoxib,1
+418,Étoricoxib,1
+419,Étoricoxib,1
+420,Fondaparinux,1
+421,Fondaparinux,1
+422,Arnica montana teinture mère,1
+423,Exemestane,1
+424,Trihexyphenidyle,1
+425,Hypromellose,1
+426,Périndopril,1
+426,Amlodipine,2
+427,Périndopril,1
+427,Amlodipine,2
+428,Périndopril,1
+428,Amlodipine,2
+429,Périndopril,1
+429,Amlodipine,2
+430,Acide glycyrrhétinique,1
+431,Poudre de carapace de crustacés,1
+431,Poudre de carapace de poisson,2
+431,Poudre de harpagophytum,3
+431,Poudre de reine des près,4
+431,Poudre de prêle,5
+431,vitamine B12,6
+432,Adrénaline,1
+432,Articaïne,2
+433,Glucosamine,1
+434,Hyaluronate de sodium,1
+435,Hyaluronate de sodium,1
+436,Méloxicam,1
+437,Méloxicam,1
+438,Méloxicam,1
+439,Méloxicam,1
+440,"Chlorure de Sodium 172,19 - 210,68 G / L",1
+440,"Chlorure de magnésium, 6H2O 3,56 - 3,74 G / L",2
+440,"Chlorure de calcium, 2H2O 6,43 – 9,48 G / L",3
+440,"Chlorure de potassium 5,22 – 8,24 G / L",4
+440,"Glucose monohydrate 0 - 40,49 G / L",5
+441,"Chlorure de Sodium 172,19 - 210,68 G / L",1
+441,"Chlorure de magnésium, 6H2O 3,56 - 3,74 G / L",2
+441,"Chlorure de calcium, 2H2O 6,43 – 9,48 G / L",3
+441,"Chlorure de potassium 5,22 – 8,24 G / L",4
+441,"Glucose monohydrate 0 - 40,49 G / L",5
+442,Benzoate de Benzyle,1
+442,Sulfirame,2
+443,Calcium Carbasalate,1
+444,Aciclovir,1
+445,Acide acétylsalicylique,1
+446,Acide acétylsalicylique,1
+447,Acide Acétylsalicylique,1
+448,Acide Acétylsalicylique,1
+449,Acide Acétylsalicylique,1
+450,Acide acétylsalicylique,1
+451,Acide acétylsalicylique,1
+452,Acide acétylsalicylique,1
+452,Acide ascorbique,2
+452,Chlorure de monophosphothiamine,3
+453,Acide acétylsalicylique,1
+453,Acide ascorbique,2
+453,Chlorure de monophosphothiamine,3
+454,Acide acétylsalicylique,1
+455,Acide acétylsalicylique,1
+456,Flucloxacilline,1
+457,Flucloxacilline,1
+458,Flucloxacilline,1
+459,Flucloxacilline,1
+460,Flucloxacilline,1
+461,Flucloxacilline,1
+462,Flucloxacilline,1
+463,Flucloxacilline,1
+464,Flucloxacilline,1
+465,Salbutamol,1
+466,Lévonorgestrel,1
+466,Éthinyl estradiol,2
+467,Candésartan,1
+468,Candésartan,1
+469,Candésartan,1
+470,Hydroxyzine,1
+471,Hydroxyzine,1
+472,Aténolol,1
+473,Aténolol,1
+474,Aténolol,1
+475,Miansérine,1
+476,Acide tiaprofénique,1
+477,Acide tiaprofénique,1
+478,Acide tiaprofénique,1
+479,Acide tiaprofénique,1
+480,Acide tiaprofinique,1
+481,Valsartan,1
+482,Valsartan,1
+483,Cétirizine,1
+484,Cétirizine,1
+485,Ipratropium,1
+486,Ipratropium,1
+487,Tériflunomide,1
+489,Amoxicilline,1
+489,Acide clavulanique,2
+490,Amoxicilline,1
+490,Acide clavulanique,2
+491,Amoxicilline,1
+491,Acide clavulanique,2
+492,Amoxicilline,1
+492,Acide clavulanique,2
+493,Amoxicilline,1
+493,Acide clavulanique,2
+494,Amoxicilline,1
+494,Acide clavulanique,2
+495,Amoxicilline,1
+495,Acide clavulanique,2
+496,Oméprazole,1
+497,Oméprazole,1
+498,Chlortétracycline,1
+499,Chlortétracycline,1
+500,Chlortétracycline,1
+501,Oxytétracycline,1
+501,Polymyxine,2
+501,Nystatine,3
+501,Déxaméthasone,4
+502,Lidocaïne,1
+502,glycérol,2
+503,Irbesartan,1
+504,Irbesartan,1
+505,Fluticasone,1
+506,Lévofloxacine,1
+507,Bevacizumab,1
+508,Bevacizumab,1
+509,Vaccin inactivé de L'hepathite A adsorbé (Vaccin pour adulte),1
+510,Vaccin Inactivé de L'hepathite A adsorbé (Vaccin pédiatrique),1
+511,Losartan,1
+512,Losartan,1
+513,Losartan,1
+514,Moxifloxacine,1
+515,Moxifloxacine,1
+516,Moxifloxacine,1
+517,Paeonia officinalis,1
+517,Ratanhia,2
+517,Aesculus hippocastanum,3
+517,Hamamelis virginiana,4
+518,Irbésartan,1
+519,Irbésartan,1
+520,Irbésartan,1
+521,Irbésartan,1
+522,Betahistine,1
+523,Betahistine,1
+524,Propranolol,1
+525,Propranolol,1
+526,Dutastéride,1
+527,INTERFERON BETA-1A / 30 µG,1
+528,Fluticasone,1
+529,Fluticasone,1
+530,Tadalafil,1
+531,Tadalafil,1
+532,Moxifloxacine,1
+533,Amoxicilline,1
+534,Amoxicilline,1
+535,Amoxicilline,1
+536,Amoxicilline,1
+537,Amoxicilline,1
+538,Amoxicilline,1
+539,Amoxicilline,1
+540,Amoxicilline,1
+541,Amoxicilline,1
+542,Amoxicilline,1
+543,Quétiapine,1
+544,Quétiapine,1
+545,Quétiapine,1
+546,Quétiapine,1
+547,Quétiapine,1
+548,Quétiapine,1
+549,Quétiapine,1
+550,Quétiapine,1
+551,Quétiapine,1
+552,Quétiapine,1
+553,Azithromycine,1
+554,Azithromycine,1
+555,Azithromycine,1
+556,Azacitidine,1
+557,Brinzolamide,1
+557,Timolol,2
+558,Azélastine,1
+559,Azithromycine,1
+560,Azithromycine,1
+561,Azithromycine,1
+562,Azithromycine,1
+563,Azithromycine,1
+564,Azithromycine,1
+565,Azithromycine,1
+566,Azithromycine,1
+567,Azithromycine,1
+568,Azithromycine,1
+569,Azithromycine,1
+570,Azithromycine,1
+571,Azithromycine,1
+572,Albendazole,1
+573,Albendazole,1
+574,Brinzolamide,1
+575,Azithromycine,1
+576,Acide hyaluronique,1
+577,Acide hyaluronique,1
+578,Budésonide,1
+579,Huiles essentielles,1
+579,Silicium,2
+580,Imipeneme,1
+580,Cilastatine,2
+581,Ciprofloxacine,1
+582,Ciprofloxacine,1
+585,Mupirocine,1
+586,Polyvidone Iodee,1
+587,Polyvidone iodee,1
+588,Métamizole,1
+589,Insuline glargine,1
+590,Insuline glargine,1
+591,Prasugrel,1
+592,Prasugrel,1
+593,Prasugrel,1
+594,Prasugrel,1
+595,Prasugrel,1
+596,Prasugrel,1
+597,Prasugrel,1
+598,Prasugrel,1
+599,Clotrimazole,1
+599,Dexamethasone,2
+600,"Mycobacterium bovis BCG, souche Danoise 1331, atténuée",1
+601,Thiamine,1
+601,Pyridoxine,2
+601,Cyanocobalamine,3
+602,Montmorillonite beidellitique,1
+604,"Compléments alimentaires à base de gingembre , curcuma et genièvre",1
+606,Chlormadinone,1
+606,Ethinylestradiol,2
+607,Drospirénone,1
+607,Ethynilestradiol,2
+608,Oméprazole,1
+609,Oméprazole,1
+610,Oméprazole,1
+611,Magnésium,1
+611,Pyridoxine,2
+612,Glibenclamide,1
+613,Glibenclamide,1
+614,Nonacog alfa (facteur IX de coagulation recombinant),1
+615,Nonacog alfa (facteur IX de coagulation recombinant),1
+616,Dexpanthenol,1
+617,Dexpanthenol,1
+618,Thiamine,1
+618,Riboflavine,2
+618,Pyridoxine,3
+618,Cyanocobalamine,4
+618,Nicotinamide,5
+618,Acide pantothenique,6
+618,Biotine,7
+618,Aacide ascorbique,8
+618,Calcium,9
+618,Acide folique,10
+618,Magnésium,11
+618,Zinc,12
+619,"Thiamine chlorhydrate (15 mg) , Riboflavine (vitamine B2, E101) (15 mg) , Pyridoxine chlorhydrate (10 mg) , Cyanocobalamine (Vitamine B12) (10 mcg) , Nicotinamide (50 mg) , Acide folique (400 mcg) , Acide pantothénique (23 mg) , Biotine (150 mcg) , Acide ascorbique (vitamine C, E300) (500 mg) , Calcium (100 mg) , Magnésium (100 mg) , Zinc (10 mg)",1
+620,Besifloxacine,1
+621,Rosuvastatine,1
+622,Rosuvastatine,1
+623,Rosuvastatine,1
+624,Povidone iodée,1
+625,Povidone iodée,1
+626,Povidone Iodée,1
+627,Povidone iodée,1
+628,Povidone iodée,1
+629,INTERFERON BETA-1B,1
+630,Betahistine,1
+631,Bethamethasone,1
+632,Bétaméthasone,1
+633,Bétaméthasone,1
+633,Chlorocresol,2
+634,Bétaméthasone,1
+635,Bétaxolol,1
+636,Mebeverine,1
+637,Losartan,1
+637,Hydrochlorothiazide,2
+638,Losartan,1
+638,Hydrchlorothiazide,2
+639,Spiramycine,1
+639,Métronidazole,2
+640,Kétoprofène,1
+641,Spiramycine,1
+641,Métronidazole,2
+642,Trolamine,1
+643,Trolamine,1
+644,Bicarbonate de sodium,1
+645,Bicalutamide,1
+646,Bicalutamide,1
+647,Bicalutamide,1
+648,Bicalutamide,1
+649,Bicalutamide,1
+650,Bicalutamide,1
+651,Bicalutamide,1
+652,Bicarbonate de sodium,1
+653,Bisoprolol,1
+654,Bisoprolol,1
+655,"Bicarbonate de Na 65,95 G / L",1
+655,"Chlorure de Na 23,53 G / L",2
+656,Spiramycine,1
+656,Métronidazole,2
+657,BICTEGRAVIR,1
+657,EMTRICITABINE TENOFOVIR ALAFENAMIDE,2
+659,Vitamines,1
+659,Minéraux,2
+660,ACE,1
+660,Sélénium,2
+660,Zinc,3
+661,Calcium,1
+661,Vitamine D3,2
+662,Magnésium,1
+662,Pyridoxine,2
+663,Magnésium,1
+663,Vitamine B6,2
+664,Multivitamines,1
+665,Vitamine C,1
+665,Acérola,2
+666,Fer,1
+666,Acide folique,2
+667,Magnésium,1
+668,Fer,1
+669,Amoxicilline,1
+670,Amoxicilline,1
+671,Amoxicilline,1
+672,Amoxicilline,1
+673,Amoxicilline,1
+674,Amoxicilline,1
+675,Alpha amylase,1
+676,Alpha amylase,1
+677,Alpha amylase,1
+679,Insuline Humaine Biogénétique,1
+680,Amoxicilline,1
+680,Acide clavulanique,2
+681,Amoxicilline,1
+681,Acide clavulanique,2
+682,Amoxicilline,1
+682,Acide clavulanique,2
+683,Amoxicilline,1
+683,Acide clavulanique,2
+684,Amoxicilline,1
+684,Acide clavulanique,2
+685,Amoxicilline,1
+685,Acide clavulanique,2
+686,Amoxicilline,1
+686,Acide clavulanique,2
+687,Teinture de Kola,1
+687,Acide Phosphorique,2
+687,Glycérophosphate de Manganèse,3
+688,Lévofloxacine,1
+689,Lévofloxacine,1
+690,Périndopril,1
+690,Indapamide,2
+691,Périndopril,1
+691,Indapamide,2
+692,Bisoprolol,1
+693,Bisoprolol Hémifumarate,1
+694,Bisoprolol hémifumarate,1
+695,Bisoprolol,1
+696,Bisoprolol,1
+697,Bisoprolol,1
+698,Bisoprolol,1
+699,Bisoprolol,1
+700,Bisoprolol,1
+701,Bisoprolol,1
+702,Spiramycine,1
+702,Métronidazole,2
+703,Bléomycine,1
+704,Blinatumomab,1
+705,Estriol,1
+706,Bléomycine,1
+708,Acide ibandronique,1
+709,Ofatumumab,1
+710,Bortezomib,1
+711,Bortezomib,1
+712,Bortézomib,1
+713,Toxine botulique de type A,1
+714,Bicarbonate de sodium,1
+714,Inositol,2
+714,Phosphate disodique,3
+714,Sulfate de sodium,4
+715,Encorafenib,1
+716,Piroxicam,1
+717,Piroxicam,1
+718,Piroxicam,1
+719,Piroxicam,1
+720,Piroxicam,1
+721,Ticagrélor,1
+722,Brimonidine,1
+723,Vortioxétine,1
+724,Vortioxétine,1
+725,Vortioxétine,1
+726,Ambroxol,1
+727,Ambroxol,1
+728,Ambroxol,1
+729,Carbocistéine,1
+730,Carbocistéine,1
+731,Carbocistéine,1
+732,Carbocistéine,1
+733,Carbocistéine,1
+734,Fénotérol,1
+734,Ipratropium,2
+735,Carbocistéine,1
+736,Carbocistéine,1
+737,Carbocistéine,1
+738,Carbocistéine,1
+739,Carbocistéine,1
+740,Carbocistéine,1
+741,Carbocistéine,1
+742,Carbocistéine,1
+743,Ambroxol,1
+744,Ambroxole,1
+745,Ambroxol,1
+746,Ambroxol,1
+747,Formotérol,1
+748,Tobramycine,1
+748,Dexamethasone,2
+749,Ibuprofène,1
+750,Ibuprofène,1
+751,Extract of Daruharidra (Berberis aristata),1
+751,Extract of Manjistha (Rubia cordifolia,2
+751,Extract of Chakvad (Cassia tora),3
+751,Extract of Sarjak ras (Vateria indica,4
+751,Neem extract (Azardirachta indica),5
+751,Alum (Fitkari) Zinc Oxid,6
+751,Cetrimide,7
+751,Benzalkonium chloride,8
+751,Cream base,9
+752,Lidocaïne,1
+752,Acide Salicylique,2
+753,LysozymeHCL,1
+753,Papaine,2
+753,Bacitracine,3
+753,TetracaineHCL,4
+753,PyridoxineHCL,5
+754,Phenoxymethypenicilline,1
+755,Budésonide,1
+756,Budésonide,1
+757,Salbutamol,1
+758,Salbutamol,1
+759,Salbutamol,1
+760,Bupivacaïne,1
+761,Bupivacaïne,1
+762,Bupivacaïne,1
+763,Salbutamol,1
+764,Salbutamol,1
+765,Salbutamol,1
+766,Salbutamol,1
+767,Salbutamol,1
+768,Clarithromycine,1
+769,Cabozantinib,1
+770,Cabozantinib,1
+771,Cabozantinib,1
+772,Calcium,1
+773,Calcium,1
+774,Calcium carbonate,1
+775,Calcium carbonate,1
+776,Calcium,1
+776,Acide citrique,2
+776,Colecalciferol,3
+777,Calcium,1
+777,Vitamine D3,2
+778,Calcium,1
+779,Calcium,1
+780,Vitamine D3,1
+780,Vitamine C,2
+780,Calcium,3
+780,Fer,4
+781,Calcium,1
+781,Vit D3,2
+783,Amlodipine,1
+784,Amlodipine,1
+785,Amlodipine,1
+786,Amlodipine,1
+787,Calcium,1
+787,vitamine D3,2
+788,Calcium,1
+788,vitamine D3,2
+789,Hydroxypatite de calcium,1
+789,Vitamine D3,2
+789,"Extraits de plantes sèches ( Millet, prêle)",3
+790,Magnésium marin,1
+790,vitamine B6,2
+791,Extrait de valériane,1
+791,Extrait de passiflore,2
+791,Extrait d'Escholzia,3
+793,Fluconazole,1
+794,Fluconazole,1
+795,Fluconazole,1
+796,Fluconazole,1
+797,Candésartan cilexétil,1
+798,Candésartan cilexétil,1
+799,Candesartan,1
+799,Hydrochlorothiazide,2
+800,Fluconazole,1
+801,Fluconazole,1
+802,Fluconazole,1
+804,Uree,1
+805,Bifonazole,1
+806,Chlorure de sodium,1
+806,lactate de sodium,2
+806,Chlorure de calcium dihydraté,3
+806,Chlorure de magnésium hexahydraté,4
+806,Glucose monohydraté,5
+807,Chlorure de sodium,1
+807,Lactate de sodium,2
+807,Chlorure de calcium dihydraté,3
+807,Chlorure de magnésium hexahydraté,4
+807,Glucose monohydraté,5
+808,Chlorure de sodium,1
+808,lactate de sodium,2
+808,Chlorure de calcium dihydraté,3
+808,Chlorure de magnésium hexahydraté,4
+808,Glucose monohydraté,5
+809,Capécitabine,1
+810,Captopril,1
+811,Captopril,1
+812,Clopidogrel,1
+813,Clopidogrel,1
+814,Carbamazépine,1
+815,Carbamazépine,1
+817,Charbon vegétal,1
+817,levure de bière,2
+818,Carboplatine,1
+819,Carboplatine,1
+820,Carboplatine,1
+821,Carboplatine,1
+822,Carboplatine,1
+823,Carboplatine,1
+824,"Charbon végétal activé, chondrus et huiles essentielles de fenouil",1
+825,Charbon actif,1
+825,Siméticone,2
+826,Charbon actif,1
+826,Siméticone,2
+827,Charbon végétal activé,1
+827,Wakamé,2
+827,Rhubarbe,3
+827,Menthe poivrée,4
+827,Fenouil,5
+829,Bisoprolol,1
+830,Bisoprolol,1
+831,Bisoprolol,1
+832,Bisoprolol,1
+833,Magnésium,1
+833,Pyridoxine,2
+834,Carvédilol,1
+835,Carvédilol,1
+836,Carvédilol,1
+837,Carvédilol,1
+838,Acide acétylsalicylique,1
+839,Acide acetilsalicylique,1
+840,Irbesartan,1
+841,Irbesartan,1
+842,Carvédilol,1
+843,Carvédilol,1
+844,Doxazosine,1
+845,Doxylamine,1
+845,pyridoxine,2
+846,Doxylamine,1
+846,Pyridoxine,2
+847,Carvedilol,1
+847,Ivabradine,2
+848,Carvedilol,1
+848,Ivabradine,2
+849,Huile essentielles,1
+850,Caronositol,1
+851,Cartéolol Chlorhydrate,1
+852,Acéclofénac,1
+853,Carvédilol,1
+854,Carvédilol,1
+855,Bicalutamide,1
+856,Inosine,1
+857,Diclofenac,1
+858,Diclofenac,1
+859,Diclofenac,1
+860,Clonidine,1
+861,Ciprofloxacine,1
+862,Ciprofloxacine,1
+863,Ciprofloxacine,1
+864,Ciprofloxacine,1
+866,Oxybuprocaïne,1
+867,Paracetamol,1
+867,codeine,2
+868,Paracétamol,1
+868,Caféine,2
+869,Cefixime,1
+870,Cefixime,1
+871,Céfixime,1
+872,Cefixime,1
+873,Céfotaxime,1
+874,Céfotaxime,1
+875,Ceftriaxone,1
+876,Ceftriaxone,1
+877,Céfuroxime,1
+878,Céfuroxime,1
+879,Célécoxib,1
+880,Célécoxib,1
+881,Célécoxib,1
+882,Carvedilol,1
+883,Carvédilol,1
+884,Célécoxib,1
+885,Célécoxib,1
+886,Célécoxib,1
+887,Bethamethasone,1
+888,Bethamethasone,1
+889,Acide mycophénolique - Mycophénolate mofétil,1
+890,Mofétil mycophénolate,1
+891,Imatinib,1
+892,Imatinib,1
+893,Cisplatine,1
+894,Cisplatine,1
+895,Desogestrel,1
+896,Imiiglucérase,1
+897,Céfuroxime,1
+897,Axétil,2
+898,Céfuroxime,1
+898,Axétil,2
+899,Daunorubicine,1
+900,Clopidogrel,1
+901,Paracetamol,1
+902,Paracetamol,1
+903,Paracétamol,1
+904,Paracétamol,1
+905,Paracétamol,1
+906,Cefotaxime,1
+907,Cétirizine,1
+908,Cétirizine,1
+909,Cétirizine,1
+910,Tramadol,1
+910,Paracetamol,2
+911,Ciprofloxacine,1
+911,Fluocinolone acétonide,2
+912,Cétrorélix,1
+913,Cetirizine,1
+914,Cétirizine,1
+915,Cetrizine,1
+916,Ondansetron,1
+917,Ondansétron,1
+918,Dexamethasone,1
+918,Néomycine,2
+919,Norfloxacine,1
+920,Tetracycline,1
+921,Chlortétracycline,1
+922,Chlorure de potassium,1
+923,Chlorure de potassium,1
+924,"CHLORURE DE SODIUM 0,9%",1
+925,"CHLORURE DE SODIUM 0,9%",1
+926,"CHLORURE DE SODIUM 0,9%",1
+927,Chlorure de sodium,1
+928,"CHLORURE DE SODIUM 0,9%",1
+929,"CHLORURE DE SODIUM 0,9%",1
+930,Chlorure de sodium,1
+931,Chlorure de sodium,1
+932,Chlorure de Sodium,1
+933,Chlorure de sodium,1
+934,Chlorure de sodium,1
+935,Chlorure de sodium,1
+936,Chlorure de sodium,1
+937,Chlorure de sodium,1
+938,Chlorure de Sodium,1
+939,Chlorure de Sodium,1
+940,Chlorure de sodium,1
+941,Chlorure de sodium,1
+942,Chlorure de sodium,1
+943,Chlorure de sodium,1
+944,Chlorure de Sodium,1
+945,Chlorure de sodium,1
+946,Chlorure de sodium,1
+947,Chlorure de sodium,1
+948,Chlorure de sodium,1
+949,Chlorure de sodium,1
+950,Chlorure de sodium,1
+951,Chlorure de sodium,1
+952,Simvastatine,1
+953,Simvastatine,1
+954,Simvastatine,1
+955,Chondroïtine,1
+956,Tadalafil,1
+957,Tadalafil,1
+958,Tadalafil,1
+959,Tadalafil,1
+960,Tadalafil,1
+961,FOS-Bifidobactériurm lactis,1
+962,"Digesté en vaseline de Calendula officinalis sommités fleuries, Hypericum perforatum sommités fleuries, Achillea millefollium sommités fleuries",1
+962,"Ledum palustre, teinture mère",2
+963,Extrait titré de Centella asiatica,1
+964,Parachlorométacresol Gaïazuléne,1
+964,Alphatocophérol Acétate,2
+964,Allantoïne,3
+965,Aciclovir,1
+966,Aciclovir,1
+967,Aciclovir,1
+968,Aciclovir,1
+969,Aciclovir,1
+970,Aciclovir,1
+971,Aciclovir,1
+972,Ciprofloxacine,1
+973,Ciprofloxacine,1
+974,Ciprofloxacine,1
+975,Ciprofloxacine,1
+976,Escitalopram,1
+977,Escitalopram,1
+978,Ciprofloxacine,1
+979,Ciprofloxacine,1
+980,Certolizumab pegol,1
+981,Ciprofloxacine,1
+982,Ciprofloxacine,1
+983,Dompéridone,1
+984,Dompéridone,1
+985,Dompéridone,1
+986,Ciprofloxacine,1
+987,Ciprofloxacine,1
+988,Ciprofloxacine,1
+989,Ciprofloxacine,1
+990,Ciprofloxacine,1
+991,Ciprofloxacine,1
+992,Ciprofloxacine,1
+994,Cisplatine,1
+995,Cisplatine,1
+996,Simvastatine,1
+997,Simvastatine,1
+998,Simvastatine,1
+999,Clarithromycine,1
+1000,Clarithromycine,1
+1001,Clarithromycine,1
+1002,Immunoglobuline humaine normale,1
+1003,Amoxicilline,1
+1004,Amoxicilline,1
+1005,Amoxicilline,1
+1006,Amoxicilline,1
+1007,Amoxicilline,1
+1009,Paracétamol,1
+1010,Clobétasol,1
+1011,Clarithromycine,1
+1012,Clarithromycine,1
+1013,Acide gadotérique,1
+1014,Acide gadotérique,1
+1015,Acide gadotérique,1
+1016,Loratadine,1
+1017,Loratadine,1
+1018,Loratadine,1
+1019,Loratadine,1
+1020,Loratadine,1
+1021,Amoxicilline,1
+1021,Acide clavulanique,2
+1022,Amoxicilline,1
+1022,Acide clavulanique,2
+1023,Amoxicilline,1
+1023,Acide clavulanique,2
+1024,Amoxicilline,1
+1024,Acide clavulanique,2
+1025,Amoxicilline,1
+1025,Acide clavulanique,2
+1026,Clarithromycine,1
+1027,Clarithromycine,1
+1028,Clarithromycine,1
+1029,Clarithromycine,1
+1030,Béclométasone,1
+1031,Béclométasone,1
+1032,Estradiol,1
+1032,Dydrogesterone,2
+1033,Estradiol,1
+1033,Dydrogesterone,2
+1034,Estradiol,1
+1034,Dydrogesterone,2
+1035,CLOBETASOL,1
+1036,Diclofenac,1
+1037,Diclofenac,1
+1038,Diclofenac,1
+1039,Diclofenac,1
+1040,Diclofenac,1
+1041,Diclofenac,1
+1042,Clomifene,1
+1043,Clotrimazole,1
+1044,Clotrimazole,1
+1045,Clopidogrel,1
+1046,Clopidogrel,1
+1047,Clopidogrel,1
+1048,Clopidogrel,1
+1049,Métoclopramide,1
+1050,Métoclopramide,1
+1051,Métoclopramide,1
+1052,Métoclopramide,1
+1053,Céfaclor,1
+1054,Céfaclor,1
+1055,Céfaclor,1
+1056,Chlormadinone,1
+1056,Ethinylestradiol,2
+1057,Losartan,1
+1057,Hydrochlorothiazide,2
+1058,Losartan,1
+1058,Hydrochlorothiazide,2
+1059,Irbésartan,1
+1059,Hydrochlorothiazide,2
+1060,Irbésartan,1
+1060,Hydrochlorothiazide,2
+1061,Irbésartan,1
+1061,Hydrochlorothiazide,2
+1062,Amoxicilline,1
+1062,Acide clavulanique,2
+1063,Amoxicilline,1
+1063,Acide clavulanique,2
+1064,Amoxicilline,1
+1064,Acide clavulanique,2
+1065,Amoxicilline,1
+1065,Acide clavulanique,2
+1066,Amoxicilline,1
+1066,Acide clavulanique,2
+1067,Amoxicilline,1
+1067,Acide clavulanique,2
+1068,Amoxicilline,1
+1068,Acide clavulanique,2
+1069,Amoxicilline,1
+1069,Acide clavulanique,2
+1070,Losartan,1
+1070,Hydrochlortiazide,2
+1071,Losartan,1
+1071,Hydrochlorthiazide,2
+1072,Irbesartan,1
+1072,Hydrochlorothiazide,2
+1073,Irbesartan,1
+1073,Hydrochlorothiazide,2
+1074,Irbesartan,1
+1074,Hydrochlorothiazide,2
+1075,Irbesartan,1
+1075,Hydrochlorothiazide,2
+1076,Irbesartan,1
+1076,Hydrochlorothiazide,2
+1077,Irbesartan,1
+1077,Hydrochlorothiazide,2
+1078,Irbesartan,1
+1078,Hydrchlorothiazide,2
+1079,Irbesartan,1
+1079,Hydrchlorothiazide,2
+1080,Irbesartan,1
+1080,Hydrchlorothiazide,2
+1081,Irbesartan,1
+1081,Hydrchlorothiazide,2
+1082,Irbesartan,1
+1082,Hydrchlorothiazide,2
+1083,Irbesartan,1
+1083,Hydrchlorothiazide,2
+1084,Losartan,1
+1084,hydrochlorothiazide,2
+1085,LOSARTAN,1
+1085,HYDROCHLOROTHIAZIDE,2
+1086,Losartan,1
+1086,hydrochlorothiazide,2
+1087,Irbesartan,1
+1087,Hydrochlorothiazide,2
+1088,Irbesartan,1
+1088,Hydrochlorothiazide,2
+1089,Irbesartan,1
+1089,Hydrochlorothiazide,2
+1090,Enalapril,1
+1090,Hydrochlorothiazide,2
+1091,Irbesartan,1
+1091,Hydrochlorothiazide,2
+1092,Irbesartan,1
+1092,Hydrochlorothiazide,2
+1093,Irbesartan,1
+1093,hydrochlorotiazide,2
+1094,Irbesartan,1
+1094,hydrochlorotiazide,2
+1095,Irbesartan,1
+1095,hydrochlorotiazide,2
+1096,Irbesartan,1
+1096,hydrochlorotiazide,2
+1097,Irbesartan,1
+1097,hydrochlorotiazide,2
+1098,Irbesartan,1
+1098,hydrochlorotiazide,2
+1099,Losartan,1
+1099,Hydrochlorothiazide,2
+1100,Losartan,1
+1100,Hydrochlorothiazide,2
+1101,Losartan,1
+1101,Hydrochlorothiazide,2
+1102,Losartan,1
+1102,Hydrochlorothiazide,2
+1103,Losartan,1
+1103,Hydrochlorothiazide,2
+1104,Losartan,1
+1104,Hydrochlorothiazide,2
+1105,Triméthoprime,1
+1105,Sulfaméthoxazole,2
+1106,Triméthoprime,1
+1106,Sulfaméthoxazole,2
+1107,Triméthoprime,1
+1107,Sulfaméthoxazole,2
+1108,Valsartan,1
+1108,Hydrochlorothiazide,2
+1109,Valsartan,1
+1109,Hydrochlorothiazide,2
+1110,Valsartan,1
+1110,Hydrochlorothiazide,2
+1111,Valsartan,1
+1111,Hydrochlorothiazide,2
+1112,Valsartan,1
+1112,Hydrochlorothiazide,2
+1113,Valsartan,1
+1113,Hydrochlorothiazide,2
+1114,Irbesartan,1
+1114,Hydrchlorothiazide,2
+1115,Irbesartan,1
+1115,Hydrchlorothiazide,2
+1116,Irbesartan,1
+1116,Hydrchlorothiazide,2
+1117,Irbesartan,1
+1117,Hydrchlorothiazide,2
+1118,Valsartan,1
+1118,Hydrochlorothiazide,2
+1119,Valsartan,1
+1119,Hydrochlorothiazide,2
+1120,Valsartan,1
+1120,Hydrochlorothiazide,2
+1121,Irbesartan,1
+1121,Hydrchlorothiazide,2
+1122,Irbesartan,1
+1122,Hydrchlorothiazide,2
+1123,Irbesartan,1
+1123,Hydrchlorothiazide,2
+1124,Irbersatan,1
+1124,Hydrochlorothiazide,2
+1125,Irbersatan,1
+1125,Hydrochlorothiazide,2
+1126,Irbersatan,1
+1126,Hydrochlorothiazide,2
+1127,Acide fusidique,1
+1128,Acide fucidique,1
+1129,Acide fucidique,1
+1130,Acide fucidique,1
+1131,PARACETAMOL,1
+1131,CODEINE,2
+1132,Paracétamol,1
+1132,Cafeine,2
+1132,Codeïne,3
+1133,Paracétamol,1
+1133,Caféine,2
+1133,Codeïne,3
+1134,Paracétamol,1
+1134,Codéine,2
+1135,Dorzolamide,1
+1135,Timolol,2
+1136,Périndopril,1
+1137,Périndopril,1
+1138,Colchicine,1
+1139,Formulation à base de plantes,1
+1140,Colistiméthate sodique,1
+1141,Phloroglucinol,1
+1142,Methylthionimium hydroxyde,1
+1142,Naphazoline nitrate,2
+1143,Promestriène,1
+1144,Promestriène,1
+1145,Médrogestone,1
+1146,Thiocolchicoside,1
+1147,Thiocolchicoside,1
+1148,Thiocolchicoside,1
+1149,Thiocolchicoside,1
+1150,Brimonidine,1
+1150,Timolol,2
+1151,Dutastéride,1
+1151,Tamsulosine,2
+1152,Fer,1
+1152,Vitamine B1,2
+1152,Vitamine B6,3
+1152,Vitamine B9,4
+1152,Vitamine B12,5
+1152,Vitamine D,6
+1152,Magnesium,7
+1153,Furoate de mométasone,1
+1154,Bisoprolol,1
+1154,amlodipine,2
+1155,Bisoprolol,1
+1155,amlodipine,2
+1156,Bisacodyl,1
+1157,Tamsulosine,1
+1158,Tamsulosine,1
+1159,Tamsulosine,1
+1160,Captopril,1
+1161,Captopril,1
+1162,Paracetamol,1
+1162,Codéïne,2
+1163,Clopidogrel,1
+1163,Acide acétylsalicylique,2
+1164,Paracétamol,1
+1164,Grindelia,2
+1164,Gelsemium,3
+1164,Niaouli,4
+1165,Paracétamol,1
+1165,Grindelia,2
+1165,Gelsemium,3
+1165,Niaouli,4
+1166,Paracétamol,1
+1166,Grindelia,2
+1166,Gelsemium,3
+1166,Niaouli,4
+1167,Ivabradine,1
+1168,Ivabradine,1
+1169,Ivabradine,1
+1170,Ivabradine,1
+1171,Amiodarone,1
+1172,Amiodarone,1
+1173,Magnésium marin,1
+1173,vitamine B6,2
+1174,Dexpanthenol,1
+1175,TICAGRELOR,1
+1176,TICAGRELOR,1
+1177,TICAGRELOR,1
+1178,TICAGRELOR,1
+1179,Carvédilol,1
+1180,Carvédilol,1
+1181,Ramipril,1
+1182,Ramipril,1
+1183,Ramipril,1
+1184,Ramipril,1
+1185,Inosine,1
+1186,Prednisone,1
+1187,Prednisone,1
+1188,Prednisone,1
+1189,Molsidomine,1
+1190,Allium cepa,1
+1190,Belladona,2
+1190,Gelsemium,3
+1190,Kalium bichromicum,4
+1190,Sabadilla,5
+1191,Lacosamide,1
+1192,Lacosamide,1
+1193,Lacosamide,1
+1194,Lacosamide,1
+1195,Lacosamide,1
+1196,Lacosamide,1
+1197,Lacosamide,1
+1198,Lacosamide,1
+1199,Lacosamide,1
+1200,Lacosamide,1
+1201,Lacosamide,1
+1202,Lacosamide,1
+1203,Sécukinumab,1
+1204,Dorzolamide,1
+1204,Timolol,2
+1205,Atorvastatine,1
+1206,Atorvastatine,1
+1207,Atorvastatine,1
+1208,Valsartan,1
+1208,Hydrochlorothiazide,2
+1209,Valsartan,1
+1209,Hydrochlorothiazide,2
+1210,Valsartan,1
+1210,Hydrochlorothiazide,2
+1211,Valsartan,1
+1211,Hydrochlorothiazide,2
+1212,Bisoprolol,1
+1212,Périndopril,2
+1213,Bisoprolol,1
+1213,Périndopril,2
+1214,Bisoprolol,1
+1214,Périndopril,2
+1215,Bisoprolol,1
+1215,Périndopril,2
+1216,Valsartan,1
+1216,Hydrochlorothiazide,2
+1217,Valsartan,1
+1217,Hydrochlorothiazide,2
+1218,Valsartan,1
+1218,Hydrochlorothiazide,2
+1219,Prednisolone,1
+1220,Périndopril,1
+1220,Amlodipine,2
+1221,Périndopril,1
+1221,Amlodipine,2
+1222,Perindopril,1
+1222,Amlodipine,2
+1223,Perindopril,1
+1223,Amlodipine,2
+1224,Périndopril,1
+1225,Périndopril arginine,1
+1226,Pancréatine,1
+1227,Pancréatine,1
+1228,Isavuconazonium,1
+1229,Isavuconazonium,1
+1230,Rosuvastatine,1
+1231,Rosuvastatine,1
+1232,Rosuvastatine,1
+1233,Glycerol,1
+1234,Carbamazépine,1
+1235,Carbamazépine,1
+1236,Carbamazépine,1
+1237,Carbamazépine,1
+1238,Diltiazem,1
+1239,Diltiazem,1
+1240,Hualuronate de sodium réticulé,1
+1242,Isotrétinoïne,1
+1243,Isotrétinoïne,1
+1244,Isotrétinoïne,1
+1245,Isotrétinoïne,1
+1246,Curcuma,1
+1246,Vitamine C,2
+1246,Molybdene,3
+1247,Curcuma,1
+1247,Vitamine C,2
+1247,Molybdene,3
+1248,Curcuma et 10 actifs naturels,1
+1249,Extrait de curcuma,1
+1249,Extrait de poivre noir,2
+1249,Poudre d'exsudat de bambou,3
+1249,Oxyde de magnesium marin,4
+1249,stéarate de magnésium végétal,5
+1249,céllule végétale,6
+1250,Extrait de curcumma longa,1
+1250,Extrait de zingiber officinale,2
+1251,Extrait de curcumma longa,1
+1251,Extrait de zingiber officinale,2
+1252,Hydroxycarbamide,1
+1253,Fraction phospholipidique de poumon,1
+1254,Cétirizine,1
+1255,Cétirizine,1
+1256,Cétirizine,1
+1257,Peroxyde de benzoyle,1
+1258,Peroxyde de benzoyle,1
+1259,Peroxyde de benzoyle,1
+1260,Extrait de ruscus aculeatus,1
+1260,Hespéridine méthylchalcone,2
+1260,Acide Ascorbique,3
+1261,Acide gadotérique,1
+1262,Acide gadotérique,1
+1263,Cyclophosphamide,1
+1264,Cyclophosphamide,1
+1265,Duloxétine,1
+1266,Ganciclovir,1
+1267,Ramucirumab,1
+1268,Extrait de canneberge,1
+1268,Mauve,2
+1268,Thym,3
+1268,Myrtille,4
+1268,Extrait de bruyère,5
+1268,Guimauve,6
+1269,Chlorhexidine,1
+1269,Chlorocrésol,2
+1269,Hexamidine diisethionate,3
+1270,Chlorhexidine,1
+1270,Chlorocrésol,2
+1270,Hexamidine diisethionate,3
+1271,Bortézomib,1
+1272,Extrait de valériane,1
+1272,Extrait de passiflore,2
+1272,Extrait d'Escholzia,3
+1273,Daunorubicine,1
+1274,Vitamine D3 (Cholécalciférol / 100 000 UI ),1
+1275,Cholécalciférol (vitamine D3),1
+1276,Vitamine D3 (Cholécalciférol),1
+1277,Vitamine D3 (Cholécalciférol ),1
+1277,Calcium,2
+1278,Vitamine D3,1
+1279,Doxorubicine,1
+1280,Doxorubicine,1
+1281,Vitamines B,1
+1281,Taurine,2
+1281,Arginine,3
+1281,Magnésium,4
+1282,Huile de soja,1
+1282,vitamine E,2
+1282,Vitamine D3,3
+1283,Vitamine D3,1
+1284,Flavonoïques extraits de rutacées,1
+1285,Flavonoïques extraits de rutacées,1
+1286,Fraction flavonoïque purifiée micronisée,1
+1287,Dapagliflozine,1
+1288,Dapagliflozine,1
+1289,Lévonorgestrel,1
+1289,Ethinylestradiol,2
+1290,Calcipotriol,1
+1290,bétaméthasone,2
+1291,Calcipotriol,1
+1291,Bétaméthazone,2
+1292,Daclatasvir,1
+1293,Dantrolène,1
+1294,Daratumumab,1
+1295,Daratumumab,1
+1296,Daratumumab,1
+1297,Serrapeptase,1
+1300,Cinacalcet,1
+1301,Cinacalcet,1
+1302,Triptoréline,1
+1303,Triptoréline,1
+1304,Triptoreline,1
+1305,Triptoréline,1
+1306,Rosuvastatine,1
+1307,Rosuvastatine,1
+1308,Rosuvastatine,1
+1309,Déflazacort,1
+1310,Deflazacort,1
+1311,Deferasirox,1
+1312,Déférasirox,1
+1313,Déférasirox,1
+1314,Dioxyde de titane,1
+1314,Oxyde de zinc,2
+1315,Déflazacort,1
+1316,Déflazacorte,1
+1317,Déflazacort,1
+1318,Déflazacort,1
+1321,Phosphate de potassium,1
+1321,carbonate de magnésium,2
+1321,pyrophosphate de fer sulfate de zinc,3
+1321,sélénite de sodium,4
+1321,sulfate de cuivre,5
+1321,chlorure de chrome,6
+1321,émulsifiant E471Vitamine C,7
+1321,vitamine A,8
+1321,vitamine E,9
+1321,vitamine B5,10
+1321,vitamine PP,11
+1321,vitamine D3,12
+1321,vitamine B2,13
+1321,vitamine K1,14
+1321,vitamine B6,15
+1321,vitamine B1,16
+1321,vitamine B12,17
+1321,vitamine B9,18
+1321,vitamine H (B8),19
+1322,Valproate,1
+1323,Valproate,1
+1324,Valproate,1
+1325,valproate de sodium (333 mg),1
+1325,acide valproïque (145 mg),2
+1326,Valproate,1
+1327,Sertraline,1
+1328,Fluoxétine,1
+1329,Fluoxétine,1
+1333,Sertaconazole,1
+1334,Sertaconazole,1
+1335,Sertaconazole,1
+1336,Clobétasol,1
+1337,Clobétasol,1
+1338,Paroxétine,1
+1339,Déféroxamine mésilate,1
+1340,Désogestrel,1
+1341,Hexamidine di-isethionate,1
+1342,Desloratadine,1
+1343,Desloratadine,1
+1344,Bisoprolol,1
+1345,Toltérodine,1
+1346,Dexamethasone,1
+1346,Gentamicine,2
+1347,Dexaméthasone,1
+1348,Desogestrel,1
+1349,Glycérol 15 %,1
+1349,Paraffine liquide 2 %,2
+1349,Vaseline 8 %,3
+1350,Dexlansoprazole,1
+1351,Dexlanzoprazole,1
+1352,Dexlanzoprazole,1
+1353,Dexlansoprazole,1
+1354,Indométacine,1
+1355,Indométacine,1
+1356,Indométacine,1
+1357,Indométacine,1
+1358,Indométacine,1
+1359,Indométacine,1
+1360,Indométacine,1
+1361,Gliclazide,1
+1362,Metformine,1
+1363,Metformine,1
+1364,Chlorure de calcium,1
+1364,Chlorure de sodium,2
+1364,Chlorure de magnésium,3
+1364,Chlorure de potassium,4
+1364,Solution d'Acide acétique,5
+1365,Chlorure de calcium,1
+1365,Chlorure de sodium,2
+1365,Chlorure de magnésium,3
+1365,Chlorure de potassium,4
+1365,Solution d'Acide acétique,5
+1366,Chlorure de calcium,1
+1366,Chlorure de sodium,2
+1366,Chlorure de magnésium,3
+1366,Chlorure de potassium,4
+1366,Solution d'Acide acétique,5
+1367,Bicarbonate de sodium,1
+1367,Chlorure de sodium,2
+1367,Chlorure de magnésium,3
+1368,Bicarbonate de sodium,1
+1368,Chlorure de sodium,2
+1368,Chlorure de magnésium,3
+1369,Gliclazide,1
+1370,Gliclazide,1
+1371,Gliclazid,1
+1372,Gliclazid,1
+1373,Acétazolamide,1
+1374,Ethinylestradiol,1
+1374,Cyprotérone,2
+1375,Diazépam,1
+1376,Glimepiride,1
+1376,Metformine,2
+1377,Chlorure de sodium,1
+1377,Chlorure de potassium,2
+1377,Citrate ee sodium Trisodique,3
+1377,Glucose anhydre,4
+1378,Cortivazol,1
+1379,Carvedilol,1
+1380,Carvedilol,1
+1381,Pinaverium,1
+1382,Diclofenac,1
+1383,Diclofenac,1
+1384,Diclofenac,1
+1385,Diclofenac,1
+1386,Diclofenac,1
+1387,Diclofenac,1
+1388,Diclofenac,1
+1389,Diclofenac,1
+1390,Diclofenac,1
+1391,Etamsylate,1
+1392,Etamsylate,1
+1393,Etamsylate,1
+1394,Etidronate,1
+1395,Ethinyl estradiol,1
+1395,Dienogest,2
+1396,Formulation à base de plantes,1
+1397,Diclofénac,1
+1398,Diclofénac,1
+1399,Diclofenac,1
+1400,Diclofenac,1
+1401,Diclofenac,1
+1402,Diclofenac,1
+1403,Adapalene,1
+1404,Adapalene,1
+1405,Fluconazole,1
+1406,Fluconazole,1
+1407,Fluconazole,1
+1408,Métoclopramide,1
+1409,Digoxine,1
+1410,Digoxine,1
+1411,Salbutamol,1
+1412,Carvédilol,1
+1413,Carvédilol,1
+1414,Carvédilol,1
+1415,Carvédilol,1
+1416,Diltiazem,1
+1417,Carbimazole,1
+1418,Diosmine,1
+1419,Amlodipine,1
+1420,Amlodipine,1
+1421,Amlodipine,1
+1422,Amlodipine,1
+1423,Losartan,1
+1423,Hydrochlorothiazide,2
+1424,Losartan,1
+1424,Hydrochlorothiazide,2
+1425,Propofol,1
+1426,Betamethasone,1
+1427,Bethamethasone,1
+1427,Acide salicylique,2
+1428,Betamethasone,1
+1429,Betamethasone,1
+1430,Betamethasone,1
+1431,Betamethasone,1
+1432,Dipropionate de Bétaméthasone,1
+1432,bétaméthasone (phosphate disodique de),2
+1433,Capecitabine,1
+1434,Phloroglucinol,1
+1435,Amoxicilline,1
+1436,Amoxicilline,1
+1437,Amoxicilline,1
+1438,Amoxicilline,1
+1439,Amoxicilline,1
+1440,Amoxicilline,1
+1441,Xipamide,1
+1442,Indapamide,1
+1443,Hydrochlorothiazide,1
+1444,Paroxétine,1
+1445,Paroxétine,1
+1446,Diclofénac,1
+1447,Dobutamine,1
+1448,Docetaxel,1
+1449,Docetaxel,1
+1450,Docetaxel,1
+1451,Docetaxel,1
+1452,Docetaxel,1
+1453,Docétaxel,1
+1454,Docétaxel,1
+1455,Extrait de propolis et de plantes,1
+1456,Actifs naturels ( Extrait fluide de thym),1
+1457,Sulpiride,1
+1458,Sulpiride,1
+1459,Paracetamol,1
+1459,Cafeine,2
+1459,Promethazine,3
+1460,Paracétamol,1
+1461,Étoricoxib,1
+1462,Étoricoxib,1
+1463,Étoricoxib,1
+1464,Étoricoxib,1
+1465,Étoricoxib,1
+1466,Ibuprofene,1
+1467,Ibuprofene,1
+1468,Ibuprofene,1
+1469,ARACETAMOL,1
+1469,ACIDE ASCORBIQUE,2
+1469,PHENIRAMINE,3
+1470,Paracétamol,1
+1471,Paracétamol,1
+1472,Paracétamol,1
+1473,Paracétamol,1
+1474,Paracétamol,1
+1475,Paracétamol,1
+1476,Paracétamol,1
+1477,Paracétamol,1
+1478,Paracétamol,1
+1479,Paracétamol,1
+1480,Paracétamol,1
+1481,Paracétamol,1
+1482,Paracétamol,1
+1483,Paracétamol,1
+1484,Paracétamol,1
+1485,Paracetamol,1
+1485,Acide Ascorbique,2
+1486,Paracetamol,1
+1486,Pseudoephedrine,2
+1486,Acide ascorbique,3
+1487,Extrait de valeriana officinalis,1
+1487,Extrait de Chamomilla recutita,2
+1487,Extrait de propolis cera,3
+1488,Paracétamol,1
+1489,Paracétamol,1
+1490,Paracétamol,1
+1491,Paracétamol,1
+1492,Paracétamol,1
+1493,Paracétamol,1
+1494,Paracétamol,1
+1495,Paracétamol,1
+1496,Paracétamol,1
+1497,Paracétamol,1
+1498,Paracétamol,1
+1499,Paracétamol,1
+1500,Paracétamol,1
+1501,Paracétamol,1
+1502,Paracétamol,1
+1503,Paracétamol,1
+1504,Amlodipine,1
+1505,Amlodipine,1
+1506,Amlodipine,1
+1507,Almlodipine,1
+1508,Tramadol,1
+1508,Paracétamol,2
+1509,Dompéridone,1
+1510,Dompéridone,1
+1511,Glucosamine,1
+1512,Donépézil,1
+1513,Donépézil,1
+1514,Spiramycine,1
+1515,Spiramycine,1
+1516,Donépézil,1
+1517,Donépézil,1
+1518,Donépézil,1
+1519,Donépézil,1
+1520,Dorzolamide,1
+1521,Valériane,1
+1521,Escholtzia,2
+1521,Passiflore,3
+1521,Aubépine,4
+1521,Tilleul,5
+1521,Camomille,6
+1522,Valériane,1
+1522,Escholtzia,2
+1522,Passiflore,3
+1522,Aubépine,4
+1522,Tilleul,5
+1522,Camomille,6
+1523,Dorzolamide,1
+1524,Dorzolamide,1
+1524,Timolol,2
+1525,Vitamine D3,1
+1526,Cabergoline,1
+1527,Cabergoline,1
+1528,Gadoterique Acide,1
+1529,Oxyde de zinc,1
+1529,Vitamine,2
+1529,Vitamine D,3
+1530,Oxyde de zinc,1
+1530,Vitamine,2
+1530,Vitamine D,3
+1531,Ténoxicam,1
+1532,Ténoxicam,1
+1533,Doxycycline,1
+1534,Doxycycline,1
+1535,Doxycycline,1
+1536,Donépezil,1
+1537,Donépezil,1
+1538,Donépézil,1
+1539,Donépézil,1
+1549,Drotavérine,1
+1550,Drotavérine,1
+1551,Dorzolamide,1
+1551,Sous forme de chlorhydrate de dorzolamide,2
+1551,Timolol,3
+1551,Sous forme de maléate de timolol,4
+1552,Paracétamol,1
+1552,thiocolchicoside,2
+1553,Duloxétine,1
+1554,Duloxétine,1
+1555,"Vaccin Diphtérique, Tétanique et Poliomyélitique Inactivé Adsorbé",1
+1556,ACTIFS NATURELS,1
+1557,Travoprost,1
+1557,Timolol,2
+1558,Paracetamol,1
+1558,Thiocolchicoside,2
+1559,Lactulose,1
+1560,Dydrogesterone,1
+1561,Dydrogesterone,1
+1562,Calcium,1
+1562,vitamine D3,2
+1563,Furosemide,1
+1564,Furosemide,1
+1565,Fentanyl,1
+1566,Fentanyl,1
+1567,Mebeverine,1
+1568,Dutastértide,1
+1569,Réglisse,1
+1569,Guarana,2
+1569,Ginseng,3
+1569,Eleuthérocoque,4
+1570,Réglisse,1
+1570,Guarana,2
+1570,Ginseng,3
+1570,Eleuthérocoque,4
+1571,Fénugrec plus 14 vitamines er minéraux essentiels,1
+1572,Clostridium botulinum type A,1
+1573,Clostridium botulinum type A,1
+1574,Extrait de propolis et de plantes,1
+1575,Methylprednisolone,1
+1576,Eau pour préparation injectable,1
+1577,Eau pour préparation injectable,1
+1578,Eau pour préparation injectable,1
+1579,Mémantine,1
+1580,Mémantine,1
+1581,ULIPRISTAL,1
+1582,Amoxicilline,1
+1582,Acide clavulanique,2
+1583,Amoxicilline,1
+1583,Acide clavulanique,2
+1584,Amoxicilline,1
+1584,Acide clavulanique,2
+1585,Amoxicilline,1
+1585,Acide clavulanique,2
+1586,Amoxicilline,1
+1586,Acide clavulanique,2
+1587,Amoxicilline,1
+1587,Acide clavulanique,2
+1588,Amoxicilline,1
+1588,Acide clavulanique,2
+1589,Amoxicilline,1
+1589,Acide clavulanique,2
+1590,Azilsartan,1
+1591,Azilsartan,1
+1592,AZILSARTAN MEDOXOMIL,1
+1592,CHLORTHALIDONE,2
+1593,AZILSARTAN MEDOXOMIL,1
+1593,CHLORTHALIDONE,2
+1594,Paracétamol,1
+1594,Caféine,2
+1595,Paracétamol,1
+1596,Paracétamol,1
+1597,Paracetamol,1
+1597,Acide Ascorbique,2
+1598,Venlafaxine,1
+1599,Venlafaxine,1
+1600,Hydrocortisone,1
+1601,Hydrocortisone,1
+1602,Prednisolone,1
+1603,Prednisolone,1
+1604,Prednisolone,1
+1605,Etiléfrine,1
+1606,Pidolate de calcium,1
+1607,Lévofloxacine,1
+1608,"Rétinol palmitate (3600 UI) , Thiamine chlorhydrate (1.6 mg) , Riboflavine (vitamine B2, E101) (1.8 mg) , Nicotinamide (19 mg) , Pantothénate calcique (10 mg) , Pyridoxine chlorhydrate (2.6 mg) , Biotine (200 mcg) , Acide folique (800 mcg) , Cyanocobalamine (Vitamine B12) (4 mcg) , Acide ascorbique (vitamine C, E300) (100 mg) , Cholécalciférol (Vitamine D3) (500 UI) , Tocophérol acétate DL-alfa (15 mg) , Calcium (125 mg) , Cuivre (1 mg) , Fer(II) (60 mg) , Magnésium (100 mg) , Manganèse (1 mg) , Phosphore (125 mg) , Zinc (7.5 mg)",1
+1609,Apixaban,1
+1610,Apixaban,1
+1611,Apixaban,1
+1612,Apixaban,1
+1613,Apixaban,1
+1614,Ulipristal,1
+1615,Dasatinib,1
+1616,Dasatinib,1
+1617,Chlorhexidine,1
+1617,Chlorobutanol,2
+1618,Hyaluronate de sodium,1
+1619,Hyaluronate de sodium,1
+1620,Éthynylestradiol,1
+1620,Chlormadinone,2
+1621,Soluté concentré bicarbonaté,1
+1623,"Sucralfate, beurre de cacao, lanoline (origine végétale), vaseline blanche, cire d'abeille blanche, eau purifiée, caprilyl glycol, extrait de calendula, extrait de camomille, extrait de feuille d'hamamélis.",1
+1624,Etanercept,1
+1625,Etanercept,1
+1626,Etanercept,1
+1627,Fer,1
+1628,Dienogest,1
+1629,Cyclophosphamide,1
+1630,Cyclophosphamide,1
+1631,Cyclophosphamide,1
+1632,Cyclophosphamide,1
+1633,Etanercept,1
+1634,Etanercept,1
+1636,Vaccin contre l'hépatite B,1
+1637,Vaccin contre l'hépatite B,1
+1638,Enoxaparine sodique,1
+1639,Enoxaparine sodique,1
+1640,Enoxaparine sodique,1
+1641,Enoxaparine sodique,1
+1642,Eucalyptus,1
+1642,Propolis,2
+1642,Echinacea,3
+1642,Gingembre,4
+1643,Eucalyptus,1
+1643,propolis et extrait de plante,2
+1644,Satralizumab,1
+1645,Nifuroxazide,1
+1646,Spores de Bacillus Clausii,1
+1647,Spores de Bacillus Clausii,1
+1648,Sofosbuvir,1
+1648,Velpatasvir,2
+1649,Ephedrine,1
+1650,Pseudoephedrine,1
+1650,Triprolidine,2
+1650,Paracetamol,3
+1651,Pseudoephedrine,1
+1651,Triprolidine,2
+1651,Paracetamol,3
+1652,Ephedrine,1
+1653,Adapalene,1
+1653,Peroxyde de benzoyle,2
+1654,Prégabaline,1
+1655,Prégabaline,1
+1656,Magnésium,1
+1656,Complexe vitaminé,2
+1656,Extrait sec de pollen,3
+1657,Épirubicine,1
+1658,Epirubicine,1
+1659,"Solution nettoyante avec extrait d'Aloe Vera, Centella, Calendula, etc.",1
+1660,Erythropoïétine alpha,1
+1661,"Antianémique, époétine alfa",1
+1662,Erythropoïétine alpha,1
+1663,Erythropoïétine alpha,1
+1664,Erythropoïétine alpha,1
+1665,Pregabaline,1
+1666,Pregabaline,1
+1667,Pregabaline,1
+1668,Vaccin antirabique,1
+1669,Fulvestrant,1
+1670,Lévofloxacine,1
+1671,Lévofloxacine,1
+1672,Cetuximab,1
+1673,Sildénafil,1
+1674,Sildénafil,1
+1675,Sildénafil,1
+1676,Sildénafil,1
+1677,Sildénafil,1
+1678,Sildénafil,1
+1679,Sildénafil,1
+1680,Sildénafil,1
+1681,Sildénafil,1
+1682,Sildénafil,1
+1683,Sildénafil,1
+1684,Sildénafil,1
+1685,Sildénafil,1
+1686,Desloratadine,1
+1687,Désloratadine,1
+1688,Désloratadine,1
+1689,Désloratadine,1
+1690,Ergocalciférol,1
+1691,Apalutamide,1
+1692,Erlotinib,1
+1693,Erlotinib,1
+1694,Erlotinib,1
+1695,Desloratadine,1
+1696,Desloratadine,1
+1697,Desloratadine,1
+1698,Desloratadine,1
+1699,Desloratadine,1
+1700,Terbinafine,1
+1701,Terbinafine,1
+1702,Terbinafine,1
+1703,Terbinafine,1
+1704,Ebastine,1
+1705,Ebastine,1
+1706,Ebastine,1
+1707,Erythromycine,1
+1708,Erythromycine,1
+1709,Esoméprazole,1
+1710,Esoméprazole,1
+1711,Esoméprazole,1
+1712,Esoméprazole,1
+1713,Esoméprazole,1
+1714,Esoméprazole,1
+1715,Escitalopram,1
+1716,Escitalopram,1
+1717,Escitalopram,1
+1718,Escitalopram,1
+1719,Vitamines et sels minéraux,1
+1720,Hydrochlorothiazide,1
+1722,Fluconazole,1
+1723,Fluconazole,1
+1724,Esomeprazole,1
+1725,Esomeprazole,1
+1726,Esomeprazole,1
+1727,Esomeprazole,1
+1728,Esomeprazole,1
+1729,Quétiapine,1
+1730,Quétiapine,1
+1731,Quétiapine,1
+1732,Quetiapine,1
+1733,Etoposide,1
+1734,Etoposide,1
+1735,Etoposide,1
+1736,Cinéole,1
+1736,Codéine,2
+1737,Charbon végétal,1
+1737,Extrait de rhubarbe,2
+1737,Feuilles de séné,3
+1737,Soufre,4
+1738,Charbon végétal Extrait de rhubarbe Feuilles de séné Soufre,1
+1739,Codeine,1
+1739,Extrait d'erysimum officinale,2
+1740,Ésomeprazole,1
+1741,Ésomeprazole,1
+1742,Ésomeprazole,1
+1743,Ésomeprazole,1
+1744,Ésomeprazole,1
+1745,Ésomeprazole,1
+1746,Evérolimus,1
+1747,Dapoxétine,1
+1748,Dapoxétine,1
+1749,Dapoxétine,1
+1750,Dapoxétine,1
+1751,Dapoxétine,1
+1752,Dapoxétine,1
+1753,Lévofloxacine,1
+1754,Lévofloxacine,1
+1755,Lévofloxacine,1
+1756,Risdiplam,1
+1757,Acide tranexamique,1
+1758,Acide tranexamique,1
+1759,Acide tranexamique,1
+1760,Rivastigmine,1
+1761,Rivastigmine,1
+1762,Rivastigmine,1
+1763,Exémestane,1
+1764,Exémestane,1
+1765,Amlodipine,1
+1765,Valsartan,2
+1766,Amlodipine,1
+1766,Valsartan,2
+1767,Amlodipine,1
+1767,Valsartan,2
+1768,Amlodipine,1
+1768,Valsartan,2
+1768,Hydrochlorothiazide,3
+1769,Amlodipine,1
+1769,Valsartan,2
+1769,Hydrochlorothiazide,3
+1770,Amlodipine,1
+1770,Valsartan,2
+1770,Hydrochlorothiazide,3
+1771,Amlodipine,1
+1771,Valsartan,2
+1771,Hydrochlorothiazide,3
+1772,Escitalopram,1
+1773,Escitalopram,1
+1774,Escitalopram,1
+1775,Escitalopram,1
+1776,Déférasirox,1
+1777,Déférasirox,1
+1778,Ofloxacine,1
+1779,Naftifine,1
+1780,Naftifine,1
+1781,Acétylcystéine,1
+1782,Fumarate ferreux,1
+1782,Acide folique,2
+1782,vitamine C,3
+1782,Cyanocobalamine,4
+1783,Magnésium marin,1
+1783,vitamine B6,2
+1783,Verveine,3
+1784,Acérola + 16 vitamines et minéraux,1
+1785,Acérola + 16 vitamines et minéraux,1
+1786,Amlodipine,1
+1786,Valsartan,2
+1787,Amlodipine,1
+1787,Valsartan,2
+1788,Amlodipine,1
+1788,Valsartan,2
+1788,Hydrochlorothiazide,3
+1789,Amlodipine,1
+1789,Valsartan,2
+1789,Hydrochlorothiazide,3
+1790,Amlodipine,1
+1790,Valsartan,2
+1790,Hydrochlorothiazide,3
+1791,Amlodipine,1
+1791,Valsartan,2
+1791,Hydrochlorothiazide,3
+1792,Aflibercept,1
+1793,Ezétimibe,1
+1794,Esomeprazole,1
+1795,Esomeprazole,1
+1796,Esomeprazole,1
+1797,Esomeprazole,1
+1798,Esomeprazole,1
+1799,Esomeprazole,1
+1800,Agalsidase bêta,1
+1801,Aripiprazole,1
+1802,Aripiprazole,1
+1803,Fampridine,1
+1804,Epirubicine,1
+1805,Fulvestrant,1
+1806,Rasburicase,1
+1807,Isoconazole,1
+1808,Isoconazole,1
+1809,Sélénium,1
+1809,inositol vitamine B12,2
+1809,vitamine B6,3
+1809,lipozinc,4
+1809,magnésium,5
+1809,vitaminê C,6
+1810,Fenofibrate,1
+1811,Paracetamol,1
+1811,Acide ascorbique,2
+1811,Phéniramine,3
+1812,Paracetamol,1
+1812,Acide ascorbique,2
+1812,Phéniramine,3
+1813,Paracetamol,1
+1813,Acide ascorbique,2
+1813,Phéniramine,3
+1814,Febuxostat,1
+1815,Febuxostat,1
+1816,Piroxicam,1
+1817,Piroxicam,1
+1818,Piroxicam,1
+1819,Piroxicam,1
+1820,Piroxicam,1
+1821,Piroxicam,1
+1822,Piroxicam,1
+1823,Piroxicam,1
+1824,Létrozole,1
+1825,"FER, BP",1
+1827,Diclofenac,1
+1828,Diclofenac,1
+1829,Diclofenac,1
+1830,Fénofibrate,1
+1831,Charbon végétal activé,1
+1831,Fenouil,2
+1831,Carvi,3
+1832,Fénofibrate,1
+1833,Fentanyl,1
+1834,Fentanyl,1
+1835,Fentanyl,1
+1836,Fentanyl,1
+1837,Fentanyl,1
+1838,Fer ferrique,1
+1839,Complexe d'hydroxyde ferrique,1
+1839,saccharose,2
+1840,Complexe d'hydroxyde ferrique,1
+1840,saccharose,2
+1841,Fer liposomal,1
+1842,Fer,1
+1843,Fer,1
+1843,Vitamine B9,2
+1845,Fer protéinsuccinylate,1
+1846,Fer,1
+1846,Acide folique,2
+1847,Défériprone,1
+1848,Psyllium,1
+1849,Vérapamil,1
+1850,Vérapamil,1
+1851,Fibrinogène humain,1
+1852,Finastéride,1
+1853,Fer,1
+1853,B6,2
+1854,Fer en capsule plus des vitamines et des extraits végétaux,1
+1856,Propolis,1
+1856,Echinacée,2
+1856,Thym,3
+1856,vitamine C,4
+1857,Propolis,1
+1857,Échinacée,2
+1857,Eucalyptus,3
+1857,Vitamine C,4
+1858,Propolis,1
+1858,Echinacée,2
+1858,Mauve,3
+1858,Vitamine C,4
+1859,Magnésium,1
+1859,Pyridoxine,2
+1860,Métronidazole,1
+1861,Métronidazole,1
+1862,Métronidazole,1
+1863,Métronidazole,1
+1864,Méloxicam,1
+1865,Méloxicam,1
+1866,Sulfadiazine argentique,1
+1867,Charbon végétal activé,1
+1867,Fenouil,2
+1868,Extrait de soja,1
+1868,Calcium,2
+1868,Vitamine D et K,3
+1868,Vitamine B6-B9-B12,4
+1868,Acide alpha-linolénique,5
+1869,Flécaïnide,1
+1870,Vitamine C,1
+1870,Collagéne,2
+1871,Kétoprofène,1
+1872,"Extrait standardisé d'harpagophytum, cartilage de requin, agent antiagglomérant : stéarate de magnésium, gélules d'origine bovine halal.",1
+1873,Magnésium,1
+1873,Coenzyme Q10,2
+1873,Glycosaminoglycanes,3
+1873,Silicium,4
+1873,Boswellia,5
+1873,Arnica,6
+1873,Griffe du diable,7
+1875,Fluticasone,1
+1876,Fluticasone,1
+1877,Fluticasone,1
+1878,Fluticasone,1
+1879,Ciprofloxacine,1
+1880,Ciprofloxacine,1
+1881,Ciprofloxacine,1
+1882,Ciprofloxacine,1
+1883,Alfuzosine,1
+1884,Alfuzosine,1
+1885,Montélukast,1
+1886,Montélukast,1
+1887,Montélukast,1
+1888,Flucloxacilline,1
+1889,Flucloxacilline,1
+1890,Flucloxacilline,1
+1891,Flucloxacilline,1
+1892,Flucloxacilline,1
+1893,Flucloxacilline,1
+1894,Flucloxacilline,1
+1895,Ofloxacine,1
+1896,Ofloxacine,1
+1897,Fluvoxamine,1
+1898,Fluconazole,1
+1899,Fluconazole,1
+1900,Fluconazole,1
+1901,Fluorométholone,1
+1902,Fluconazole,1
+1903,Fluconazole,1
+1904,Fluoxétine,1
+1905,Fludarabine,1
+1906,Indapamide,1
+1907,Ambroxol,1
+1908,Chlorure de déqualinium,1
+1909,Fluorésceine,1
+1910,Bifluorure d'ammonium,1
+1910,Ester benzylsalicylique,2
+1911,Fluoxétine,1
+1912,Fluoxétine,1
+1913,Fluoxétine,1
+1914,Fluoxétine,1
+1915,Flucloxacilline,1
+1916,Flucloxacilline,1
+1917,Flucloxacilline,1
+1918,Flucloxacilline,1
+1919,Fluphénazine,1
+1920,Flucloxacilline,1
+1921,Flucloxacilline,1
+1922,Flucloxacilline,1
+1923,Flucloxacilline,1
+1924,Fluoxétine,1
+1925,Fluoxétine,1
+1926,Fer sulfate ferreux,1
+1926,Acide folique,2
+1927,Folinate,1
+1928,Folinate,1
+1929,Acide folique,1
+1929,iode,2
+1930,Pyrithione,1
+1931,Pyrithione,1
+1932,Fluconazole,1
+1933,Fluconazole,1
+1934,Fluconazole,1
+1935,Fluconazole,1
+1936,Budesonide,1
+1936,Formoterol,2
+1937,Budesonide,1
+1937,Formoterol,2
+1938,Macrogol 4000,1
+1939,Formotérol,1
+1940,Complexe vitaminé + minéraux,1
+1941,Ginseng,1
+1941,guarana,2
+1941,vitamines,3
+1943,L-arginine,1
+1943,Extrait sec de maca,2
+1943,Extrait sec de ginseng,3
+1943,Extrait sec de ginkgo,4
+1944,Macrogol 4000,1
+1944,Sulfate de sodium anhydre,2
+1944,Bicarbonate de sodium,3
+1944,Chlorure de sodium,4
+1944,Chlorure de potassium,5
+1945,Dapagliflozine,1
+1946,ACIDE ALENDRONIQUE,1
+1946,CHOLECALCIFEROL,2
+1947,Sévélamer,1
+1948,Béclométasone,1
+1948,Formotérol,2
+1949,Béclométasone,1
+1949,Formotérol,2
+1950,Fer élémentaire,1
+1951,Framycétine,1
+1951,Déxaméthasone,2
+1952,Acide fusidique,1
+1953,Acide fucidique,1
+1954,Fusidate de sodium,1
+1955,Acide fusidique,1
+1956,Acide fusidique,1
+1957,Pegfilgrastim,1
+1958,Fumarate Ferreux,1
+1959,Econazole,1
+1960,Econazole,1
+1961,Econazole,1
+1962,Econazole,1
+1963,Furosemide,1
+1964,Furosemide,1
+1965,Acide fucidique,1
+1966,Acide fusidique,1
+1967,Glucosamine sulfate,1
+1967,Chondroïtine sulfate,2
+1967,Méthylsulfonylméthane (MSM),3
+1967,Extrait sec de bambou,4
+1967,Extrait sec de curcuma,5
+1967,Extrait sec de poivre noir,6
+1967,Citrate de zinc,7
+1967,Gluconate de manganèse,8
+1968,Glucosamine sulfate,1
+1968,Chondroïtine sulfate,2
+1968,Méthylsulfonylméthane (MSM),3
+1968,Extrait sec de bambou,4
+1968,Extrait sec de curcuma,5
+1968,Extrait sec de poivre noir,6
+1968,Citrate de zinc,7
+1968,Gluconate de manganèse,8
+1969,Imiquimod,1
+1970,Gabapentine,1
+1971,Gabapentine,1
+1972,Pregabaline,1
+1973,Pregabaline,1
+1974,Pregabaline,1
+1975,Pregabaline,1
+1976,Gadobutrol,1
+1977,Gadobutrol,1
+1978,Vildagliptine,1
+1979,Vildagliptine,1
+1979,Metformine,2
+1980,Vildagliptine,1
+1980,Metformine,2
+1981,Vildagliptine,1
+1981,Metformine,2
+1982,Immunoglobuline humaine non spécifique,1
+1983,Bimatoprost,1
+1983,Timolol,2
+1984,Prégabaline,1
+1985,Prégabaline,1
+1986,Prégabaline,1
+1987,Prégabaline,1
+1988,Prégabaline,1
+1989,Prégabaline,1
+1991,Phénobarbital,1
+1992,Phénobarbital,1
+1993,Phénobarbital,1
+1994,Hydroxyde d'aluminium,1
+1994,Hydroxyde de magnesium,2
+1995,Hydroxyde d'aluminium,1
+1995,Hydroxyde de magnesium,2
+1996,Amidotrizoate de sodium,1
+1996,Amidotrizoate de méglumine,2
+1997,Carbonate de calcium,1
+1997,Hydroxyde de magnésium,2
+1997,Réglisse déglycyrrhizé,3
+1997,Mauve,4
+1997,Fenouil,5
+1997,Camomille,6
+1998,Alginate de sodium,1
+1998,Bicarbonate de sodium,2
+1999,Alginate de sodium,1
+1999,Bicarbonate de sodium,2
+2000,Alginate de sodium,1
+2000,Bicarbonate de sodium,2
+2001,Alginate de sodium,1
+2001,Bicarbonate de sodium,2
+2002,Obinutuzumab,1
+2003,Gefitinib,1
+2004,Gefitinib,1
+2005,Carbomère 974P,1
+2006,Polysuccinate de gélatine,1
+2008,Paracétamol,1
+2009,Gemcitabine,1
+2010,Gemcitabine,1
+2011,Gemcitabine,1
+2012,Gemcitabine,1
+2013,Gemcitabine,1
+2014,Gemcitabine,1
+2015,Extrait sec de trèfle,1
+2015,Extrait sec de cimicaire,2
+2015,Extrait sec de luzerne,3
+2015,Extrait sec de de soja,4
+2015,Extrait sec de prêle,5
+2016,Agneau-chaste,1
+2016,Gluconate de magnésium,2
+2016,oxyde de magnésium,3
+2016,vitamine B6,4
+2017,Somatotropine,1
+2018,Somatropine,1
+2019,Ramipril,1
+2020,Ramipril,1
+2021,Ramipril,1
+2022,Atorvastatine,1
+2023,Atorvastatine,1
+2024,Atorvastatine,1
+2025,Atorvastatine,1
+2026,Atorvastatine,1
+2027,Atorvastatine,1
+2028,Gentamicine,1
+2029,Gentamicine,1
+2030,Gentamicine,1
+2031,Gentamicine,1
+2032,Gentamicine,1
+2033,Gentamicine,1
+2034,Gentamicine,1
+2035,Gentamicine,1
+2036,Gentamicine,1
+2037,Gentamicine,1
+2038,Gentamicine,1
+2039,Gentamicine,1
+2040,Glimépiride,1
+2041,Glimépiride,1
+2042,Glimépiride,1
+2044,Progestérone,1
+2045,Fingolimod,1
+2046,"Aqua, Sorbitol, PEG-40 hydrogenated Castor Oil, Mentha avensis leaf oil, potassium sorbate, Sodium benzoate, Eugenia caryophyllus bud oil, Sodium saccharine, Chlorhexidine digluconate, Citric acid, Menthol.",1
+2047,"Aqua, Sorbitol, Glycerine, PEG-40 Hydrogenated Castor Oil, Phenoxyethanol, Charcoal powder, Calcium carbonate, Aroma, sodium Benzoate, Sodium Saccharin, Citric acid, Sodium fluoride, Menthol.",1
+2048,"Aqua, Sorbitol, Glycerine, Potassium Nitrate (5%), PEG-40 Hydrogenated Castor Oil, Phenoxyethanol, Aroma, Sodium Fluoride (0.15%), sodium Benzoate, Sodium Saccharin, Citric acid, Menthol.",1
+2049,"Aqua, Propolis powder, Sorbitol, Glycerine, Propylene glycol, PEG-40 Hydrogenated Castor Oil, Phenoxyethanol, Aroma, sodium Benzoate, Eugenia caryophyllus bud oil, Sodium Saccharin, Citric acid, Sodium fluoride, Menthol.",1
+2050,"Aqua, Sorbitol, Glycerine, PEG-40 hydrogenated Castor Oil, Phenoxye- thanol, Aroma, Sodium benzoate, Sodium saccharin, Chlorhexidine digluconate (0.12%), citric acid, sodium fluoride, menthol, CI 75470.",1
+2051,"Sorbitol, Aqua, Silica, Glycerine, Amidon, sodium lauryl sulfate, calcium Carbonate, Xanthan gum, Charcoal powder, phenoxyethanol, Arôma, Sodium benzoate, sodium fluoride, sodium saccharin, Menthol.",1
+2052,"Sorbitol, Aqua, Hydrated Silica, Glycerine, Zea mays strach, Potassium Nitrate (5%), Xanthan gum, Sodium bicarbonate, phenoxyethanol, sodium lauryl sulfate, Titanium, dioxide, Arôma, Sodium benzoate, sodium fluoride, sodium saccharin, Menthol.",1
+2053,"Sorbitol, Aqua, Propolis, Glycerine, Propylene glycol, Silica, Amidon, sodium lauryl sulfate, Xanthan gum, phenoxyethanol, Eugenia caryophyllus bud oil, Titanium dioxide, Arôma, Sodium benzoate, sodium fluoride, sodium saccharinate, citric acid, Menthol.",1
+2054,"Sorbitol, Aqua, Hydrated Silica, Glycerine, Zea mays strach, Xanthan gum, Sodium bicarbonate, phenoxyethanol, sodium lauryl sulfate, Titanium, dioxide, Arôma, Sodium benzoate, sodium fluoride, sodium saccharin, Chlorhexidine digluconate, Menthol.",1
+2055,"Aqua, Propolis powder, Propylene glycol, Sorbitol, Glycerin, Salvia Officinalis (sage) Leaf Extract, Carbomer, Phenoxyethanol, Polysorbate 80, , Xanthan gum, potassium sorbate, Sodium benzoate, Hyaluronic acid, Eugenia caryophyllus bud oil, citric acid.",1
+2056,"Aqua, Propolis powder, Glycerin, Propylene glycol, Sorbitol, Honey, Phenoxyethanol, Polysorbate 80, Eugenia caryophyllus bud oil, Thymus vulgaris oil, potassium sorbate, Sodium benzoate, Citric acid.",1
+2057,Vitamines + minéraux,1
+2058,Afatinib,1
+2059,Afatinib,1
+2060,Afatinib,1
+2061,Ciprofloxacine,1
+2062,Ciprofloxacine,1
+2063,Ciprofloxacine,1
+2064,Insuline glargine,1
+2065,DORZOLAMIDE,1
+2066,DORZOLAMIDE,1
+2066,TIMOLOL,2
+2067,Glimépiride,1
+2068,Glimépiride,1
+2069,Glimépiride,1
+2070,Glimépiride,1
+2071,Glimépiride,1
+2072,Glimépiride,1
+2073,Glimépiride,1
+2074,Glibenclamide,1
+2075,Glibenclamide,1
+2076,Glibenclamide,1
+2077,Imatinib,1
+2078,Imatinib,1
+2079,Glucagon,1
+2080,Calcium (Glucoheptonate),1
+2080,Calcium (Gluconate),2
+2081,Metformine,1
+2082,Metformine,1
+2083,Metformine,1
+2084,Metformine,1
+2085,Glucose 5 %,1
+2086,Glucose monohydraté,1
+2087,Glucose monohydraté,1
+2088,Glucose,1
+2089,Glucose,1
+2090,Glucose,1
+2091,Glucose,1
+2092,Glucose,1
+2093,Glucose,1
+2094,Glucose,1
+2095,Glucose,1
+2096,Glucose,1
+2097,Glucose,1
+2098,Glucose monohydraté,1
+2099,Glucose monohydraté,1
+2100,Glibenclamide,1
+2100,Metformine,2
+2101,Glibenclamide,1
+2101,Metformine,2
+2102,Glibenclamide,1
+2102,Metformine,2
+2103,Gliquidone,1
+2104,18 Fluorodesoxyglucose,1
+2105,Metformine,1
+2106,Metformine,1
+2107,Metformine,1
+2108,Gliclazide,1
+2109,Gliclazide,1
+2110,Répaglinide,1
+2111,Répaglinide,1
+2112,Répaglinide,1
+2113,Répaglinide,1
+2114,Répaglinide,1
+2115,Répaglinide,1
+2116,Terlipressin,1
+2117,Glimépiride,1
+2118,Glimépiride,1
+2119,Glimépiride,1
+2120,Glimépiride,1
+2121,Follitropine alfa,1
+2122,Follitropine alfa,1
+2123,Follitropine alfa,1
+2124,Désogestrel,1
+2124,Ethinylestradiol,2
+2125,Ortie,1
+2125,Serenaa Repens,2
+2125,Pépins de courge,3
+2125,Prunier d'afrique,4
+2125,Zinc,5
+2125,Vitamine B6,6
+2125,Vitamine E,7
+2125,Coenzyme Q10,8
+2125,Lycopène,9
+2126,Fer bisglycinate,1
+2127,"Extrait de Cassis BIO, Jus d'Argousier BIO",1
+2127,Extrait de Cynorrhodon,2
+2127,Extrait d'Acérola BIO,3
+2127,Extrait de Thym BIO,4
+2127,Sirop d'agave BIO,5
+2128,"Oméga 3 (320 MG) dont EPA ( 165 MG) , DHA (110 MG)",1
+2129,Pegfilgrastim,1
+2130,Poliresin®,1
+2130,complexe végétal,2
+2130,Miel,3
+2131,Poliresin®,1
+2131,complexe végétal,2
+2131,Miel,3
+2132,Griseofulvine,1
+2133,Griseofulvine,1
+2134,Griseofulvine,1
+2135,Griseofulvine,1
+2136,Griseofulvine,1
+2136,Acide salicylique,2
+2137,Griseofulvine,1
+2138,Griseofulvine,1
+2139,Sertaconazole,1
+2140,Lactobacillus acidophilus,1
+2140,Estriol 0.03,2
+2141,Lotus et pro vitamine B5,1
+2142,Panthenol,1
+2142,lotus,2
+2142,pro vit b5,3
+2143,Chlormadinone acétate,1
+2143,Ethinylestradiol,2
+2144,Paricalcitol,1
+2145,Eribyline mésilate,1
+2146,Halopéridol,1
+2147,Haloperidol,1
+2148,Haloperidol,1
+2149,Haloperidol,1
+2150,Halothane,1
+2151,Vaccin contre l'hépatite A,1
+2152,Sélénium,1
+2152,Coenzyme Q10,2
+2152,L-Arginine,3
+2152,L-Carnitine,4
+2152,Lipozinc,5
+2152,Vitamine C,6
+2152,Vitamine B9,7
+2153,Tanin officinal,1
+2153,Hamamelis virginiana,2
+2153,Phenazone,3
+2154,Amoxicilline,1
+2154,Métronidazole,2
+2156,Emicizumab,1
+2157,Emicizumab,1
+2158,Emicizumab,1
+2159,Emicizumab,1
+2160,Oxytocine,1
+2161,Chlorhydrate de cinchocaïne,1
+2161,Hydrocortisone,2
+2161,Acétate d’hydrocortisone,3
+2161,Esculoside,4
+2161,Benzocaine,5
+2162,Chlorhydrate de cinchocaïne,1
+2162,Hydrocortisone,2
+2162,Acétate d’hydrocortisone,3
+2162,Esculoside,4
+2162,Benzocaine,5
+2163,"Pyrophosphate ferrique (Lipofer®), acide folique (Vitamine B9), Vitamine D3 (cholécalciférol), acide ascorbique (Vitamine C), agent de charge (Maltodextrine), agent antiagglomérant (stéarate de magnésium), gélule d’origine bovine Halal.",1
+2164,Clopidogrel,1
+2164,acide acétylsalicylique,2
+2165,Clopidogrel,1
+2165,acide acétylsalicylique,2
+2166,"Extrait de marronnier d’inde, hamamélis, calendula, huile essentielle de menthe et d’arbre à thé",1
+2167,"Extrait de marronnier d’inde, hamamélis, calendula, huile essentielle de menthe et d’arbre à thé",1
+2170,Héparine sodique,1
+2171,Héparine sodique,1
+2172,Héparine sodique,1
+2173,Héparine sodique,1
+2174,Héparine sodique,1
+2175,Trastuzumab,1
+2176,Trastuzumab,1
+2177,"Extrait d’huile essentielle d’arbre à thé, de thym et de géranium, d’extrait de bardane et de sauge",1
+2178,Trastuzumab,1
+2179,Trastuzumab,1
+2180,Trastuzumab,1
+2181,Trastuzumab emtansine,1
+2182,"Vaccin contre la diphtérie, le tétanos, la poliomyélite, la coqueluche, l'haemophilus influenzae b et l'hépatite B.",1
+2183,Hexetidine,1
+2184,Hexamidine,1
+2185,Hexamidine,1
+2186,Bémiparine,1
+2187,Bémiparine,1
+2188,Bémiparine,1
+2189,Bémiparine,1
+2190,Bémiparine,1
+2191,CALCIFEDIOL,1
+2192,CALCIFEDIOL,1
+2193,Captopril,1
+2194,Captopril,1
+2195,Linezolide,1
+2196,Loratadine,1
+2197,Loratadine,1
+2198,Loratadine,1
+2199,Loratadine,1
+2200,"Échinacée, cassis, plantin, reine des près et gelée royale",1
+2201,Extraits végétaux et marins,1
+2202,Ifosfamide,1
+2203,Ifosfamide,1
+2204,Ifosfamide,1
+2205,Teinture de souci des jardins,1
+2205,Teinture de phytolaque,2
+2205,Teinture de bryone,3
+2205,Teinture de benjoin du Laos,4
+2205,Acide borique,5
+2207,Homeo,1
+2208,Curcumine,1
+2208,Exsudat de bambou,2
+2209,Curcumine,1
+2209,Exsudat de bambou,2
+2210,Prednisolone,1
+2211,Insuline Lispro,1
+2212,Insuline Lispro,1
+2213,Insuline Lispro,1
+2214,Insuline Lispro,1
+2215,Insuline Lispro,1
+2216,Eau de mer 100% non diluée,1
+2217,Eau de mer 100% non diluée,1
+2218,Eau de mer 100% non diluée,1
+2219,Solution à base de glycérol et d'extraits de plantes à tanins,1
+2220,Eau de mer,1
+2221,Lidocaine,1
+2221,Benzalkonium,2
+2222,Carbocistéine,1
+2223,Carbocistéine,1
+2224,Biclothymol,1
+2225,Biclotymol,1
+2226,Biclothymol,1
+2227,Benzalkonium,1
+2228,Paracétamol,1
+2228,Pseudoéphédrine,2
+2228,Chlorphénamine,3
+2229,Adalimumab,1
+2230,Escitalopram,1
+2231,Escitalopram,1
+2232,Escitalopram,1
+2233,Escitalopram,1
+2234,Hyaluronate de sodium,1
+2235,Hyaluronate de sodium,1
+2236,Acide hyaluronique,1
+2237,Hydrocortisone,1
+2239,Hydrocortisone,1
+2240,Hydroxocobalamine,1
+2241,Hyaluronate de sodium,1
+2242,Hyaluronate,1
+2243,"6 plantes, levure de bière et 2 ferments",1
+2245,Hyaluronte de sodium,1
+2247,Rilmenidine,1
+2248,Etomidate,1
+2249,Enalapril,1
+2249,Hydrochlorothiazide,2
+2250,Fébuxostat,1
+2251,Fébuxostat,1
+2252,Candésartan,1
+2252,Hydrochlorothiazide,2
+2253,Candésartan,1
+2253,Hydrochlorothiazide,2
+2254,Oméprazole,1
+2255,Oméprazole,1
+2256,Oméprazole,1
+2257,Oméprazole,1
+2260,Ofloxacine,1
+2261,Méloxicam,1
+2262,Meloxicam,1
+2263,Méloxicam,1
+2264,Méloxicam,1
+2265,Amoxicilline,1
+2265,Acide clavulanique,2
+2266,Amoxicilline,1
+2266,Acide clavulanique,2
+2267,Amoxicilline,1
+2267,Acide clavulanique,2
+2268,Amoxicilline,1
+2268,Acide clavulanique,2
+2269,Amoxicilline,1
+2269,Acide clavulanique,2
+2270,Amoxicilline,1
+2270,Acide clavulanique,2
+2271,Palbociclib,1
+2272,Palbociclib,1
+2273,Palbociclib,1
+2274,Palbociclib,1
+2275,Palbociclib,1
+2276,Palbociclib,1
+2277,Brimonidine,1
+2279,Ibuprofène,1
+2280,Levocetirizine,1
+2281,Levocetirizine,1
+2282,Levocetirizine,1
+2283,Irbésartan,1
+2284,Irbésartan,1
+2285,Ciprofloxacine,1
+2286,Tobramycine,1
+2286,Dexaméthasone,2
+2287,Rosuvastatine,1
+2288,Rosuvastatine,1
+2289,Rosuvastatine,1
+2290,Calcium carbonate,1
+2290,Cholécalciférol,2
+2291,Indométacine,1
+2292,Indométacine,1
+2293,Acide zolédronique,1
+2294,Acide zolédronique,1
+2295,Imatinib,1
+2296,Imatinib,1
+2297,Imatinib,1
+2298,Imatinib,1
+2299,Ibrutinib,1
+2300,Métronidazole,1
+2301,Immunoglobulines humaines anti-D,1
+2302,Zinc vitamine B6,1
+2302,Vitamine D3,2
+2302,Bête-glucanes,3
+2303,Zinc vitamine B6,1
+2303,Vitamine D3,2
+2303,Bête-glucanes,3
+2304,Lopéramide,1
+2305,Zopiclone,1
+2306,Étonogestrel,1
+2307,Azathioprine,1
+2308,Salbutamol,1
+2309,Salbutamol,1
+2310,Indométacine,1
+2311,Indométacine,1
+2312,Indométacine,1
+2313,Indométacine,1
+2314,Indométacine,1
+2315,Indométacine,1
+2316,Indométacine,1
+2320,Ésomeprazole,1
+2321,Esoméprazole,1
+2322,Esoméprazole,1
+2323,Esoméprazole,1
+2324,"Vaccin contre D, T, Coqueluche (Pertussis), Hépatite B, Poliomyélite et Hi b",1
+2325,"Vaccin contre D, T, Coqueluche (Pertussis) et Poliomyélite",1
+2326,Antigènes de surface (hémagglutinine et neuraminidase)* de virus de la grippe inactivé,1
+2327,Sertraline,1
+2328,Sertraline,1
+2329,Amlodipine,1
+2330,Amlodipine,1
+2331,Amlodipine,1
+2332,Clopidogrel,1
+2333,Clopidogrel,1
+2334,Axitinib,1
+2335,Axitinib,1
+2336,Salicylate de méthyle,1
+2336,Camphre,2
+2337,Perindopril,1
+2338,Perindopril,1
+2339,Périndopril,1
+2339,indapamide,2
+2340,Eplérénone,1
+2341,Eplérénone,1
+2342,Insuline humaine biogénétique,1
+2343,Insuline humaine,1
+2344,Insuline humaine,1
+2345,Insuline humaine biogénétique isophane biphasique,1
+2346,Insuline humaine biogénétique,1
+2347,Insuline humaine,1
+2348,Insuline humaine biogénétique isophane,1
+2349,Insuline humaine,1
+2350,Insuline humaine,1
+2351,Insuline glargine,1
+2352,Insuline glargine,1
+2353,Ibuprofène,1
+2354,Ibuprofène,1
+2356,Ésomeprazole,1
+2357,Ésomeprazole,1
+2358,Ésomeprazole,1
+2359,Ésomeprazole,1
+2360,Ésomeprazole,1
+2361,Ésomeprazole,1
+2362,Manidipine,1
+2363,Lansoprazole,1
+2364,Lansoprazole,1
+2365,Métformine,1
+2366,Metformine,1
+2367,Enalapril,1
+2368,Enalapril,1
+2369,Alfuzosine,1
+2370,Alfuzosine,1
+2371,Esoméprazole,1
+2372,Esoméprazole,1
+2373,Esoméprazole,1
+2374,Esoméprazole,1
+2375,Esoméprazole,1
+2376,Esoméprazole,1
+2377,Irbésartan,1
+2378,Irbésartan,1
+2379,Irbesartan,1
+2380,Géfitinib,1
+2381,Irinotecan,1
+2382,Irinotecan,1
+2383,Irinotecan,1
+2384,Irinotecan,1
+2385,Irinotecan,1
+2386,Irinotecan,1
+2387,Irinotecan,1
+2388,Irinotecan,1
+2389,Irinotecan,1
+2390,Irinotecan,1
+2391,Drospirenone,1
+2391,Ethinylestradiol,2
+2392,Irbésartan,1
+2393,Irbésartan,1
+2394,Irbésartan,1
+2395,Irbésartan,1
+2396,Irbésartan,1
+2397,Irbesartan,1
+2397,Hydrchlorothiazide,2
+2398,Irbesartan,1
+2398,Hydrchlorothiazide,2
+2399,Irbesartan,1
+2399,Hydrchlorothiazide,2
+2400,Irbesartan,1
+2400,Hydrchlorothiazide,2
+2401,Irbesartan,1
+2401,Hydrchlorothiazide,2
+2402,Périndopril,1
+2403,Périndopril,1
+2404,Irbesartan l Amlodipine,1
+2405,Irbesartan l Amlodipine,1
+2406,Irbesartan l Amlodipine,1
+2407,Irbesartan l Amlodipine,1
+2408,Irbesartan l Amlodipine,1
+2409,Irbesartan l Amlodipine,1
+2410,Irbesartan l Amlodipine,1
+2411,Irbesartan l Amlodipine,1
+2412,Irbesartan,1
+2413,Irbesartan,1
+2414,Irbesartan,1
+2415,Irbesartan,1
+2416,Irbesartan,1
+2417,Irbesartan,1
+2418,Tadalafil,1
+2419,Tadalafil,1
+2420,Tadalafil,1
+2421,Tadalafil,1
+2422,ACTIFS NATURELS,1
+2424,Isoflurane,1
+2425,Prednisolone,1
+2426,Prednisolone,1
+2427,Prednisolone,1
+2428,Prednisolone,1
+2429,Prednisone,1
+2430,Prednisone,1
+2431,Célécoxib,1
+2432,Célécoxib,1
+2433,Célécoxib,1
+2434,Vitamines,1
+2434,ménéraux,2
+2434,oligo-éléments,3
+2434,Anti-oxydants,4
+2435,Rispéridone,1
+2436,Rispéridone,1
+2437,Rispéridone,1
+2438,Rispéridone,1
+2439,Rispéridone,1
+2440,Rispéridone,1
+2441,Doxycycline,1
+2442,Doxycycline,1
+2443,B03AA,1
+2444,Ivabradine,1
+2445,Ivabradine,1
+2446,Ivabradine,1
+2447,Ivabradine,1
+2448,Ivermectine,1
+2449,Tramadol,1
+2449,Paracétamol,2
+2450,Escitalopram,1
+2451,Escitalopram,1
+2452,Escitalopram,1
+2453,Escitalopram,1
+2454,Oméprazole,1
+2455,Oméprazole,1
+2456,Oméprazole,1
+2457,Oméprazole,1
+2458,Oméprazole,1
+2459,Oméprazole,1
+2460,Immunoglobuline humaine normale (IgG),1
+2461,Immunoglobuline humaine normale (IgG),1
+2462,Immunoglobuline humaine normale (IgG),1
+2463,Ruxolitinib,1
+2464,Ruxolitinib,1
+2465,Ruxolitinib,1
+2466,Sitagliptine,1
+2466,Metformine,2
+2467,Sitagliptine,1
+2467,Metformine,2
+2468,Sitagliptine,1
+2469,Sitagliptine,1
+2470,Empagliflozine,1
+2471,Empagliflozine,1
+2472,Drospirénone,1
+2472,Ethinylestradiol,2
+2473,Metformine,1
+2473,linagliptine,2
+2474,Metformine,1
+2474,linagliptine,2
+2475,Cabazitaxel,1
+2476,Josamycine,1
+2477,Josamycine,1
+2478,Josamycine,1
+2479,Josamycine,1
+2480,Josamycine,1
+2481,Sunitinib,1
+2482,Sunitinib,1
+2483,Sunitinib,1
+2485,Ginseng,1
+2485,Taurine,2
+2486,ACTIFS NATURELS,1
+2487,Vitamines,1
+2487,Minéraux,2
+2488,Vitamines,1
+2488,Minéraux,2
+2489,Oméprazole,1
+2490,Oméprazole,1
+2491,Oméprazole,1
+2492,Potassium,1
+2493,ACTIFS NATURELS,1
+2494,Glycérol,1
+2494,Extraits de plantes,2
+2495,Glycérol et extraits de plantes,1
+2496,Glycérol et extraits de plantes,1
+2497,Sildénafil,1
+2498,Sildénafil,1
+2499,Sildénafil,1
+2500,Acétylsalicylate de Lysine,1
+2501,Acétylsalicylate de Lysine,1
+2502,Acétylsalicylate de Lysine,1
+2503,Ethinylestradiol,1
+2503,Drospirénone,2
+2504,Drospirénone,1
+2504,Ethinylestradiol,2
+2505,Polystyrène sulfonate de sodium,1
+2506,Céfalotine,1
+2507,Céfazoline,1
+2508,Silicone,1
+2509,Silicone,1
+2510,Silicone,1
+2511,Lévétiracétam,1
+2512,Levetiracétam,1
+2513,Levetiracetam,1
+2514,Levetiracetam,1
+2515,Levetiracetam,1
+2516,Levetiracetam,1
+2517,Levetiracetam,1
+2518,Betaxolol,1
+2519,Quétiapine,1
+2520,Quétiapine,1
+2521,Ketoconazole,1
+2522,Ketoconazole,1
+2523,Kétoprofène,1
+2524,Kétoprofène,1
+2525,Kétoprofène,1
+2526,Kétoprofène,1
+2527,Kétoprofène,1
+2528,Kétoprofène,1
+2529,Kétoprofène,1
+2530,Kétoprofène,1
+2531,Formulation à base de plante,1
+2532,Ribociclib,1
+2533,Paracétamol,1
+2533,Codéine,2
+2534,Facteur VIII de coagulation humain,1
+2535,Facteur VIII de coagulation humain,1
+2536,Facteur VIII de coagulation humain,1
+2537,Soja bio-fermenté par Lactobacillus delbrueckii,1
+2538,Soja bio-fermenté par Lactobacillus delbrueckii 500MG,1
+2539,Octocog Alpha ( FVIII RECOMBINANT ) 1000 UI,1
+2540,Phytoménadione (Vitamine K1),1
+2541,Phytoménadione,1
+2542,Prednisolone,1
+2543,Prednisolone,1
+2544,Octocog alfa,1
+2545,Octocog alfa,1
+2546,Octocog alfa,1
+2547,Carfilzomib,1
+2548,Quétiapine,1
+2549,Quétiapine,1
+2550,Quétiapine,1
+2551,Quétiapine,1
+2552,Quétiapine,1
+2553,Bilastine,1
+2554,Bilastine,1
+2555,Bilastine,1
+2556,Carbomère 980,1
+2557,Carbomère 974 P,1
+2558,Carbomère 974 P,1
+2559,Lactulose,1
+2560,Lactulose,1
+2561,Lamotrigine,1
+2562,Lamotrigine,1
+2563,Lamotrigine,1
+2564,Lamivudine,1
+2565,Lamivudine,1
+2566,Lansoprazole,1
+2567,Lansoprazole,1
+2568,Lansoprazole,1
+2569,Insuline glargine,1
+2570,Insuline glargine,1
+2571,Lansoprazole,1
+2572,Lansoprazole,1
+2573,Lansoprazole,1
+2574,Lansoprazole,1
+2575,Chlorpromazine,1
+2576,Chlorpromazine,1
+2577,Chlorpromazine,1
+2578,Chlorure de sodium,1
+2579,Vitamine C,1
+2579,Vitamine D,2
+2579,Zinc,3
+2580,Amitriptyline,1
+2581,Amitriptyline,1
+2582,Amitriptyline,1
+2583,Furosemide,1
+2584,Furosemide,1
+2585,Latanoprost,1
+2586,Latanoprost,1
+2586,Timolol,2
+2587,Latanoprost,1
+2588,Latanoprost,1
+2588,Timolol,2
+2589,Atorvastatine,1
+2590,Atorvastatine,1
+2591,Atorvastatine,1
+2592,Betahistine,1
+2593,Lévofloxacine,1
+2594,Lévofloxacine,1
+2595,Lévofloxacine,1
+2596,Levofloxacine,1
+2597,Létrozole,1
+2598,Fer,1
+2598,Vitamine C,2
+2599,Magnésium,1
+2600,Complexe multivitaminé,1
+2601,Lenalidomide,1
+2602,Lenalidomide,1
+2603,Lenalidomide,1
+2604,Lenalidomide,1
+2605,Lenvatinib,1
+2606,Lenvatinib,1
+2607,Clozapine,1
+2608,Clozapine,1
+2609,Letrozole,1
+2610,Letrozole,1
+2611,Letrozole,1
+2612,Amoxicilline,1
+2612,Acide clavulanique,2
+2613,Amoxicilline,1
+2613,Acide clavulanique,2
+2614,Amoxicilline,1
+2614,Acide clavulanique,2
+2615,Amoxicilline Acide clavulanique,1
+2616,Amoxicilline,1
+2616,Acide clavulanique,2
+2617,Amoxicilline,1
+2617,Acide clavulanique,2
+2618,Amoxicilline,1
+2618,Acide clavulanique,2
+2619,Amoxicilline,1
+2619,Acide clavulanique,2
+2620,Amoxicilline,1
+2620,Acide clavulanique,2
+2621,Amoxicilline,1
+2621,Acide clavulanique,2
+2622,Lévofloxacine,1
+2623,Insuline détémir,1
+2624,Saccharomyces Boulardii 250 MG standardisé à 20 milliards de cellules vivantes,1
+2625,Lévonorgestrel,1
+2626,Lévofloxacine,1
+2627,Lévomépromazine,1
+2628,Lévomépromazine,1
+2629,Lévocabastine,1
+2630,Levothyroxine,1
+2631,Levothyroxine,1
+2632,Levothyroxine,1
+2634,Maca,1
+2634,Ginseng,2
+2634,Guarana,3
+2635,Chlordiazépoxide,1
+2635,Clidinium,2
+2636,Lidocaïne,1
+2636,Adrénaline,2
+2637,Lidocaïne,1
+2638,Lidocaïne,1
+2639,Lidocaïne,1
+2640,Lidocaine,1
+2640,Naphazoline,2
+2641,Lidocaïne,1
+2642,acide folique,1
+2643,Terbinafine,1
+2644,Terbinafine,1
+2645,Amikacine,1
+2646,Amikacine,1
+2647,Baclofène,1
+2648,Héparine sodique,1
+2649,Fénofibrate,1
+2650,Fénofibrate,1
+2651,Doxorubicine liposomale,1
+2652,Fer,1
+2653,Rosuvastatine,1
+2653,Ézétimibe,2
+2654,Rosuvastatine,1
+2654,Ézétimibe,2
+2655,Carbomère 980,1
+2656,Atorvastatine,1
+2657,Atorvastatine,1
+2658,Atorvastatine,1
+2659,Prégabaline,1
+2660,Prégabaline,1
+2661,Prégabaline,1
+2662,Prégabaline,1
+2663,Prégabaline,1
+2664,Lisinopril,1
+2664,Amlodipine,2
+2665,Lisinopril,1
+2665,Amlodipine,2
+2666,Cladribine,1
+2667,Cladribine,1
+2668,ACTIFS NATURELS,1
+2669,Désonide,1
+2670,Désonide,1
+2671,Amorolfine,1
+2672,Amlodipine,1
+2673,Amlodipine,1
+2674,Bisoprolol,1
+2674,Hydrochlorothiazide,2
+2675,Bisoprolol,1
+2675,Hydrochlorothiazide,2
+2676,Bisoprolol,1
+2676,Hydrochlorothiazide,2
+2677,Lansoprazole,1
+2678,Lansoprazole,1
+2679,Lansoprazole,1
+2680,Lansoprazole,1
+2681,Lansoprazole,1
+2682,Lansoprazole,1
+2683,Doxycycline,1
+2684,Doxycycline,1
+2685,Trifluridine,1
+2685,Tipiracil (6.14 mg),2
+2686,Trifluridine,1
+2686,Tipiracil (6.14 mg),2
+2687,Trifluridine,1
+2687,Tipiracil,2
+2688,Trifluridine,1
+2688,Tipiracil,2
+2689,Lopéramide,1
+2690,Lorlatinib,1
+2691,Lorlatinib,1
+2692,Amlodipine,1
+2693,Amlodipine,1
+2694,Desloratadine,1
+2695,Desloratadine,1
+2696,Desloratadine,1
+2697,Desloratadine,1
+2698,Loratadine,1
+2699,Desloratadine,1
+2700,Desloratadine,1
+2701,Desloratadine,1
+2702,Losartan,1
+2702,Hydrochlorothiazide,2
+2703,Losartan,1
+2703,Hydrochlorothiazide,2
+2704,Losartan Hydrochlorothiazide,1
+2705,Losartan,1
+2705,Hydrochlorothiazide,2
+2706,Losartan,1
+2706,Hydrochlorothiazide,2
+2707,Losartan,1
+2708,Losartan,1
+2709,Losartan,1
+2710,Escitalopram,1
+2711,Escitalopram,1
+2712,Loteprendol etabonate,1
+2713,Amlodipine,1
+2713,Valsartan,2
+2714,Amlodipine,1
+2714,Valsartan,2
+2715,Amlodipine,1
+2715,Valsartan,2
+2716,Amlodipine,1
+2716,Valsartan,2
+2717,Levofloxacine,1
+2718,Levofloxacine,1
+2719,Enoxaparine sodique,1
+2720,Enoxaparine sodique,1
+2721,Enoxaparine sodique,1
+2722,Enoxaparine sodique,1
+2723,Enoxaparine sodique,1
+2724,Enoxaparine sodique,1
+2725,Amlodipine,1
+2726,Nicardipine,1
+2727,Nicardipine,1
+2728,Nicardipine,1
+2729,Olanzapine,1
+2730,Olanzapine,1
+2731,Olanzapine,1
+2732,Olanzapine,1
+2733,Olanzapine,1
+2734,Ranibizumab,1
+2735,Maprotiline,1
+2736,Maprotiline,1
+2737,Bimatoprost,1
+2738,Bimatoprost,1
+2739,Sertraline,1
+2740,Sertraline,1
+2741,Sertraline,1
+2742,Sertraline,1
+2743,Nomégestrol,1
+2744,"Association de 16 plantes, Vitamines et minéraux",1
+2745,Prégabaline,1
+2746,Prégabaline,1
+2747,Prégabaline,1
+2748,Prégabaline,1
+2749,Prazépam,1
+2750,Prazépam,1
+2751,Lysozyme,1
+2751,Pyridoxine,2
+2752,Allopurinol,1
+2753,Allopurinol,1
+2754,Saccharomyces boulardii,1
+2756,Rituximab,1
+2757,Rituximab,1
+2758,Rituximab,1
+2759,Azithromycine,1
+2760,Azithromycine,1
+2761,Azithromycine,1
+2762,Azithromycine,1
+2763,Azithromycine,1
+2764,Azithromycine,1
+2765,Azithromycine,1
+2766,Extrait titré de centella asiatica,1
+2767,Extrait titré de centella asiatica,1
+2768,Extrait titré de centella asiatica,1
+2769,Lévodopa,1
+2769,Benzérazide,2
+2770,Magnésium,1
+2771,Magnésium,1
+2772,Magnésium,1
+2773,Magnésium marin,1
+2773,vitamine B6,2
+2773,taurine,3
+2774,Magnésium 375 MG,1
+2774,Vitamine B6 2 MG,2
+2775,Magnésium,1
+2775,Pyridoxine,2
+2776,Magnésium,1
+2777,Magnésium,1
+2778,Magnésium,1
+2779,Magnésium,1
+2779,Vitamine B6,2
+2780,Magnésium,1
+2781,Magnésium,1
+2782,Magnésium,1
+2783,Magnésium,1
+2784,Magnésium,1
+2784,Pyridoxine,2
+2785,Magnésium,1
+2786,Magésium,1
+2787,Magnésium,1
+2787,Pyridoxine,2
+2788,Magnésium marin,1
+2788,vitamine B6,2
+2789,Magnésium marin,1
+2789,vitamine B6,2
+2790,Magnésium,1
+2791,MAGNESIUM,1
+2791,PYRIDOXINE,2
+2792,Magnésium (300MG),1
+2792,Vitamine B6,2
+2792,Vitamine B2,3
+2793,Pidolate de magnésium,1
+2793,Sulfate de magnésium,2
+2793,Citrate de magnésium,3
+2794,Pidolate de magnésium,1
+2794,Sulfate de magnésium,2
+2794,Citrate de magnésium,3
+2795,Pidolate de magnésium,1
+2795,Sulfate de magnésium,2
+2795,Citrate de magnésium,3
+2796,Atovaquone,1
+2796,Proguanil,2
+2797,Complexe d'hydroxyde de fer polymaltose,1
+2798,Fer,1
+2799,Fer,1
+2799,acide folique,2
+2801,Magnésium,1
+2801,Vitamine B6,2
+2801,Vitamine B2,3
+2802,Magnésium,1
+2802,Pyridoxine,2
+2804,Mannitol,1
+2805,Mannitol,1
+2806,Olanzapine,1
+2807,Olanzapine,1
+2808,Olanzapine,1
+2809,Gingembre qualité gingerin 250 MG,1
+2810,Vitamines,1
+2810,Minéraux,2
+2811,Cladribine,1
+2812,Vitamines,1
+2812,minéraux,2
+2813,Fer,1
+2814,Fer,1
+2814,vitamine C,2
+2814,acide folique,3
+2814,magnésium,4
+2814,calcium,5
+2815,Amoxicilline,1
+2815,Acide clavulanique,2
+2816,Amoxicilline,1
+2816,Acide clavulanique,2
+2817,Amoxicilline,1
+2817,Acide clavulanique,2
+2818,Amoxicilline,1
+2818,Acide clavulanique,2
+2819,Amoxicilline,1
+2819,Acide clavulanique,2
+2820,Amoxicilline,1
+2820,Acide clavulanique,2
+2821,Amoxicilline,1
+2821,Acide clavulanique,2
+2822,Amoxicilline,1
+2822,Acide clavulanique,2
+2823,Amoxicilline,1
+2823,Acide clavulanique,2
+2824,Déxaméthasone,1
+2824,Néomycine,2
+2824,Polymyxine B,3
+2825,Déxaméthasone,1
+2825,Néomycine,2
+2825,Polymyxine B,3
+2826,Alpha amylase,1
+2827,Magnésium,1
+2828,11 vitamines et 9 minéraux,1
+2829,Extrait aqueux de racine de gingembre,1
+2829,Extrait de ginseng,2
+2829,Gelée royale décongelée,3
+2829,Extrait de guarana,4
+2830,Maté,1
+2830,Guarana,2
+2830,Ginseng,3
+2830,Vitamines du groupe B,4
+2830,vitamine C,5
+2831,Azithromycine,1
+2832,Azithromycine,1
+2833,Azithromycine,1
+2834,Azithromycine,1
+2835,Azithromycine,1
+2836,Mebeverine,1
+2837,Bétasitostérol,1
+2838,Amlodipine,1
+2839,Amlodipine,1
+2840,Amlodipine,1
+2841,Amlodipine,1
+2842,Carbocistéine,1
+2843,Carbocistéine,1
+2844,Diosmine,1
+2845,Olanzapine,1
+2846,Olanzapine,1
+2847,Olanzapine,1
+2848,Olanzapine,1
+2849,Olanzapine,1
+2850,Olanzapine,1
+2851,Methylprednisolone,1
+2852,Methylprednisolone,1
+2853,Losartan,1
+2854,Losartan,1
+2855,Meloxicam,1
+2856,Meloxicam,1
+2857,Meloxicam,1
+2858,Meloxicam,1
+2859,Ciprofloxacine,1
+2860,Ciprofloxacine,1
+2861,Ciprofloxacine,1
+2862,Phloroglucinol,1
+2862,Triméthylphloroglucinol,2
+2863,Phloroglucinol,1
+2863,Triméthylphloroglucinol,2
+2864,Phloroglucinol,1
+2864,Triméthylphloroglucinol,2
+2865,Phloroglucinol,1
+2866,Phloroglucinol,1
+2867,"Oxyde de magnésium marin, vitamine B6, maltodextrine, anti- agglomérant : stéarate de magnésium, gélule (d’origine bovine).",1
+2868,Cefditoren,1
+2869,Dobutamine,1
+2870,Binimetinib,1
+2871,Méthoxsalene,1
+2872,Mélatonine,1
+2873,Lactulose,1
+2873,paraffine liquide,2
+2873,vaseline,3
+2874,Lactulose (fructose + galactose),1
+2874,Vaseline,2
+2874,Paraffine liquide,3
+2875,Meloxicam,1
+2876,Meloxicam,1
+2877,Magnésium marin,1
+2877,Vitamine B6,2
+2877,Mélisse,3
+2878,Méloxicam,1
+2879,Méloxicam,1
+2880,Meloxicam,1
+2881,Méloxicam,1
+2882,Meloxicam,1
+2883,Méloxicam,1
+2884,Mémantine,1
+2885,Mémantine,1
+2886,Mémantine,1
+2887,Mémantine,1
+2888,Mémantine,1
+2889,Ginkgo,1
+2889,Bacopa,2
+2889,Vitamine E,3
+2889,Vitamine B6,4
+2889,Vitamine B9,5
+2890,"Vaccin polysaccharidique contre les méningocoques ( sérogroupe A, C, Y, W-135 ) conjugé à l'anatoxine diphtérique",1
+2892,Menotropine,1
+2893,"Vaccin méningococcique conjugué des groupes A, C, W et Y",1
+2894,Désogestrel,1
+2894,Ethinylestradiol,2
+2895,Vancomycine,1
+2896,Pyridostigmine,1
+2897,Tenecteplase,1
+2898,Mométasone,1
+2899,5-MTHF,1
+2899,Iode,2
+2899,Vitamine B12,3
+2900,Alverine,1
+2900,Siméthicone,2
+2901,Méthotrexate,1
+2902,Méthotrexate,1
+2903,Methylprednisolone,1
+2904,Methylprednisolone,1
+2905,Methylprednisolone,1
+2906,Methylprednisolone,1
+2907,Dienogest,1
+2908,Métronidazole,1
+2909,Métronidazole,1
+2910,Métronidazole,1
+2911,Métronidazole,1
+2912,Métronidazole,1
+2913,Métronidazole,1
+2914,Ciprofloxacine,1
+2915,Ciprofloxacine,1
+2916,Ciprofloxacine,1
+2917,Ciprofloxacine,1
+2918,Ciprofloxacine,1
+2919,Esoméprazole,1
+2920,Esoméprazole,1
+2921,Esoméprazole,1
+2922,Esoméprazole,1
+2923,Esoméprazole,1
+2924,Esoméprazole,1
+2925,Magnésium,1
+2925,vitamine B6,2
+2926,Magnésium,1
+2927,Magnésium marin,1
+2927,vitamine B6,2
+2927,vitamine B12,3
+2928,Amlodipine,1
+2929,Amlodipine,1
+2930,Telmisartan,1
+2931,Telmisartan,1
+2932,Telmisartan,1
+2932,Hydrochlorothiazide,2
+2933,Désogestrel,1
+2933,Ethinylestradiol,2
+2934,Lévonorgestrel,1
+2934,Ethinylestradiol,2
+2935,Valproate de sodium,1
+2936,Valproate de sodium,1
+2937,Acide Valproique et Valproate de sodium,1
+2938,Acide Valproique,1
+2938,Valproate de sodium,2
+2939,Levonorgestrel,1
+2940,Gliclazide,1
+2941,Gliclazide,1
+2942,Vitamine E,1
+2943,Midazolam,1
+2944,Midazolam,1
+2945,Midazolam,1
+2946,Midazolam,1
+2947,Midazolam,1
+2948,Naratriptan,1
+2949,Naratriptan,1
+2950,Paracetamol,1
+2950,Codeine,2
+2950,Cafeine,3
+2951,Rizatriptan,1
+2952,Rizatriptan,1
+2953,Miconazole,1
+2954,Desmopressine,1
+2955,Miocamycine,1
+2956,Erlotinib,1
+2957,Lévonorgestrel,1
+2958,Ramipril,1
+2959,Ramipril,1
+2960,Ramipril,1
+2961,Ramipril,1
+2962,DORZOLAMIDE,1
+2962,TIMOLOL,2
+2963,Insuline Humaine Biogénétique,1
+2964,Insuline Humaine Biogénétique,1
+2965,Méloxicam,1
+2966,Méloxicam,1
+2967,Méloxicam,1
+2968,Méloxicam,1
+2969,Nimodipine,1
+2970,Nimodipine,1
+2971,Nimodipine,1
+2972,Acide tiaprofénique,1
+2973,Acide tiaprofénique,1
+2974,Acide tiaprofénique,1
+2975,Acide tiaprofénique,1
+2976,Acide tiaprofénique,1
+2977,Diltiazem,1
+2978,Diltiazem,1
+2979,Isosorbide,1
+2980,Isosorbide,1
+2981,Isosorbide,1
+2982,Latanoprost,1
+2983,Clarithromycine,1
+2984,Clarithromycine,1
+2985,Morphine,1
+2986,Morphine,1
+2987,Morphine,1
+2988,Morphine,1
+2989,Morphine,1
+2990,Dompéridone,1
+2991,Dompéridone,1
+2992,Montelukast,1
+2993,Molnupiravir,1
+2994,Collagène non dénaturé de type II UC-II,1
+2994,Manganèse,2
+2994,Cuivre,3
+2994,Vitamine D Earthlight,4
+2994,Vitamine C,5
+2995,Omeprazole,1
+2996,Oméprazole,1
+2997,Omeprazole,1
+2998,Carbocistéine,1
+2999,Carbocistéine,1
+3000,Carbocistéine,1
+3001,CHLORURE DE SODIUM,1
+3001,CARBONATE D'HYDROXYDE DE SODIUM,2
+3001,CHLORURE DE CALCIUM DIHYDRATE,3
+3001,CHLORURE DE MAGNESIUM HEXAHYDRATE,4
+3001,GLUCOSE MONOHYDRATE,5
+3002,CHLORURE DE SODIUM,1
+3002,CARBONATE D'HYDROXYDE DE SODIUM,2
+3002,CHLORURE DE CALCIUM DIHYDRATE,3
+3002,CHLORURE DE MAGNESIUM HEXAHYDRATE,4
+3002,GLUCOSE MONOHYDRATE,5
+3004,Rocuronium,1
+3005,Phloroglucinol,1
+3006,Phloroglucinol,1
+3007,Phloroglucinol,1
+3008,Oxetacaïne,1
+3008,Magnésium oxyde,2
+3008,Aluminium oxyde,3
+3009,Carbocisteine,1
+3010,Ambroxol,1
+3011,Ambroxol,1
+3012,Tramadol,1
+3012,paracétamol,2
+3013,Tramadol,1
+3013,paracétamol,2
+3014,Bortézomib,1
+3015,Econazole,1
+3016,Econazole,1
+3017,Econazole,1
+3018,Fluconazole,1
+3019,Fluconazole,1
+3020,Fluconazole,1
+3021,Clotrimazole,1
+3022,Mycophénolate mofétil,1
+3023,Mycophénolate mofétil,1
+3024,Bifonazole,1
+3025,Ciclopirox Olamine,1
+3026,Ciclopirox Olamine,1
+3027,Ciclopirox Olamine,1
+3028,Tolpérisone,1
+3029,Tropicamide,1
+3030,MYCOPHENOLATE (SODIUM),1
+3031,MYCOPHENOLATE (SODIUM),1
+3032,Sofosbuvir,1
+3032,Velpatasvir,2
+3033,Sulconazole,1
+3034,Sulconazole,1
+3035,Fluconazole,1
+3036,Fluconazole,1
+3037,Fluconazole,1
+3039,Paracétamol,1
+3039,Thiocolchicoside,2
+3040,Alglucosidase alfa,1
+3041,Thalidomide,1
+3042,Thalidomide,1
+3043,Ambénonium,1
+3044,Eau de mer,1
+3045,Miconazole,1
+3046,"Stress – Fatigue – Sommeil – Confort Musculaire Mégasium combine 4 Formes de magnésium : Liposomal, Bisglycinate, Malate et Oxyde, pour une très haute assimilation.",1
+3047,Acide N-Acetyl,1
+3047,Aspartyl Glutamique Sodique,2
+3048,Nébivolol,1
+3049,Fénoprofène,1
+3050,Fénoprofène,1
+3051,Naloxone,1
+3054,Fluorouracil,1
+3055,Fluorouracil,1
+3056,Fluorouracil,1
+3057,Naproxène,1
+3058,Paracétamol,1
+3058,Acide ascorbique,2
+3058,Phényléphrine,3
+3058,Phéniramine,4
+3059,Triamcinolone,1
+3060,Mometasone,1
+3061,Mometasone,1
+3062,15 nutriments essentiels dont 300 MG de DHA,1
+3063,Trinitrine,1
+3064,Indapamide,1
+3064,Amlodipine,2
+3065,Indapamide,1
+3065,Amlodipine,2
+3066,Désloratadine,1
+3067,Désloratadine,1
+3068,Désloratadine,1
+3069,Dompéridone,1
+3070,Dompéridone,1
+3071,Diphenhydramine diacétylline,1
+3072,Lévonogestrel,1
+3073,Vinorelbine,1
+3074,Vinorelbine,1
+3075,Vinorelbine,1
+3076,Vinorelbine,1
+3080,Vitamines,1
+3080,Hyaluronate de sodium,2
+3081,Fluticasone,1
+3082,Phloroglucinol,1
+3083,Phloroglucinol,1
+3084,Phloroglucinol,1
+3085,Nebivolol,1
+3086,Nefopam,1
+3087,Tadalafil,1
+3088,Tadalafil,1
+3089,Tadalafil,1
+3090,Extrait de plantes,1
+3091,Ciprofloxacine,1
+3092,Ciprofloxacine,1
+3093,Amoxicilline,1
+3093,Acide clavulanique,2
+3094,Amoxicilline,1
+3094,Acide clavulanique,2
+3095,Amoxicilline,1
+3095,Acide clavulanique,2
+3096,Amoxicilline,1
+3096,Acide clavulanique,2
+3097,Amoxicilline,1
+3097,Acide clavulanique,2
+3098,Amoxicilline,1
+3098,Acide clavulanique,2
+3099,Amoxicilline,1
+3099,Acide clavulanique,2
+3100,Amoxicilline,1
+3100,Acide clavulanique,2
+3101,Fer,1
+3101,vitamine B9,2
+3103,Phloroglucinol,1
+3104,Phloroglucinol,1
+3105,Phloroglucinol,1
+3106,Complexe vitaminé,1
+3106,Acide folique,2
+3108,Amoxicilline,1
+3109,Amoxicilline,1
+3110,Amoxicilline,1
+3111,Amoxicilline,1
+3112,Amoxicilline,1
+3113,Amoxicilline,1
+3114,Amoxicilline,1
+3115,Amoxicilline,1
+3116,Amoxicilline,1
+3117,Amoxicilline,1
+3118,Amoxicilline,1
+3119,Amoxicilline,1
+3120,Prednisolone,1
+3121,Prednisolone,1
+3122,Hyaluronate de sodium,1
+3123,Ciclosporine,1
+3124,Ciclosporine,1
+3125,Ciclosporine,1
+3126,Phényléphrine,1
+3131,Calcium,1
+3131,Vitamine D3,2
+3132,Magésium,1
+3133,Magnésium marin,1
+3133,Vitamine B6,2
+3134,"Hyaluronate de sodium (0,18 %), triglycérides et phospholipides, acide lipoïque, hydroxypropylmethylcellulose, citrate de sodium, hydroxyde de sodium, acide citrique, chlorure de sodium et eau pour préparation injectable. Sans agent conservateur. L'émulsion est hypo-osmolaire.",1
+3135,Minoxidil,1
+3136,Etanercept,1
+3137,Etanercept,1
+3138,Olanzapine,1
+3139,Olanzapine,1
+3140,Olanzapine,1
+3141,Olanzapine,1
+3142,Magnésium,1
+3142,vitamine B6,2
+3143,Prégabaline,1
+3144,Prégabaline,1
+3145,Prégabaline,1
+3146,Prégabaline,1
+3147,Pegfilgrastim,1
+3148,Filgrastim,1
+3149,Filgrastim,1
+3150,Gabapentine,1
+3151,Hydroxyde d'aluminium Hydroxyde de magnesium,1
+3152,Hydroxyde d'aluminium,1
+3152,Hydroxyde de magnesium,2
+3153,Hydroxyde d'aluminium,1
+3153,Hydroxyde de magnesium,2
+3154,Névirapine,1
+3155,Vitamine,1
+3155,extraits de plantes,2
+3157,Répaglinide,1
+3158,Répaglinide,1
+3159,Répaglinide,1
+3160,Répaglinide,1
+3161,Répaglinide,1
+3162,Magnésium,1
+3163,Magnésium,1
+3164,Atorvastatine,1
+3165,Atorvastatine,1
+3166,Atorvastatine,1
+3167,Atorvastatine,1
+3168,Sorafénib,1
+3170,Somatrogon,1
+3171,Somatrogon,1
+3172,Nicardipine,1
+3173,Métronidazole,1
+3174,Métronidazole,1
+3175,Métronidazole,1
+3176,Nifedipine,1
+3177,Acide niflumique,1
+3178,Acide niflumique,1
+3179,Acide niflumique,1
+3180,Nifuroxazide,1
+3181,Polyoside de Neisseria meningitidis groupe A,1
+3181,Polyoside de Neisseria meningitidis groupe C,2
+3181,Polyoside de Neisseria meningitidis groupe W135,3
+3181,Polyoside de Neisseria meningitidis groupe Y,4
+3182,Filgrastim,1
+3183,Filgrastim,1
+3184,Sertraline,1
+3185,Sertraline,1
+3186,Sertraline,1
+3187,Paracétamol,1
+3187,Codéine,2
+3188,Ibuprofène,1
+3189,Ibuprofène,1
+3190,Ibuprofène,1
+3191,Drotavérine,1
+3192,Drotavérine,1
+3193,Drotavérine,1
+3194,Fluconazole,1
+3195,Fluconazole,1
+3196,Fluconazole,1
+3197,Fluconazole,1
+3198,Simvastatine,1
+3199,Simvastatine,1
+3200,Simvastatine,1
+3201,Simvastatine,1
+3202,Zolpidem,1
+3203,Zolpidem,1
+3204,Paracétamol,1
+3205,Charbon actif,1
+3205,Fenouil,2
+3206,Norfloxacine,1
+3207,Rosuvastatine,1
+3208,Rosuvastatine,1
+3209,Rosuvastatine,1
+3210,Rosuvastatine,1
+3211,Rosuvastatine,1
+3212,Rosuvastatine,1
+3213,Tamoxifène,1
+3214,Extrait sec de Zingiber officinale,1
+3215,Extrait sec de Zingiber officinale,1
+3216,Complexe vitaminé + minéraux,1
+3217,Fluconazole,1
+3218,Fluconazole,1
+3219,Fluconazole,1
+3220,Piracétam,1
+3221,Piracétam,1
+3222,Risédronate,1
+3223,Risédronate,1
+3224,Noradrénaline,1
+3225,Extraits de plantes,1
+3226,Aténolol,1
+3227,Aténolol,1
+3228,Aténolol,1
+3229,Rifaximine,1
+3230,Sulfate de sodium,1
+3230,Bicarbonate de sodium,2
+3230,Hydrogénophosphate de sodium,3
+3231,Amlodipine,1
+3232,Amlodipine,1
+3233,Amlodipine,1
+3234,Amlodipine,1
+3235,Métamizole,1
+3236,Enoxaparine sodique,1
+3237,Enoxaparine sodique,1
+3238,Enoxaparine sodique,1
+3239,Enoxaparine sodique,1
+3240,Enoxaparine sodique,1
+3241,Enoxaparine sodique,1
+3242,Magnésium marin,1
+3242,Vitamine B6,2
+3242,Mélisse,3
+3243,Lipofer,1
+3243,Acide folique,2
+3244,Lévofloxacine,1
+3245,lévofloxacine,1
+3246,Amoxicilline,1
+3246,Acide clavulanique,2
+3247,Amoxicilline,1
+3247,Acide clavulanique,2
+3248,Amoxicilline,1
+3248,Acide clavulanique,2
+3249,Amoxicilline,1
+3249,Acide clavulanique,2
+3250,Amoxicilline,1
+3250,Acide clavulanique,2
+3251,Amoxicilline,1
+3251,Acide clavulanique,2
+3252,Amoxicilline,1
+3252,Acide clavulanique,2
+3253,Estradiol,1
+3253,Noréthistérone,2
+3254,Insuline asparte,1
+3255,Repaglinide,1
+3256,Repaglinide,1
+3257,Repaglinide,1
+3258,Prednisolone,1
+3259,Prednisolone,1
+3260,Insuline Aspart,1
+3261,Insuline Asparte,1
+3262,Irbésartan,1
+3263,Irbesartan,1
+3264,Irbesartan,1
+3264,Hydrchlorothiazide,2
+3265,Irbesartan,1
+3265,Hydrchlorothiazide,2
+3266,Irbesartan,1
+3266,Hydrchlorothiazide,2
+3267,Valsartan,1
+3268,Valsartan,1
+3269,Valsartan,1
+3269,Hydrochlorothiazide,2
+3270,Valsartan,1
+3270,Hydrochlorothiazide,2
+3271,Eptacog Alpha Active (R F Vii),1
+3272,Eptacog Alpha Active (R F Vii),1
+3273,Zolpidem,1
+3274,Lévomépromazine,1
+3275,Lévomépromazine,1
+3276,Lévomépromazine,1
+3277,Lévomépromazine,1
+3278,Romiplostim,1
+3279,Darolutamide,1
+3280,Gabapentine,1
+3281,Gabapentine,1
+3282,Gabapentine,1
+3283,Cyproheptadine,1
+3284,Cyproheptadine,1
+3285,Cyproheptadine,1
+3286,"A base d'extraits de plantes : racine d'astragale, racine de sauge, racine de pivoine, rhizome de livèche, racine d'angélique de Chine, carthame des teinturiers, noyau de pêche, racine de polygala, rhizome d'acore odorant.",1
+3287,Cyproheptadine,1
+3287,Thiamine,2
+3287,Pyridoxine,3
+3287,Nicotinamide,4
+3287,Riboflavine,5
+3287,Acide ascorbique,6
+3288,Cyproheptadine,1
+3288,Vitamine B1,2
+3288,vitamine B2,3
+3288,Vitamine B6,4
+3288,Vitamine C,5
+3288,Vitamine PP,6
+3289,Fénugrec + complexe vitaminé,1
+3290,Ibuprofène,1
+3291,Ibuprofène,1
+3292,Ibuprofène,1
+3293,Gluconate de zinc,1
+3293,Gluconate de cuivre,2
+3293,Gluconate de magnésium,3
+3293,Fluorure de sodium,4
+3293,Iodure de potassium,5
+3293,Sélenite de sodium,6
+3293,Molybdate de sodium,7
+3293,Chlorure de sodium,8
+3293,Gluconate ferreux,9
+3294,Etonogestrel,1
+3294,Ethinylestradiol,2
+3295,Tadalafil,1
+3296,Tadalafil,1
+3297,Tadalafil,1
+3298,Tadalafil,1
+3299,Tadalafil,1
+3300,Tadalafil,1
+3301,Tadalafil,1
+3302,Tadalafil,1
+3303,"Facteur VIII de coagulation humain (ADNr), simoctocog alfa.",1
+3305,Magnésium,1
+3306,Olanzapine,1
+3307,Olanzapine,1
+3308,Olanzapine,1
+3309,Olanzapine,1
+3310,Olanzapine,1
+3311,Oxyde de zinc,1
+3312,Oxyde de zinc,1
+3313,Ofloxacine,1
+3314,Ofloxacine,1
+3315,Ocrélizumab,1
+3316,Immunoglobuline humaine normale,1
+3317,Facteur VIII,1
+3318,Facteur VIII,1
+3319,"Facteur II de coagulation humain (prothrombine) (280-760 UI) , Facteur VII de coagulation humain (180-480 UI) , Facteur IX de coagulation humain (500 UI) , Facteur X de coagulation humain (360-600 UI) , Protéine C humaine (260-620 UI) , Protéine S humaine (240-640 UI)",1
+3320,Glimépiride,1
+3321,Glimépiride,1
+3322,Glimépiride,1
+3323,Glimépiride,1
+3324,Glimépiride,1
+3325,Glimépiride,1
+3326,Glimépiride,1
+3327,Glimépiride,1
+3328,Chlorure de sodium (5%),1
+3328,"Hyaluronate de sodium (0,15%)",2
+3329,Oméprazole,1
+3330,Oméprazole,1
+3331,Oméprazole,1
+3332,Oméprazole,1
+3333,Oméprazole,1
+3334,Oméprazole,1
+3335,Oméprazole,1
+3336,Oméprazole,1
+3337,Oméprazole,1
+3338,Omeprazole,1
+3339,Nintédanib,1
+3340,Nintédanib,1
+3341,Céfixime,1
+3342,Céfixime,1
+3343,Céfixime,1
+3344,Céfixime,1
+3345,Céfixime,1
+3346,Ofloxacine,1
+3347,Hyaluronate de sodium,1
+3348,Doxorubicine,1
+3349,Dorzolamid,1
+3349,Timolol,2
+3350,Ésomeprazole,1
+3351,Ésomeprazole,1
+3352,Ésomeprazole,1
+3353,Ésomeprazole,1
+3354,Ésomeprazole,1
+3355,Ésomeprazole,1
+3356,Acides aminés,1
+3356,Électrolytes,2
+3356,Glucose,3
+3356,Émulsion lipidique,4
+3357,Acides aminés,1
+3357,Électrolytes,2
+3357,Glucose,3
+3357,Émulsion lipidique,4
+3358,Amoxicilline,1
+3358,Acide clavulanique,2
+3358,Cinéol,3
+3359,Amoxicilline,1
+3359,Acide clavulanique,2
+3359,Cinéol,3
+3360,Amoxicilline,1
+3360,Acide clavulanique,2
+3360,Cinéol,3
+3361,Amlodipine,1
+3362,Amlodipine,1
+3363,Amlodipine,1
+3364,Ofloxacine,1
+3365,Ofloxacine,1
+3366,Baricitinib,1
+3367,Baricitinib,1
+3368,Olanzapine,1
+3369,Olanzapine,1
+3370,OMEGA 3,1
+3370,Acide folique,2
+3370,Lipofer,3
+3370,Iodure de potassium,4
+3371,Oméprazole,1
+3372,Oméprazole,1
+3373,Oméprazole,1
+3374,Oméprazole,1
+3375,Oméprazole,1
+3376,Oméprazole,1
+3377,Oméprazole,1
+3378,Oméprazole,1
+3379,Oméprazole,1
+3380,Oméprazole,1
+3381,Oméprazole,1
+3382,Oméprazole,1
+3383,Oméprazole,1
+3384,Oméprazole,1
+3385,Oméprazole,1
+3386,Oméprazole,1
+3387,Oméprazole,1
+3388,Oméprazole,1
+3389,Iohexol,1
+3390,IOHEXOL,1
+3391,Iohexol,1
+3392,IOHEXOL,1
+3393,Somatropine,1
+3394,Indacaterol,1
+3395,Indacaterol,1
+3396,Ondansetron,1
+3397,Ondansetron,1
+3398,Ondansétron,1
+3399,Ondansétron,1
+3400,Gemcitabine,1
+3401,Gemcitabine,1
+3402,Terbinafine,1
+3403,Terbinafine,1
+3404,Terbinafine,1
+3405,Terbinafine,1
+3406,Terbinafine,1
+3407,Ondansétron,1
+3408,Ondansétron,1
+3409,Amorolfine,1
+3410,Olopatadine,1
+3411,Entécavir,1
+3412,Entécavir,1
+3413,Oméprazole,1
+3414,Oméprazole,1
+3415,Oméprazole,1
+3416,Macitentan,1
+3417,Prednisolone,1
+3418,Dexamethasone,1
+3419,Spiramycine,1
+3419,Métronidazole,2
+3420,Prednisolone,1
+3421,Prednisolone,1
+3422,Désogestrel,1
+3423,Cefpodoxime,1
+3424,Cefpodoxime,1
+3425,Cefpodoxime,1
+3426,Céfaléxine,1
+3427,Céfaléxine,1
+3428,Céfaléxine,1
+3429,Vitamine,1
+3429,extrait de fenugrec,2
+3430,Vitamine,1
+3430,Extrait de fenugrec,2
+3431,Ganirelix,1
+3432,Magnésium,1
+3432,Pyridoxine,2
+3433,Cefixime,1
+3434,Cefixime,1
+3435,Cefixime,1
+3436,"Fenugrec, gelée royale plus 11 vitamines",1
+3437,"Fénugrecn, gentiane et 14 vitamines et minéraux",1
+3438,Isotrétinoïne,1
+3439,Isotrétinoïne,1
+3440,Isotrétinoïne,1
+3441,Amlodipine,1
+3442,Amlodipine,1
+3444,Extrait fluide peptoné de foie et de cœur d’Anas barbariae dynamisé à la 200e K,1
+3445,Lactulose,1
+3446,Hydroxyde de magnésium,1
+3448,Amoxicilline,1
+3449,Amoxicilline,1
+3450,Calcium,1
+3450,magnésium,2
+3451,Calcium,1
+3451,Magnésium,2
+3451,Vitamine D3,3
+3451,Zinc,4
+3452,Calcium,1
+3452,Magnésium,2
+3452,Zinc,3
+3452,Vitamine,4
+3452,Vitamine D3,5
+3453,Olopatadine,1
+3454,Olopatadine,1
+3455,Phenazone,1
+3455,Lidocaine,2
+3456,Rifamycine,1
+3457,Vitamine B6,1
+3457,Vitamine B9,2
+3457,Vitamine B12,3
+3457,Vitamine C,4
+3457,Lipozinc,5
+3457,Magnésium marin,6
+3457,Inositol,7
+3458,Estriol,1
+3459,Choriogonadotropine alfa,1
+3460,Inositol+Ac folique+Vit D,1
+3461,Myo inositol,1
+3461,acide folique,2
+3462,Oxaliplatine,1
+3463,Oxaliplatine,1
+3465,Rivaroxaban,1
+3466,Rivaroxaban,1
+3467,Rivaroxaban,1
+3468,Rivaroxaban,1
+3469,Rivaroxaban,1
+3470,Piroxicam,1
+3471,Piroxicam,1
+3472,Ofloxacine,1
+3473,Ofloxacine,1
+3474,Oxaliplatine,1
+3475,Oxaliplatine,1
+3476,Ceftriaxone,1
+3477,Ceftriaxone,1
+3479,Salmétérol xinafoate,1
+3479,Fluticasone propionate.,2
+3480,Magnésium,1
+3480,Pyridoxine,2
+3481,Magnésium (300MG),1
+3482,Marine magnésium,1
+3483,Triple complexe de magnésium,1
+3484,Sémaglutide,1
+3485,Sémaglutide,1
+3486,Sémaglutide,1
+3487,Cétirizine,1
+3488,Cétirizine,1
+3489,Cétirizine,1
+3490,Oméprazole,1
+3490,Bicarbonate de soude,2
+3491,Oméprazole,1
+3491,Bicarbonate de soude,2
+3492,Dexaméthasone,1
+3493,Paclitaxel,1
+3494,Paclitaxel,1
+3495,Paclitaxel,1
+3496,Paclitaxel,1
+3497,Paracétamol,1
+3497,Caféine,2
+3498,Paracétamol,1
+3498,Caféine,2
+3500,Paroxétine,1
+3501,Paroxétine,1
+3502,Choline salicylate,1
+3502,Cétalkonium,2
+3503,Pantoprazole,1
+3504,Pantoprazole,1
+3505,Pantoprazole,1
+3506,Pantoprazole,1
+3507,Pantoprazole,1
+3508,Paracétamol,1
+3509,Paracétamol,1
+3510,Paracétamol,1
+3511,Paracétamol,1
+3512,Paracétamol,1
+3513,Paracétamol,1
+3514,Paracétamol,1
+3515,Paracétamol,1
+3516,Paracetamol,1
+3517,Paracétamol,1
+3518,Paracétamol,1
+3519,Paracétamol,1
+3520,Paracétamol,1
+3521,Paracétamol,1
+3522,Paracetamol,1
+3522,Acide Ascorbique,2
+3523,Paracetamol,1
+3523,Acide Acetylsalicylique,2
+3523,Cafeine,3
+3524,Paracetamol,1
+3524,Acide Acetylsalicylique,2
+3524,Cafeine,3
+3525,Paroxétine,1
+3526,Paroxetine,1
+3527,Bromhexine,1
+3527,Sulfogaiacolate,2
+3528,Bromhexine,1
+3528,Sulfogaiacolate,2
+3529,Vitamine C,1
+3529,cuivre,2
+3529,zinc,3
+3529,extraits de plantes,4
+3530,Clopidogrel,1
+3531,Pemetrexed,1
+3532,Pemetrexed,1
+3533,Pemetrexed,1
+3534,Pémétrexed,1
+3535,Pémétrexed,1
+3536,Pémétrexed,1
+3537,Pémétrexed,1
+3538,PEMBROLIZUMAB,1
+3539,Flucloxacilline,1
+3540,Flucloxacilline,1
+3541,Flucloxacilline,1
+3542,Flucloxacilline,1
+3543,Benzylpenicilline benzathine,1
+3544,Benzylpenicilline benzathine,1
+3545,Mésalazine,1
+3546,Mésalazine,1
+3547,Mésalazine,1
+3548,"Vaccin Diphtérique, Tétanique, Coquelucheux Acellulaire, Poliomyélitique Inactivé, Adsorbé Et Vaccin Haemophilus Influenzae Type B Conjugué",1
+3549,Indapamide,1
+3550,"Gonadotropines, préparations composées",1
+3551,Cyproheptadine,1
+3552,Bupivacaïne,1
+3553,Bupivacaïne,1
+3554,Dompéridone,1
+3555,Dompéridone,1
+3556,Glucose (glucose 11%),1
+3556,Acides aminés et électrolytes (Vamin 18 Novum),2
+3556,Emulsion lipidique (Intralipide 20%),3
+3557,Glucose (glucose 11%),1
+3557,Acides aminés et électrolytes (Vamin 18 Novum),2
+3557,Emulsion lipidique (Intralipide 20%),3
+3558,Acides aminés,1
+3558,Électrolytes,2
+3558,Glucose,3
+3558,Émulsion lipidique,4
+3559,Pertuzumab,1
+3560,Serenoa repens,1
+3561,Cyproheptadine,1
+3562,Cyproheptadine,1
+3563,Cyproheptadine,1
+3564,Amlodipine,1
+3565,Amlodipine,1
+3566,Cyproheptadine,1
+3566,Vitamines,2
+3567,Cyproheptadine,1
+3567,Vitamines,2
+3568,Econazole,1
+3569,Econazole,1
+3570,Econazole,1
+3572,Vincristine,1
+3573,Diclofenac,1
+3574,Benzalkonium,1
+3575,Fluorouracile,1
+3576,Promethazine,1
+3577,Promethazine,1
+3578,Phényléphrine,1
+3579,PHENYLEPHRINE,1
+3580,Pertuzumab,1
+3580,Trastuzumab,2
+3581,Pertuzumab,1
+3581,Trastuzumab,2
+3582,"Valériane, passiflore, magnésium,",1
+3583,Mémantine,1
+3584,Mémantine,1
+3585,GLUCOSE -1 PHOSPHATE DISODIQUE TERAHYDRATE,1
+3586,Dexamethasone,1
+3587,Dexamethasone,1
+3588,Serum physiologique,1
+3589,Sérum physiologique,1
+3592,Insaponifiable d'huile d'avocat- soja,1
+3593,Insaponifiable d'huile d'avocat- soja,1
+3594,Ethinylestradiol,1
+3594,Drospirenone,2
+3595,Amlodipine,1
+3596,Amlodipine,1
+3597,Amlodipine,1
+3598,Amlodipine,1
+3599,Pinaverium,1
+3600,Pipotiazine,1
+3601,Piroxicam,1
+3602,Piroxicam,1
+3603,Piroxicam,1
+3604,Piroxicam,1
+3605,Infusion de plantain,1
+3606,Hydroxychloroquine,1
+3607,Gélatine fluide modifiée,1
+3608,Extrait sec de pollen,1
+3608,Pin maritime,2
+3609,Clopidogrel,1
+3610,Clopidogrel,1
+3611,Amoxicilline,1
+3612,Amoxicilline,1
+3614,Pemetrexed,1
+3615,Paracetamol,1
+3616,METRONIDAZOLE,1
+3617,Polatuzumab vedotin,1
+3618,Néomycine,1
+3618,Polymixine,2
+3618,Dexaméthasone,3
+3619,Complexe d'hydroxyde de fer (III),1
+3619,POLYMALTOSE,2
+3620,Néomycine,1
+3620,Polymyxine B,2
+3620,Nystatine,3
+3621,Néomycine,1
+3621,Polymyxine B,2
+3621,Nystatine,3
+3622,Chlorpromazine,1
+3623,Chlorpromazine,1
+3624,Repaglinide,1
+3625,Repaglinide,1
+3626,Répaglinide,1
+3627,Répaglinide,1
+3628,Olanzapine,1
+3629,Olanzapine,1
+3630,Olanzapine,1
+3631,Acide méfénamique,1
+3632,Acide méfénamique,1
+3633,Bibrocathol,1
+3634,Potassium,1
+3635,Dabigatran étexilate,1
+3636,Dabigatran étexilate,1
+3637,Dabigatran étexilate,1
+3638,Dabigatran étexilate,1
+3639,Pravastatine,1
+3639,Fénofibrate,2
+3640,Oméprazole,1
+3641,Oméprazole,1
+3642,Oméprazole,1
+3643,Oméprazole,1
+3644,Prednisolone,1
+3645,Prednisolone,1
+3646,Vitamines,1
+3646,minéraux,2
+3647,Dapoxétine,1
+3648,Dapoxétine,1
+3649,Dapoxétine,1
+3650,Dapoxétine,1
+3651,Perindopril,1
+3651,Indapamide,2
+3652,Perindopril,1
+3652,Indapamide,2
+3653,Périndopril,1
+3653,Indapamide,2
+3654,"Veegum bentonite, gomme xanthane, monostéarate de glycérol, phosphate de potassium, phosphate dipotassique, glycérine, huile de sésame, eau, tocophérols mélangés, huile de menthe verte, conservateurs (phénoxyéthanol, caprylyl glycol, sorbate de potassium).",1
+3655,"Veegum bentonite, gomme xanthane, monostéarate de glycérol, phosphate de potassium, phosphate dipotassique, glycérine, huile de sésame, eau, tocophérols mélangés, huile de menthe verte, conservateurs (phénoxyéthanol, caprylyl glycol, sorbate de potassium).",1
+3656,Vaccin pneumococcique polyosidique conjuqué adsorbé,1
+3657,Losartan,1
+3658,Losartan,1
+3659,Losartan,1
+3660,Enalapril,1
+3661,Enalapril,1
+3662,Articaïne,1
+3662,Adrénaline,2
+3663,Articaïne,1
+3663,Adrénaline,2
+3664,Méquitazine,1
+3665,Méquitazine,1
+3666,Méquitazine,1
+3667,Norethisterone,1
+3668,Pyridoxine (Vitamine B6),1
+3668,Thiamine (Vitamine B1),2
+3668,Cyanocobalamine (Vitamine B12),3
+3669,"Vaccin contre rougeole, oreillons et rubéole",1
+3670,Ramipril,1
+3671,Ramipril,1
+3672,Ramipril,1
+3673,Rispéridone,1
+3674,Rispéridone,1
+3675,Rispéridone,1
+3676,Rispéridone,1
+3677,Rispéridone,1
+3678,Rispéridone,1
+3679,3 souches probiotiques + 1 prébiotique,1
+3680,3 souches probiotiques + 1 prébiotique,1
+3681,Saccharomyces boulardii,1
+3682,Probiotiques,1
+3682,Prébiotiques,2
+3682,Vitamine D3,3
+3683,Probiotiques,1
+3684,Ibuprofène,1
+3685,Kétoprofène,1
+3686,Kétoprofène,1
+3687,Kétoprofène,1
+3688,Kétoprofène,1
+3689,Kétoprofène,1
+3690,Kétoprofène,1
+3691,Ciprofloxacine,1
+3692,Ciprofloxacine,1
+3693,Oméprazole,1
+3694,Oméprazole,1
+3695,Oméprazole,1
+3696,Diltiazem chlorhydrate,1
+3697,Diltiazem chlorhydrate,1
+3698,Tacrolimus,1
+3699,Progestérone,1
+3700,Dompéridone,1
+3701,Dompéridone,1
+3702,Denosumab,1
+3703,Clomifene,1
+3704,Magnésium,1
+3705,Cimicifuga racemosa,1
+3706,Cimicifuga racemosa,1
+3707,Vitex Agnus - Castus,1
+3708,Propofol,1
+3709,Extrait de lierre grimpant,1
+3710,Extrait de lierre grimpant,1
+3711,Néostigmine,1
+3712,Bicalutamide,1
+3713,Bicalutamide,1
+3714,Protamine,1
+3715,Cefepime,1
+3716,Cefepime,1
+3717,Oméprazole,1
+3718,Oméprazole,1
+3719,Propofol,1
+3720,Magnésium,1
+3720,vitamine B6,2
+3721,"Extrait d’Aloè Vera, de Lavande, de Calendula, de Camomille et de Poivre de Cayenne.",1
+3722,Sertraline,1
+3723,Budésonide,1
+3724,Acide benzoique,1
+3724,Guaifenesine,2
+3724,Terpine,3
+3724,Cineole,4
+3724,Extrait fluide d'Ipéca,5
+3725,Extrait de séné,1
+3725,Extrait de rhubarbe,2
+3725,Charbon végétal,3
+3726,Extrait de séné,1
+3726,Extrait de rhubarbe,2
+3726,Charbon végétal,3
+3727,FOLLITROPINE ALFA,1
+3728,FOLLITROPINE ALFA,1
+3730,Allopurinol,1
+3731,Bismuth subcitrate potassique (140 mg),1
+3731,Métronidazole (125 mg),2
+3731,Tétracycline chlorhydrate (125 mg),3
+3732,Ceftazidime,1
+3733,Pristinamycine,1
+3734,Alginate de sodium,1
+3734,Bicarbonate de sodium,2
+3735,Quétiapine,1
+3736,Quétiapine,1
+3737,Quétiapine,1
+3738,Quétiapine,1
+3739,Quétiapine,1
+3740,Quétiapine,1
+3741,Quétiapine,1
+3742,Quétiapine,1
+3743,Quétiapine,1
+3744,Quétiapine,1
+3745,Chamomilla vulgaris,1
+3745,Gelsemium,2
+3745,Hyoscyamus niger,3
+3745,Kalium bromatum,4
+3745,Passiflora incarnata,5
+3745,Stramonium,6
+3746,Ofloxacine,1
+3747,Ofloxacine,1
+3748,Méthotrexate,1
+3749,Méthotrexate,1
+3750,Méthotrexate,1
+3751,Méthotrexate,1
+3752,Méthotrexate,1
+3753,Esoméprazole,1
+3754,Esoméprazole,1
+3755,Esoméprazole,1
+3756,Esoméprazole,1
+3757,Esoméprazole,1
+3758,Esoméprazole,1
+3759,Ramipril,1
+3760,Ramipril,1
+3761,Rabéprazole,1
+3762,Rabéprazole,1
+3763,Rabéprazole,1
+3764,Rabéprazole,1
+3765,Acide zoledronique,1
+3766,Bosentan,1
+3767,Bosentan,1
+3768,Olanzapine,1
+3769,Olanzapine,1
+3770,Olanzapine,1
+3771,Olanzapine,1
+3772,Ropinirole,1
+3773,Ropinirole,1
+3774,Ropinirole,1
+3775,Ropinirole,1
+3776,Simvastatine,1
+3777,Alfentanil,1
+3778,Rosuvastatine,1
+3779,Rosuvastatine,1
+3780,Rosuvastatine,1
+3781,Méloxicam,1
+3782,Méloxicam,1
+3783,Méloxicam,1
+3784,Méloxicam,1
+3785,Pantoprazole,1
+3786,Pantoprazole,1
+3787,Cariprazine,1
+3788,Cariprazine,1
+3789,Cariprazine,1
+3790,Cariprazine,1
+3791,Interféron bêta 1 a,1
+3792,Coenzyme Q10,1
+3792,NADH (Co-E1),2
+3792,sérine,3
+3792,vitamine C,4
+3793,Coenzyme Q10,1
+3793,NADH (Co-E1),2
+3793,sérine,3
+3793,vitamine C,4
+3794,Erythropoïétine bêta,1
+3795,Epoétine,1
+3796,Epoétine,1
+3797,Epoétine,1
+3798,Epoétine,1
+3799,Tadalafil,1
+3800,Tadalafil,1
+3801,Tadalafil,1
+3802,Tadalafil,1
+3803,Tadalafil,1
+3804,Simvastatine,1
+3805,Simvastatine,1
+3806,Moroctocog alfa,1
+3808,Minoxidil,1
+3809,Magnésium (150 MG),1
+3809,vitamine B6,2
+3810,Magnésium (300 MG),1
+3810,vitamine B6,2
+3811,Magnésium (375 MG),1
+3811,vitamine B6,2
+3812,Magnésium (375 MG),1
+3812,vitamine B6,2
+3813,Paracetamol,1
+3813,Thiocolchicoside,2
+3814,Lénalidomide,1
+3815,Lénalidomide,1
+3816,Lénalidomide,1
+3817,Lénalidomide,1
+3818,Lénalidomide,1
+3819,Lénalidomide,1
+3820,Lénalidomide,1
+3821,Lénalidomide,1
+3822,Lénalidomide,1
+3823,Lénalidomide,1
+3824,Lénalidomide,1
+3825,Lénalidomide,1
+3826,Lénalidomide,1
+3827,Lénalidomide,1
+3829,Pemetrexed,1
+3830,Elétriptan,1
+3831,Elétriptan,1
+3832,Infliximab,1
+3833,Infliximab,1
+3834,Infliximab,1
+3835,Evolocumab,1
+3836,Polystyrène sulfonate de calcium,1
+3837,Polystyrène sulfonate de sodium,1
+3838,"Hydrocolloïde, arginine, eau purifiée, macrogol, acide gras à chaîne ramifiée (BCFA), parahydroxybenzoate de méthyle (E218), parahydroxybenzoate de propyle (E216), EDTADiSodium.",1
+3839,Trétinoïne,1
+3840,Trétinoïne,1
+3841,Rocuronium,1
+3842,Sildénafil,1
+3844,Lénalidomide,1
+3845,Aciclovir,1
+3846,Aciclovir,1
+3847,Aciclovir,1
+3848,Aciclovir,1
+3849,Rivaroxaban,1
+3850,Rivaroxaban,1
+3851,Rivaroxaban,1
+3852,Rivaroxaban,1
+3853,Rivaroxaban,1
+3854,Rivaroxaban,1
+3855,Rivaroxaban,1
+3856,Rivaroxaban,1
+3857,Rivaroxaban,1
+3858,Cholécalciférol,1
+3859,Immunoblobuline humaine anti-D,1
+3860,Carbocistéine,1
+3861,Carbocistéine,1
+3862,Carbocistéine,1
+3863,Maléate de chlorphénamine,1
+3863,Paracetamol,2
+3863,Acide ascorbique,3
+3864,Paracetamol,1
+3864,Pseudoephedrine,2
+3865,Paracetamol,1
+3865,VitamineC,2
+3865,Ibuprofene,3
+3865,Pseudoephedrine,4
+3865,Cafeine,5
+3865,Chlorphenamine,6
+3866,Piroxicam,1
+3867,Piroxicam,1
+3868,Piroxicam,1
+3869,Riluzole,1
+3870,Chlorure de sodium,1
+3870,Chlorure de potassium,2
+3870,Chlorure de calcium,3
+3870,Lactate de sodium,4
+3871,Chlorure de sodium,1
+3871,Chlorure de potassium,2
+3871,Chlorure de calcium,3
+3871,Lactate de sodium,4
+3872,Desloratadine,1
+3873,Desloratadine,1
+3874,Desloratadine,1
+3875,Desloratadine,1
+3876,Béclométasone,1
+3877,Paracetamol,1
+3877,Acide ascorbique,2
+3877,Phéniramine,3
+3878,Paracetamol,1
+3878,Acide ascorbique,2
+3878,Phéniramine,3
+3879,Paracetamol,1
+3879,Acide ascorbique,2
+3879,Phéniramine,3
+3880,Paracetamol,1
+3880,Chlorphenamine,2
+3880,Salicylamide,3
+3880,Phenylephrine,4
+3880,Cafeine,5
+3880,Acide Ascorbique,6
+3881,Upadacitinib,1
+3881,Upadacitinib hémihydrate,2
+3882,Furoate de mométasone,1
+3883,Isosorbide,1
+3884,Rispéridone,1
+3885,Rispéridone,1
+3886,Rispéridone,1
+3887,Rispéridone,1
+3888,Rispéridone,1
+3889,Rispéridone,1
+3890,Rispéridone,1
+3891,Rispéridone,1
+3892,Rispéridone,1
+3893,Rivaroxaban,1
+3894,Rivaroxaban,1
+3895,Rivaroxaban,1
+3896,Rivaroxaban,1
+3897,Rivaroxaban,1
+3898,Rivaroxaban,1
+3899,Rivaroxaban,1
+3900,Rivaroxaban,1
+3901,Rivastigmine,1
+3902,Rivastigmine,1
+3903,Clonazépam,1
+3904,Magnésium marin 625 MG,1
+3904,Extrait sec de Mélisse,2
+3904,Vitamine B6,3
+3905,Magnésium marin 625 MG,1
+3905,Extrait sec de Mélisse,2
+3905,Vitamine B6 2,3
+3906,Arginine,1
+3906,Acide malique,2
+3907,Rocuronium,1
+3908,Spiramycine,1
+3908,Métronidazole,2
+3909,Roxithromycine,1
+3910,Roxithromycine,1
+3911,Montélukast,1
+3912,Montélukast,1
+3913,Méropéneme,1
+3914,Ropivacaïne,1
+3915,Ropivacaïne,1
+3916,Ropivacaïne,1
+3917,Ropivacaïne,1
+3918,Ropivacaïne,1
+3919,Ropivacaïne,1
+3920,Losartan,1
+3921,Losartan,1
+3922,Rosuvastatine,1
+3923,Rosuvastatine,1
+3924,Rosuvastatine,1
+3925,Rosuvastatine,1
+3926,Rosuvastatine,1
+3927,Rosuvastatine,1
+3928,Rosuvastatine,1
+3929,Rosuvastatine,1
+3930,"VACCIN : ROTAVIRUS HUMAIN (SOUCHE RIX4414) (VIVANT, ATTENUE)",1
+3932,Spiramycine,1
+3933,Spiramycine,1
+3934,Spiramycine,1
+3935,Piroxicam,1
+3936,Piroxicam,1
+3937,Piroxicam,1
+3938,Nifuroxazide,1
+3939,Nifuroxazide,1
+3940,Nifuroxazide,1
+3941,Rosuvastatine,1
+3942,Rosuvastatine,1
+3943,Métronidazole,1
+3944,Amivantamab,1
+3945,Insuline dégludec et insuline asparte,1
+3946,Insuline dégludec et insuline asparte,1
+3947,Piroxicam,1
+3948,Piroxicam,1
+3949,Piroxicam,1
+3950,Escitalopram,1
+3951,Escitalopram,1
+3952,Escitalopram,1
+3953,Escitalopram,1
+3954,Escitalopram,1
+3955,Escitalopram,1
+3956,Escitalopram,1
+3957,Prednisolone,1
+3958,Fluticasone,1
+3958,Salmeterol,2
+3959,Fluticasone,1
+3959,Salmeterol,2
+3960,Fluticasone,1
+3960,Salmeterol,2
+3961,Sulfasalazine,1
+3962,Salbutamol,1
+3963,Mésalazine,1
+3964,Mésalazine,1
+3965,Granisétron,1
+3966,Amoxicilline,1
+3966,Acide clavulanique,2
+3967,Amoxicilline,1
+3967,Acide clavulanique,2
+3968,Amoxicilline,1
+3968,Acide clavulanique,2
+3969,Amoxicilline,1
+3969,Acide clavulanique,2
+3970,Amoxicilline,1
+3970,Acide clavulanique,2
+3971,Amoxicilline,1
+3971,Acide clavulanique,2
+3972,Amoxicilline,1
+3972,Acide clavulanique,2
+3973,Arginine,1
+3974,Concentré de jus de pruneau,1
+3974,Manne,2
+3974,Mélisse,3
+3974,Mauve,4
+3974,Camomille,5
+3974,orange douce,6
+3974,Fenouil,7
+3975,Mepivacaine,1
+3976,MEPIVACAINE,1
+3978,Escitalopram,1
+3979,Escitalopram,1
+3980,Secnidazole,1
+3981,Acebutolol,1
+3982,Acebutolol,1
+3983,Tramadol,1
+3983,Paracetamol,2
+3984,Extrait de Valériane officinalis,1
+3984,Extrait de Melisa officinalis,2
+3984,Extrait de Humulus lupulus,3
+3985,Extrait de Valériane officinalis,1
+3985,Extrait de Melisa officinalis,2
+3985,Extrait de Humulus lupulus,3
+3986,Aconitum napellus,1
+3986,Belladonna,2
+3986,Calendula officinalis,3
+3986,Chelidonium majus,4
+3986,Valeriana officinalis,5
+3986,Viburnum opulus,6
+3987,Acide acétylsalicylique,1
+3987,Acide ascorbique,2
+3988,Glycopyrronium,1
+3989,Insuline glargine,1
+3990,Insuline glargine,1
+3991,Extrait de Séné,1
+3991,Vitamine C,2
+3992,Ciprofloxacine,1
+3993,Ciprofloxacine,1
+3994,Ciprofloxacine,1
+3995,Articaïne,1
+3995,Adrenaline,2
+3996,Articaïne,1
+3996,Adrenaline,2
+3997,Polyvidone iodée,1
+3999,Fluoxétine,1
+4000,Fluoxétine,1
+4001,"PureCyTonin® Complex PI + PureCyTonin® Complex GC (extraits cytoplasmiques spécifiques, standardisés, et purifiés de pollens), agents de charge: isomalt, cellulose microcristalline; huile de coton hydrogénée, acétate de d-alphatocophérol (vitamine E), agents d’enrobage: shellac, talc; antiagglomérant : dioxyde de silicium.",1
+4002,Fluticasone,1
+4002,Salmeterol,2
+4003,Fluticasone,1
+4003,Salmeterol,2
+4004,Fluticasone,1
+4004,Salmeterol,2
+4005,Fluticasone,1
+4005,Salmeterol,2
+4006,Salmétérol,1
+4006,flucticasone,2
+4007,Escitalopram,1
+4008,Quétiapine,1
+4009,Quétiapine,1
+4010,Quétiapine,1
+4011,Quétiapine,1
+4012,Sertraline,1
+4013,Sertraline,1
+4014,Sertraline,1
+4015,Sertraline,1
+4016,Sertraliline,1
+4017,Sertraline,1
+4018,Sevoflurane,1
+4019,Morphine,1
+4020,"VACCIN ZONA ( RECOMBINANT , AVEC ADJUVANT )",1
+4021,Dexpanthénol,1
+4021,Alcool polyvinylique,2
+4022,Pramipexole,1
+4023,Pramipexole,1
+4024,Pramipexole,1
+4025,Pramipexole,1
+4026,Sitagliptine,1
+4026,Metformine,2
+4027,Sitagliptine,1
+4028,Souche bacile de calmette - Guérin,1
+4029,Simvastatine,1
+4030,Simvastatine,1
+4031,Lévosimendan,1
+4032,Lait infantile,1
+4036,Golimumab,1
+4037,Simvastatine,1
+4038,Simvastatine,1
+4039,Montelukast,1
+4040,Montelukast,1
+4041,Montelukast,1
+4042,Acénocoumarol,1
+4043,Escitalopram,1
+4044,Escitalopram,1
+4045,Escitalopram,1
+4046,Prednisolone,1
+4047,Betamethasone,1
+4047,Acide salicylique,2
+4048,Betamethasone,1
+4048,Acide salicylique,2
+4049,Betamethasone,1
+4050,Betamethasone,1
+4051,DROSPIRENONE,1
+4052,Diosmectite,1
+4053,Emulsion lipidique,1
+4053,Acides aminés,2
+4053,Glucose,3
+4054,Emulsion lipidique,1
+4054,Acides aminés,2
+4054,Glucose,3
+4055,Amoxicilline,1
+4055,Acide clavulanique,2
+4056,Amoxicilline,1
+4056,Acide clavulanique,2
+4057,Amoxicilline,1
+4057,Acide clavulanique,2
+4058,Amoxicilline,1
+4058,Acide clavulanique,2
+4059,Amoxicilline,1
+4059,Acide clavulanique,2
+4060,Amoxicilline,1
+4060,Acide clavulanique,2
+4061,Amoxicilline,1
+4061,Acide clavulanique,2
+4062,Indapamide,1
+4063,Indapamide,1
+4064,Solifénacine,1
+4065,Solifénacine,1
+4066,Amisulpride,1
+4067,Amisulpride,1
+4068,Amisulpride,1
+4069,Amisulpride,1
+4070,Amisulpride,1
+4071,Amisulpride,1
+4072,Methylprednisolone,1
+4073,Methylprednisolone,1
+4074,Prednisolone,1
+4075,Lanreotide,1
+4076,ACTIFS NATURELS,1
+4077,Extrait sec de Valériane,1
+4077,Extrait sec de Mélisse,2
+4078,Sofosbuvir,1
+4079,Acide Salicylique,1
+4079,Chlorhéxidine,2
+4080,Sorafenib,1
+4081,TOSYLATE DE SORAFENIB,1
+4082,Sorbitol,1
+4082,Phosphate disodique,2
+4082,Sulfate de sodium Anhydre,3
+4083,Sorbitol,1
+4083,Phosphate disodique anhydre,2
+4083,Sulfate de sodium anhydre,3
+4084,Isotrétinoïne,1
+4085,Isotrétinoïne,1
+4086,Thiophéne carboxylate de sodium,1
+4087,Sunitinib,1
+4088,Sunitinib,1
+4089,Sunitinib,1
+4090,Phloroglucinol,1
+4090,Triméthylphloroglucinol,2
+4091,Phloroglucinol,1
+4091,Triméthylphloroglucinol,2
+4092,Phloroglucinol,1
+4092,Triméthylphloroglucinol,2
+4093,Magnésium,1
+4093,Saccharomyces cerevisiae,2
+4094,Magnésium,1
+4094,Saccharomyces cerevisiae,2
+4095,Otilonium,1
+4096,Mebeverine,1
+4097,Mebeverine,1
+4098,Trimébutine,1
+4099,Ciprofloxacine,1
+4100,Ciprofloxacine,1
+4101,Ciprofloxacine,1
+4102,Ciprofloxacine,1
+4103,Ciprofloxacine,1
+4104,Ciprofloxacine,1
+4105,Ciprofloxacine,1
+4106,Spiramycine,1
+4107,Spiramycine,1
+4108,Olodatérol,1
+4108,tiotropium,2
+4109,Spiramycine,1
+4110,Spiramycine,1
+4111,Spiramycine,1
+4112,Spiramycine,1
+4112,Métronidazole,2
+4113,Tiotropium,1
+4114,Eskétamine,1
+4115,Sofosbuvir,1
+4116,Tianeptine,1
+4117,Metformine,1
+4118,Metformine,1
+4119,Levodopa,1
+4119,Carbidopa,2
+4119,Entacapone,3
+4120,Lévodopa,1
+4120,Carbidopa,2
+4120,Entacapone,3
+4121,Levodopa,1
+4121,Carbidopa,2
+4121,Entacapone,3
+4122,Virus de la fièvre jaune atténué,1
+4123,Fenofibrate,1
+4124,Atorvastatine,1
+4125,Atorvastatine,1
+4126,Atorvastatine,1
+4127,Atorvastatine,1
+4128,Atorvastatine,1
+4129,"Vitamine C, Fumarate de fer, Vitamine B9",1
+4130,Amoxicilline,1
+4131,Amoxicilline,1
+4132,Amoxicilline,1
+4133,Amoxicilline,1
+4134,Amoxicilline,1
+4135,Amoxicilline,1
+4136,Amoxicilline,1
+4137,Phenoximethylpenicilline benzathine,1
+4138,Phenoximethylpenicilline benzathine,1
+4139,Phenoximethylpenicilline benzathine,1
+4140,Valsartan,1
+4141,Valsartan,1
+4142,Simvastatine,1
+4143,Simvastatine,1
+4144,Simvastatine,1
+4145,Simvastatine,1
+4146,Simvastatine,1
+4147,Moxifloxacine,1
+4148,Ustekinumab,1
+4149,Ustekinumab,1
+4150,Ustekinumab,1
+4151,Dexamethasone,1
+4151,Oxytétracycline,2
+4152,Desogestrel,1
+4152,Ethinylestradiol,2
+4153,"Chlorure de sodium (1,25 g)",1
+4153,"Chlorure de potassium (1,80 g)",2
+4153,"Chlorure de magnésium 6H20 (0,51 g)",3
+4153,"Dihydrogénophosphate de sodium 2H20 (1,14 g)",4
+4153,"Lactate de sodium 50 % en solution (5,60 g)",5
+4153,"Glucose monohydraté pour administration parentérale (55,00g)",6
+4154,Ergocalciférol,1
+4155,Ergocalciférol,1
+4156,Zolpidem,1
+4157,Citrulline malate,1
+4158,Citruline malate,1
+4159,"Fenugrec, acérola, vitamines et fer",1
+4160,Malate de citrulline,1
+4160,ginseng,2
+4160,magnésium,3
+4160,vitamine B2,4
+4160,vitamine B3,5
+4161,Régorafénib,1
+4162,Préparation homéopathique,1
+4163,Étoricoxib,1
+4164,Étoricoxib,1
+4165,Étoricoxib,1
+4166,Étoricoxib,1
+4167,Étoricoxib,1
+4168,Atomoxetine,1
+4169,Atomoxetine,1
+4170,Atomoxetine,1
+4171,Atomoxetine,1
+4172,Valériane,1
+4172,Mélisse,2
+4173,ALCOOL DICHLOROBENZYLIQUE,1
+4173,AMYLMETACRESOL,2
+4174,Alcool dichlorobenzylique,1
+4174,Amylmetacresol,2
+4175,ALCOOL DICHLOROBENZYLIQUE,1
+4175,AMYLMETACRESOL,2
+4176,Alcool dichlorobenzylique,1
+4176,Amylmetacresol,2
+4177,Alcool dichlorobenzylique,1
+4177,Amylmetacresol,2
+4177,Acide ascorbique,3
+4177,Ascorbate de sodium,4
+4178,Alcool dichlorobenzylique,1
+4178,Amylmetacresol,2
+4179,Amoxicilline,1
+4180,Amoxicilline,1
+4181,Amoxicilline,1
+4182,Amoxicilline,1
+4183,Amoxicilline,1
+4184,Amoxicilline,1
+4185,Amoxicilline,1
+4186,Amoxicilline,1
+4187,Amoxicilline,1
+4188,Amoxicilline,1
+4189,Amoxicilline,1
+4190,Etifoxine,1
+4191,Chondroïtine,1
+4192,Fer,1
+4192,Vitamine B12,2
+4193,LIPOFER® Microcapsules apportant 14 mg de fer élément et 60 mg de vitamine C.,1
+4194,Eau de mer enrichie en soufre,1
+4195,Eau de mer,1
+4196,Eau de mer enrichie en soufre,1
+4197,Thiamphénicol,1
+4198,Thiamphénicol,1
+4199,Amlodipine,1
+4199,Valsartan,2
+4200,Amlodipine,1
+4200,Valsartan,2
+4201,Amlodipine,1
+4201,valsartan,2
+4202,Amlodipine,1
+4202,Valsartan,2
+4203,Amlodipine,1
+4203,Valsartan,2
+4204,Amlodipine,1
+4204,Valsartan,2
+4205,Amlodipine,1
+4205,Valsartan,2
+4206,Amlodipine,1
+4206,Valsartan,2
+4207,Amlodipine,1
+4207,Valsartan,2
+4208,Valsartan,1
+4208,Amlodipine,2
+4208,hydrochlorothiazide,3
+4209,Amlodipine,1
+4209,Valsartan,2
+4209,hydrochlorothiazide,3
+4210,Valsartan,1
+4210,Amlodipine,2
+4210,hydrochlorothiazide,3
+4211,Valsartan,1
+4211,Amlodipine,2
+4211,hydrochlorothiazide,3
+4212,Valsartan,1
+4212,Amlodipine,2
+4212,hydrochlorothiazide,3
+4213,Amlodipine,1
+4213,Valsartan,2
+4213,hydrochlorothiazide,3
+4214,Valsartan,1
+4214,Amlodipine,2
+4214,hydrochlorothiazide,3
+4215,Valsartan,1
+4215,amlodipine,2
+4215,hydrochlorothiazide,3
+4216,Amlodipine,1
+4216,Valsartan,2
+4216,hydrochlorothiazide,3
+4217,Amlodipine,1
+4217,Valsartan,2
+4217,hydrochlorothiazide,3
+4218,Amlodipine,1
+4218,Valsartan,2
+4218,hydrochlorothiazide,3
+4219,Valsartan,1
+4219,Amlodipine,2
+4219,hydrochlorothiazide,3
+4220,Insuline glargine,1
+4220,Lixisenatide,2
+4221,Insuline glargine,1
+4221,Lixisenatide,2
+4222,Sulpiride,1
+4223,Sulpiride,1
+4224,Sulpiride,1
+4225,Cholécalciférol ( Vitamine D3 ),1
+4226,Radis noir,1
+4226,Chardon marie,2
+4226,Artichaut,3
+4226,Gentiane,4
+4227,Vitamines,1
+4227,Minéraux,2
+4227,Oligo-éléments,3
+4228,Vitamines,1
+4228,Minéraux,2
+4228,Oligo-éléments,3
+4229,Vitamines,1
+4229,ménéraux,2
+4229,oligo-éléments,3
+4231,Complexe vitaminés,1
+4232,Complexe Vitamines / Mineraux,1
+4233,Complexe vitaminé et minéraux,1
+4234,Complexe vitaminé et minéraux,1
+4235,Lévocétirizine,1
+4236,Lévocétirizine,1
+4237,Lévocétirizine,1
+4238,Hydroxyde d'aluminium,1
+4238,Hydroxyde de magnésium,2
+4239,Fluconazole,1
+4240,Fluconazole,1
+4241,Fluconazole,1
+4242,Fluconazole,1
+4243,Acide tiaprofénique,1
+4244,Acide tiaprofénique,1
+4245,Sunitinib,1
+4246,Sunitinib,1
+4247,Sunitinib,1
+4248,Rosuvastatine,1
+4249,Rosuvastatine,1
+4250,Rosuvastatine,1
+4251,Rosuvastatine,1
+4252,Rosuvastatine,1
+4252,Ezetimibe,2
+4253,Rosuvastatine,1
+4253,Ezetimibe,2
+4254,"Complément alimentaire à base d'oméga 3, lutéine, zéaxanthine et zinc",1
+4261,Budesonide,1
+4261,Formotérol,2
+4262,Budesonide,1
+4262,Formotérol,2
+4263,Budesonide,1
+4263,Formotérol,2
+4265,Vaccin pneumococcique osidique conjugué,1
+4266,Lamotrigine,1
+4267,Lamotrigine,1
+4268,Lamotrigine,1
+4269,Lamotrigine,1
+4270,Chlorphénoxamine,1
+4271,Chlorphénoxamine,1
+4271,Cafeïne,2
+4272,Mométasone,1
+4273,Tadalafil,1
+4274,Tadalafil,1
+4275,Tadalafil,1
+4276,Tadalafil,1
+4277,Tadalafil,1
+4278,Tadalafil,1
+4279,Atorvastatine,1
+4280,Atorvastatine,1
+4281,Atorvastatine,1
+4282,Atorvastatine,1
+4283,Atorvastatine,1
+4284,Escitalopram,1
+4285,Escitalopram,1
+4286,Escitalopram,1
+4287,Escitalopram,1
+4288,Escitalopram,1
+4289,Escitalopram,1
+4290,Ixekizumab,1
+4291,Talazoparib,1
+4292,Talazoparib,1
+4293,Flécaïnide,1
+4294,Tamoxifène,1
+4295,Tamoxifène,1
+4296,Tamsulosine,1
+4297,Ginkgo biloba,1
+4298,Ginkgo biloba,1
+4299,Acétylleucine,1
+4300,Losartan,1
+4301,Losartan,1
+4302,Losartan,1
+4303,Hydroxyzine,1
+4304,Hydroxyzine,1
+4305,Erlotinib,1
+4306,Sulfate Ferreux,1
+4307,Sulfate Ferreux,1
+4307,Acide Folique,2
+4308,Valsartan,1
+4309,Valsartan,1
+4310,Valsartan,1
+4311,Tannate de gélatine,1
+4312,Tannate de gélatine,1
+4313,Urée 13C,1
+4314,Lévofloxacine,1
+4315,Lévofloxacine,1
+4316,Lévofloxacine,1
+4317,Lévofloxacine,1
+4318,Pipéracilline,1
+4318,Tazobactam,2
+4319,Atézolizumab,1
+4320,Atézolizumab,1
+4321,Ramipril,1
+4322,Ramipril,1
+4323,Ramipril,1
+4324,Ramipril,1
+4325,Ramipril,1
+4326,Ramipril,1
+4327,Ramipril,1
+4328,Téclistamab,1
+4329,Téclistamab,1
+4330,Ténofovir disoproxil,1
+4331,Immunoglobuline humaine normale / 50 MG/ML,1
+4332,Témozolomide,1
+4333,Carbamazépine,1
+4334,Carbamazépine,1
+4335,Carbamazépine,1
+4336,Terbinafine,1
+4337,Terbinafine,1
+4338,Terbinafine,1
+4339,Terbinafine,1
+4340,Terbinafine,1
+4341,Telmisartan,1
+4342,Telmisartan,1
+4343,Lorazepam,1
+4344,Lorazepam,1
+4345,Buprenorphine,1
+4346,Buprenorphine,1
+4351,Témozolomide,1
+4352,Témozolomide,1
+4353,Temozolomide,1
+4354,Temozolomide,1
+4355,Temozolomide,1
+4356,Tamsulosine,1
+4357,Tamsulosine,1
+4358,Atenolol,1
+4358,Chlortalidone,2
+4359,Aténolol,1
+4360,Aténolol,1
+4361,Ramipril,1
+4362,Ramipril,1
+4363,Ramipril,1
+4364,Lithium,1
+4365,Terbinafine,1
+4366,Terbinafine,1
+4367,Terbinafine,1
+4368,Terbinafine,1
+4369,Terbinafine,1
+4370,Terbinafine,1
+4371,Terbinafine,1
+4372,Terbinafine,1
+4373,Terbinafine,1
+4374,Terpine,1
+4374,Huilles essentielles,2
+4375,Tetracycline,1
+4376,Lymecycline,1
+4377,Magnésium,1
+4377,vitamine B6,2
+4378,"Vaccin Diphtérique,Tétanique,Coquelucheux Acellulaire,Poliomyélitique Inactivé,Adsorbé",1
+4379,Magnésium,1
+4380,Théophylline,1
+4381,Thiamphénicol,1
+4382,Thiamphénicol,1
+4383,Thiamphénicol,1
+4384,Thiamphénicol,1
+4385,Thiamphénicol,1
+4386,Immunoglobulines de lapin antithymocytes humains,1
+4387,Thym,1
+4387,Eucalyptus,2
+4387,Vitamine C,3
+4388,Thyrotropine alfa,1
+4389,Levothyroxine,1
+4390,Thiamazole,1
+4391,Tréhalose,1
+4391,Acide hyaluronique,2
+4392,Tadalafil,1
+4393,Tadalafil,1
+4394,Tadalafil,1
+4395,Acide tiaprofénique,1
+4396,Acide tiaprofénique,1
+4397,Indapamide,1
+4398,Ornidazole,1
+4399,Ornidazole,1
+4401,Ténoxicam,1
+4402,Oméprazole,1
+4403,Timolol,1
+4406,Racécadotril,1
+4407,Racécadotril,1
+4408,Racécadotril,1
+4409,Tiotropium,1
+4410,Tiotropium,1
+4411,Carraghénates,1
+4411,Oxyde de titane,2
+4411,Dioxyde De zinc,3
+4412,Carraghénates,1
+4412,Oxyde de titane,2
+4412,Dioxyde de zinc,3
+4413,Ciprofloxacine,1
+4414,Tobramycine,1
+4414,Dexamethasone,2
+4415,Tobramycine,1
+4415,Dexamethasone,2
+4416,Tobramycine,1
+4417,Complexe vitaminé + acide folique,1
+4418,Extrait de pin,1
+4418,Maca,2
+4419,Désoximétasone,1
+4420,Topiramate,1
+4421,Topiramate,1
+4422,Topiramate,1
+4423,Oxomemazine,1
+4424,Topotécan,1
+4425,Fluocinonide,1
+4426,Fluocinonide,1
+4427,Fluocinonide,1
+4428,Atorvastatine,1
+4429,Atorvastatine,1
+4430,Kétotifène,1
+4431,Kétotifène,1
+4432,Butamirate,1
+4433,Mauve,1
+4433,Cassis,2
+4434,Insuline glargine,1
+4435,Tramadol,1
+4435,Paracétamol,2
+4436,Atosiban,1
+4437,Atosiban,1
+4438,Linagliptine,1
+4440,Tramadol,1
+4441,Tramadol,1
+4442,Tramadol,1
+4443,Tramadol,1
+4444,Tramadol,1
+4445,Tramadol,1
+4446,Tramadol,1
+4447,Lactulose,1
+4448,Clorazépate dipotassique,1
+4449,Clorazépate dipotassique,1
+4450,Travoprost,1
+4451,Trastuzumab,1
+4452,Trastuzumab,1
+4453,Paroxétine,1
+4454,Paroxétine,1
+4455,Tramadol,1
+4456,Guselkumab,1
+4457,Insuline dégludec,1
+4458,Insuline dégludec,1
+4459,Cyproheptadine,1
+4459,Vit B1,2
+4459,B6,3
+4459,B12,4
+4459,Carnitine,5
+4459,Lysine,6
+4460,Palipéridone,1
+4461,Palipéridone,1
+4462,Palipéridone,1
+4463,Methotrexate,1
+4464,Methotrexate,1
+4465,Ramipril,1
+4466,Ramipril,1
+4467,Ramipril,1
+4468,Ceftriaxone,1
+4469,Ceftriaxone,1
+4470,Ceftriaxone,1
+4471,Ceftriaxone,1
+4472,Ceftriaxone,1
+4473,Ceftriaxone,1
+4474,Ceftriaxone,1
+4475,Ceftriaxone,1
+4476,Trimebutine,1
+4477,Trimebutine,1
+4478,Trimebutine,1
+4479,Ceftriaxone,1
+4480,Ceftriaxone,1
+4481,Ceftriaxone,1
+4482,Minoxidil,1
+4484,Fluconazole,1
+4485,Lévonorgestrel,1
+4485,Ethinylestradiol,2
+4486,Oxcarbazépine,1
+4487,Oxcarbazépine,1
+4488,Trimétazidine,1
+4489,Trimétazidine,1
+4490,Béclométasone,1
+4490,Formoterol,2
+4490,Glycopyrronium,3
+4491,Trimébutine,1
+4492,Trimébutine,1
+4493,Fluconazole,1
+4494,Perindopril,1
+4494,Indapamide,2
+4494,Amlodipine,3
+4495,Perindopril,1
+4495,Indapamide,2
+4495,Amlodipine,3
+4496,PARACETAMOL,1
+4496,ACIDE ASCORBIQUE,2
+4496,MALEATE DE PHENIRAMINE,3
+4497,PARACETAMOL,1
+4497,ACIDE ASCORBIQUE,2
+4497,MALEATE DE PHENIRAMINE,3
+4498,Estradiol,1
+4498,Noréthistérone,2
+4499,Triméthoprime,1
+4499,Sulfaméthoxazole,2
+4499,Bromhexine,3
+4500,Triméthoprime,1
+4500,Sulfaméthoxazole,2
+4501,Triméthoprime,1
+4501,Sulfaméthoxazole,2
+4502,Triméthoprime,1
+4502,Sulfaméthoxazole,2
+4503,Ramipril,1
+4503,Hydrochlorothiazide,2
+4504,Ramipril,1
+4504,Hydrochlorothiazide,2
+4505,Ramipril,1
+4505,Hydrochlorothiazide,2
+4506,Piribédil,1
+4507,Magnésium,1
+4507,Vitamine B1,2
+4507,Vitamine B6,3
+4507,Vitamine B12,4
+4508,Magnésium,1
+4508,Vitamine B1,2
+4508,Vitamine B6,3
+4508,Vitamine B12,4
+4509,Lamivudine,1
+4509,Nevirapine,2
+4509,Stavudine,3
+4510,Dulaglutide,1
+4511,Dulaglutide,1
+4512,Tuberculine purifiée,1
+4513,Fluoxétine,1
+4514,Fluoxétine,1
+4515,Fluoxétine,1
+4516,Chlorphenoxamine,1
+4516,Sulfogaiacolate de potassium,2
+4516,Benzoate de sodium,3
+4516,Paracetamol,4
+4517,Telmisartan,1
+4517,Amlodipine,2
+4518,Telmisartan,1
+4518,Amlodipine,2
+4519,Telmisartan,1
+4519,Amlodipine,2
+4520,Tadalafil,1
+4521,Tadalafil,1
+4522,Tigécycline,1
+4523,Lapatinib,1
+4524,MOXIFLOXACINE,1
+4525,Vaccin typhoïdique polyosidique,1
+4526,Vaccin typhoïdique polyosidique,1
+4527,Natalizumab,1
+4528,Térazosine,1
+4529,Térazosine,1
+4530,Ciprofloxacine,1
+4531,Ciprofloxacine,1
+4532,Ciprofloxacine,1
+4533,Ciprofloxacine,1
+4534,Ciprofloxacine,1
+4535,Ciprofloxacine,1
+4536,Cimétidine,1
+4537,Cimétidine,1
+4538,Febuxostat,1
+4539,Febuxostat,1
+4540,Indacatérol,1
+4540,Glycopyrronium,2
+4541,Saccharomyces boulardii ( CNCM-1-745 ),1
+4542,Saccharomyces Boulardii,1
+4543,Saccharomyces boulardii ( CNCM-1-745 ),1
+4544,Saccharomyces Boulardii,1
+4545,Lopromide,1
+4546,Lopromide,1
+4547,Lopromide,1
+4548,Lopromide,1
+4549,Iopromide,1
+4550,Tamsulosine,1
+4551,Tamsulosine,1
+4552,Tamsulosine,1
+4553,Insuline humaine biogénétique,1
+4554,Insuline humaine,1
+4555,Insuline humaine biogénétique,1
+4556,Insuline humaine,1
+4557,Insuline humaine biogénétique,1
+4558,Alfacalcidol,1
+4559,Alfacalcidol,1
+4560,Cartilage de requin,1
+4560,Curcuma,2
+4560,Harpagophytum,3
+4561,Azithromycine,1
+4562,Azithromycine,1
+4563,Azithromycine,1
+4564,Sacubitril,1
+4564,Valsartan,2
+4565,Valsartan,1
+4565,Sacubitril,2
+4566,Valsartan,1
+4566,Sacubitril,2
+4567,Tamsulosine,1
+4568,Sélexipag,1
+4569,Sélexipag,1
+4570,Sélexipag,1
+4571,Sélexipag,1
+4572,Sélexipag,1
+4573,Sélexipag,1
+4574,Sélexipag,1
+4575,Sélexipag,1
+4576,Doxazosine,1
+4577,Doxazosine,1
+4578,Doxazosine,1
+4579,Clobazam,1
+4580,Flavoxate,1
+4581,Alfuzosine,1
+4582,Toltérodine,1
+4583,Toltérodine,1
+4584,Oxybutynine,1
+4585,Ofloxacine,1
+4586,Progesterone,1
+4587,Progestérone,1
+4588,Progestérone,1
+4589,Progestérone,1
+4590,Cholécalciférol,1
+4591,Magnésium,1
+4591,Pyridoxine,2
+4592,Faricimab,1
+4593,ANATOXINE TETANIQUE,1
+4593,ANATOXINE DIPHTERIQUE,2
+4593,NA,3
+4593,NA,4
+4594,Bacille De Calmet et Guerin,1
+4595,Bacile de Calmet et Guerin,1
+4596,Agomélatine,1
+4597,Agomélatine,1
+4598,Valaciclovir,1
+4599,Valaciclovir,1
+4600,Valaciclovir,1
+4601,Diazépam,1
+4602,Diazépam,1
+4603,Amlodipine,1
+4603,Valsartan,2
+4604,Amlodipine,1
+4604,Valsartan,2
+4605,Amlodipine,1
+4605,Valsartan,2
+4606,Valsartan,1
+4607,Valsartan,1
+4608,Valsartan,1
+4609,Valsartan,1
+4609,Hydrochlorothiazide,2
+4610,Valsartan,1
+4610,Hydrochlorothiazide,2
+4611,Valsartan,1
+4611,Hydrochlorothiazide,2
+4612,Valproate,1
+4613,Valproate de sodium,1
+4613,Acide valproïque,2
+4614,Valproate de sodium,1
+4614,Acide valproïque,2
+4615,Valproate,1
+4615,Acide valproïque,2
+4616,Rivaroxaban,1
+4617,Rivaroxaban,1
+4618,Rivaroxaban,1
+4619,Rivaroxaban,1
+4620,Rivaroxaban,1
+4621,Rivaroxaban,1
+4622,Rivaroxaban,1
+4623,Vancomycine,1
+4624,Vancomycine,1
+4625,Vancomycine,1
+4626,Vancomycine,1
+4627,Vancomycine,1
+4628,Cétirizine,1
+4630,Valsartan,1
+4631,Valsartan,1
+4632,Valsartan,1
+4633,Valsartan,1
+4634,Valsartan,1
+4635,Valsartan,1
+4636,Trimétazidine,1
+4637,Trimétazidine,1
+4638,Trimétazidine,1
+4639,Trimétazidine,1
+4640,"Virus de la grippe (inactivé, fragmenté) des souches suivantes: A (H1N1), A (H3N2), B (Yamagata) et B (Victoria) conformément aux recommandations annuelles de l'OMS pour l'hémisphère nord.",1
+4641,"Virus de la grippe (inactivé, fragmenté) des souches suivantes: A (H1N1), A (H3N2), B (Yamagata) et B (Victoria) conformément aux recommandations annuelles de l'OMS pour l'hémisphère nord.",1
+4642,Solifénacine,1
+4643,Solifénacine,1
+4644,Panitumumab,1
+4645,Panitumumab,1
+4646,Tadalafil,1
+4647,Taladafil,1
+4648,Taladafil,1
+4649,Bortezomib,1
+4650,Vigne rouge,1
+4650,hamamélis,2
+4650,Ginkgo,3
+4651,Venlafaxine,1
+4652,Venlafaxine,1
+4653,Bortézomib,1
+4654,Bortézomib,1
+4655,Ténofovir alafénamide,1
+4656,Venlafaxine,1
+4657,Venlafaxine,1
+4658,Venlafaxine,1
+4659,Venlafaxine,1
+4660,Complexe d'hydroxyde de Fer III,1
+4661,Aescine,1
+4661,Ruscogénine,2
+4661,Proanthocyanidine,3
+4661,Vitamine C,4
+4662,Aescine,1
+4662,Ruscogénine,2
+4662,Proanthocyanidine,3
+4662,Vitamine C,4
+4663,Salbutamol,1
+4664,Salbutamol,1
+4665,Salbutamol,1
+4666,Hydrosmine,1
+4667,Hydrosmine,1
+4668,Irbésartan,1
+4669,Irbésartan,1
+4670,Irbésartan,1
+4671,Irbésartan,1
+4672,Aloé vera,1
+4673,Butoxyde de piperonyle,1
+4673,benzododécinium bromure,2
+4673,bioalléthrine,3
+4674,Mebendazole,1
+4675,Mebendazole,1
+4676,"Virus de la rage (souche Wistar Rabies PM/WI 38 1503-3 M) inactivé** >= 2,5 UI***",1
+4677,Abémaciclib,1
+4678,Abémaciclib,1
+4679,Abémaciclib,1
+4680,Albendazole,1
+4681,Albendazole,1
+4682,Sulodexide,1
+4683,Irbesartan,1
+4684,Irbésartan,1
+4685,Irbésartan,1
+4686,Voriconazole,1
+4687,Voriconazole,1
+4688,Perindopril,1
+4688,amlodipine,2
+4689,Perindopril,1
+4689,amlodipine,2
+4690,Sildénafil,1
+4691,Sildénafil,1
+4692,Sildénafil,1
+4693,Sildénafil,1
+4694,Albumine humaine LFB,1
+4695,Albumine humaine LFB,1
+4696,Cyclopentolate,1
+4697,Doxycycline,1
+4698,Liraglutide,1
+4700,Azacitidine,1
+4701,Moxifloxacine,1
+4702,Sildénafil,1
+4703,Sildénafil,1
+4704,Sildénafil,1
+4705,Sildénafil,1
+4706,Sildénafil,1
+4707,KETOTIFENE,1
+4708,Vildagliptine,1
+4709,Vildagliptine,1
+4710,Sildenafil,1
+4711,Sildenafil,1
+4712,Sildenafil,1
+4713,Sildenafil,1
+4714,Sildenafil,1
+4715,Sildenafil,1
+4716,Sildenafil,1
+4717,Sildenafil,1
+4718,Sildenafil,1
+4719,Olopatadine,1
+4720,Alogliptine,1
+4720,Metformine,2
+4721,Alogliptine,1
+4721,Metformine,2
+4722,Aloglipitine,1
+4723,Aloglipitine,1
+4724,Sildénafil,1
+4725,Sildénafil,1
+4726,Ganciclovir,1
+4727,Astragale,1
+4727,Safran,2
+4727,Zinc,3
+4727,Sélénium,4
+4728,Aciclovir,1
+4729,Aciclovir,1
+4730,Aciclovir,1
+4731,Aciclovir,1
+4732,Aciclovir,1
+4733,Aciclovir,1
+4734,Tadalafil,1
+4735,Tadalafil,1
+4736,Tadalafil,1
+4737,Tadalafil,1
+4738,Tiémonium,1
+4739,Tiémonium,1
+4740,Tiémonium,1
+4741,Vitamines et sels minéraux,1
+4742,Acide hyaluronique,1
+4742,vitamine B12,2
+4742,Vitamine B5,3
+4743,IODIXANOL,1
+4744,Iodixanol,1
+4745,IODIXANOL,1
+4746,Iodixanol,1
+4748,Ofloxacine,1
+4749,Rosuvastatine,1
+4750,Rosuvastatine,1
+4751,Rosuvastatine,1
+4752,Toxine botulinique de type A,1
+4753,Acide Ascorbique,1
+4754,Acide ascorbique,1
+4755,Acide ascorbique,1
+4757,Lactobacillus gasseri KS-13,1
+4757,Bifidobacterium bifidum G9-1,2
+4757,Bifidobacterium longum MM-2,3
+4757,Protéase,4
+4757,Lactase,5
+4757,Lipase,6
+4757,Amylase,7
+4758,Lactobacillus gasseri KS-13,1
+4758,Bifidobacterium bifidum G9-1,2
+4758,Bifidobacterium longum MM-2,3
+4758,Protéase,4
+4758,Lactase,5
+4758,Lipase,6
+4758,Amylase,7
+4759,Acide hyaluronique,1
+4759,vitamine B12,2
+4761,Complexe vitaminé,1
+4761,Acide folique,2
+4761,Fer,3
+4762,Panax ginseng,1
+4762,Gelée royale,2
+4762,Vitamines,3
+4762,Minéraux,4
+4764,Magnésium,1
+4764,Vitamine B1,2
+4764,Vitamine B2,3
+4764,Vitamine B6,4
+4764,Vitamine B12,5
+4765,Magnésium,1
+4765,Vitamine B1,2
+4765,Vitamine B2,3
+4765,Vitamine B6,4
+4765,Vitamine B12,5
+4766,Acide ascorbique,1
+4767,Acide ascorbique,1
+4768,Acide ascorbique,1
+4769,Cholécalciférol,1
+4770,Benfotiamine (Vitamine B1 ),1
+4771,Fenugrec plus complexe vitaminé,1
+4772,Acide ascorbique,1
+4773,Acide ascorbique,1
+4773,Pyridoxine,2
+4773,Nicotinamide,3
+4773,Aspartate de magnesium,4
+4774,Acide ascorbique,1
+4774,Pyridoxine,2
+4774,Nicotinamide,3
+4774,Aspartate de magnesium,4
+4775,12 vitamines et 8 minéraux,1
+4776,Metopimazine,1
+4777,Metopimazine,1
+4778,Métopimazine,1
+4779,Métopimazine,1
+4780,Diclofenac,1
+4781,Diclofenac,1
+4782,Diclofenac,1
+4783,Diclofenac,1
+4784,Diclofenac,1
+4785,Diclofenac,1
+4786,Diclofenac,1
+4787,Diclofenac,1
+4788,"Anti-inflammatoire non stéroïdien (AINS), dérivé de l'acide acétique",1
+4789,Diclofenac,1
+4790,Diclofenac,1
+4791,Diclofenac,1
+4792,Métoclopramide,1
+4793,Métoclopramide,1
+4794,Voriconazole,1
+4795,Celecoxib,1
+4796,Celecoxib,1
+4797,Celecoxib,1
+4798,Tafamidis,1
+4799,Fluoxetine,1
+4800,Fluoxetine,1
+4801,Duloxetine,1
+4802,Duloxetine,1
+4803,Bupropion,1
+4804,Azacitidine,1
+4807,Latanoprost,1
+4807,Timolol,2
+4808,Latanoprost,1
+4809,Crizotinib,1
+4810,Criotinib,1
+4811,Alprazolam,1
+4812,Théophylline,1
+4813,Théophylline,1
+4814,Théophylline,1
+4815,Rivaroxaban,1
+4816,Rivaroxaban,1
+4817,Rivaroxaban,1
+4818,Rivaroxaban,1
+4819,Rivaroxaban,1
+4820,Rivaroxaban,1
+4821,Alfuzosine,1
+4822,Olanzapine,1
+4823,Olanzapine,1
+4824,Carvédilol,1
+4825,Carvédilol,1
+4826,Tofacitinib,1
+4827,Capecitabine,1
+4828,Orlistat,1
+4829,Orlistat,1
+4830,Diclofenac,1
+4831,Diclofenac,1
+4832,Diclofenac,1
+4833,Diclofenac,1
+4834,Diclofenac,1
+4835,Diclofenac,1
+4836,Capécitabine,1
+4837,Paliperidone,1
+4838,Paliperidone,1
+4839,Paliperidone,1
+4840,Isotrétinoïne,1
+4841,Isotrétinoïne,1
+4842,Paroxétine,1
+4843,Paroxétine,1
+4844,Paroxétine,1
+4845,Paroxétine,1
+4846,Escitalopram,1
+4847,Escitalopram,1
+4848,Escitalopram,1
+4849,Denosumab,1
+4850,Amlodipine,1
+4850,valsartan,2
+4851,Amlodipine,1
+4851,valsartan,2
+4852,Amlodipine,1
+4852,valsartan,2
+4853,Amlodipine,1
+4853,Valsartan,2
+4853,HCT,3
+4854,Amlodipine,1
+4854,Valsartan,2
+4854,HCT,3
+4855,Amlodipine,1
+4855,Valsartan,2
+4855,HCT,3
+4856,Amlodipine,1
+4856,Valsartan,2
+4856,HCT,3
+4857,Larmes artificielles,1
+4858,Dorzolamide,1
+4859,Dorzolamide,1
+4859,Timolol,2
+4860,Enzalutamide,1
+4861,Lévocétirizine,1
+4862,Lévocétirizine,1
+4863,Lévocétirizine,1
+4864,Lévocétirizine,1
+4865,Lévocétirizine,1
+4866,Moxifloxacine,1
+4867,Moxifloxacine,1
+4868,Moxifloxacine,1
+4869,Oxaliplatine,1
+4870,Oxaliplatine,1
+4871,Lidocaïne base,1
+4871,Cétrimonium bromure,2
+4872,Lévocétirizine,1
+4873,Lévocétirizine,1
+4874,Albumine humaine,1
+4875,Albumine humaine,1
+4876,Acide folique,1
+4876,Iode,2
+4876,Vitamine B12,3
+4877,acide folique,1
+4877,Vitamine B12,2
+4877,Iode,3
+4878,Bévacizumab,1
+4879,Bévacizumab,1
+4880,Desloratadine,1
+4881,Desloratadine,1
+4882,Desloratadine,1
+4883,Desloratadine,1
+4884,Cétirizine,1
+4885,Cétirizine,1
+4886,Cétirizine,1
+4887,Udénafil,1
+4888,Udénafil,1
+4889,Udénafil,1
+4890,Udénafil,1
+4891,Aflibercept,1
+4892,Aflibercept,1
+4893,Amoxicilline,1
+4893,Acide clavulanique,2
+4894,Amoxicilline,1
+4894,Acide clavulanique,2
+4895,Amoxicilline,1
+4895,Acide clavulanique,2
+4896,Amoxicilline,1
+4896,Acide clavulanique,2
+4897,Amoxicilline,1
+4897,Acide clavulanique,2
+4898,Amoxicilline,1
+4898,Acide clavulanique,2
+4899,Amoxicilline,1
+4899,Acide clavulanique,2
+4900,Amoxicilline,1
+4900,Acide clavulanique,2
+4901,Amoxicilline,1
+4901,Acide clavulanique,2
+4902,Lercanidipine,1
+4903,Lercanidipine,1
+4904,Ofloxacine,1
+4905,Apixaban,1
+4906,Apixaban,1
+4907,Apixaban,1
+4908,Apixaban,1
+4909,Apixaban,1
+4910,Apixaban,1
+4911,Oméprazole,1
+4912,Omeprazole,1
+4913,Omeprazole,1
+4914,Idarubicine,1
+4915,Clarithromycine,1
+4916,Vémurafénib,1
+4917,"Solution nettoyante sans savon enrichie en bardane, Camomille et Aloe vera",1
+4918,Ezétimide,1
+4919,Ézétimibe,1
+4920,Rituximab,1
+4921,Rituximab,1
+4924,Sitagliptine,1
+4925,Sitagliptine,1
+4926,Sitagliptine,1
+4926,Metformine,2
+4927,Sitagliptine,1
+4927,Metformine,2
+4930,Magnésium,1
+4930,vitamine B6,2
+4931,Magnésium,1
+4931,vitamine B6,2
+4932,Magnésium,1
+4933,Valsartan,1
+4934,Valsartan,1
+4935,Valsartan,1
+4936,Méloxicam,1
+4937,Méloxicam,1
+4938,Méloxicam,1
+4939,Méloxicam,1
+4940,Albendazole,1
+4941,Albendazole,1
+4942,Bromazépam,1
+4943,Budésonide,1
+4943,salmétérol,2
+4944,Budésonide,1
+4944,salmétérol,2
+4946,Glycérine végétale,1
+4946,Camomille,2
+4946,Mauve,3
+4947,Céftazidime,1
+4948,Loratadine,1
+4949,Zinc,1
+4950,Zinc,1
+4951,Cefuroxime,1
+4952,Cefuroxime,1
+4953,Tafluprost,1
+4954,Azithromycine,1
+4955,Azithromycine,1
+4956,Moxifloxacine,1
+4957,Moxifloxacine,1
+4958,Esomeprazole,1
+4959,Esomeprazole,1
+4960,Esomeprazole,1
+4961,Esomeprazole,1
+4962,Esoméprazole,1
+4963,Esoméprazole,1
+4964,ZOFENOPRIL,1
+4965,Zofénopril,1
+4966,Goséréline,1
+4967,Goséréline acétate,1
+4968,Lansoprazole,1
+4969,Lansoprazole,1
+4970,Dorzolamide,1
+4971,Dorzolamide,1
+4971,Timolol,2
+4972,Zolpidem,1
+4973,Sertraline,1
+4974,Sertraline,1
+4975,Sertraline,1
+4976,Oméprazole,1
+4977,Oméprazole,1
+4978,Oméprazole,1
+4979,Acide zolédronique,1
+4980,Zolpidem,1
+4981,Zolpidem,1
+4982,Déférasirox,1
+4983,Aténolol,1
+4984,Aténolol,1
+4985,Aténolol,1
+4986,Aténolol,1
+4987,Aténolol,1
+4988,Simvastatine,1
+4989,Aciclovir,1
+4990,Doxazosine,1
+4991,Aciclovir,1
+4992,Acclovir,1
+4993,Aciclovir,1
+4994,Aciclovir,1
+4995,Aciclovir,1
+4996,Aciclovir,1
+4997,Paracetamol,1
+4997,Acide ascorbique,2
+4997,Phéniramine,3
+4997,Phényléphrine,4
+4998,Moxifloxacine,1
+4999,Moxifloxacine,1
+5000,Moxifloxacine,1
+5001,Loteprednol,1
+5001,Tobramycine,2
+5002,Allopurinol,1
+5003,Allopurinol,1
+5004,Allopurinol,1
+5005,Olanzapine,1
+5006,Olanzapine,1
+5007,Métronidazole,1
+5008,Métronidazole,1
+5009,Métronidazole,1
+5010,Métronidazole,1
+5011,Métronidazole,1
+5012,Cétirizine,1
+5013,Cétirizine,1
+5014,Cétirizine,1
+5015,Abiratérone,1
+5016,Abiratérone,1
+5017,Tadalafil,1
+5018,Tadalafil,1
+5019,Tadalafil,1
+5020,Linezolide,1
+5021,Linezolide,1
+5022,Ocidilactici CECT 7483,1
+5022,Lactobacillus plantum CECT 7484,2
+5022,Lactobacilus plantarum CECT 7485,3

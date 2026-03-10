@@ -11,6 +11,13 @@ services:
       - ./data/raw:/app/data/raw
     command: python scraper_med_ma.py --output data/raw/all_drugs_med_ma.csv
   
+  etl:
+    build: { context: ./etl }
+    profiles: [etl]
+    volumes:
+      - ./data/raw:/app/data/raw
+      - ./data/processed:/app/data/processed
+  
   db:
     image: postgres:15
     container_name: saferxai_db

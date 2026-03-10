@@ -5,3 +5,6 @@ __pycache__/
 *.pyd
 node_modules/
 command.txt
+*.parquet
+_SUCCESS
+*.crc
