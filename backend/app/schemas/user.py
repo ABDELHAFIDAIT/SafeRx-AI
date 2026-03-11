@@ -1,6 +1,7 @@
 from pydantic import BaseModel, ConfigDict, EmailStr
 from typing import Optional
 from backend.app.models.user import Role
+from datetime import datetime
 
 
 class UserBase(BaseModel) :
@@ -25,7 +26,7 @@ class UserOut(UserBase) :
     id: int
     is_active: bool
     is_first_login: bool
-    created_at: str
-    updated_at: str
+    created_at: datetime
+    updated_at: datetime
     
     model_config = ConfigDict(from_attributes=True)
