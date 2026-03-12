@@ -1,22 +1,22 @@
-version: '3.8'
-
 services:
   scraper:
     build:
       context: ./scraping
     container_name: saferxai_scraper
-    profiles:
-      - scraping
+    profiles: [scraping]
     volumes:
       - ./data/raw:/app/data/raw
     command: python scraper_med_ma.py --output data/raw/all_drugs_med_ma.csv
+    restart: "no"
 
   etl:
     build: { context: ./etl }
     profiles: [etl]
+    command: ["python3", "transform_med_ma.py"]
     volumes:
       - ./data/raw:/app/data/raw
       - ./data/processed:/app/data/processed
+    restart: "no"
 
   etl-load:
     build: { context: ./etl }
@@ -28,6 +28,32 @@ services:
         condition: service_healthy
     volumes:
       - ./data/processed:/app/data/processed
+    restart: "no"
+  
+  etl-parse-thesaurus:
+    build: { context: ./etl }
+    profiles: [tools]
+    command: [
+      "python3", "parse_thesaurus_ansm.py",
+      "--pdf", "/data/raw/thesaurus_ansm_2023.pdf",
+      "--out", "/data/processed/interactions_ansm.csv",
+      "--stats"
+    ]
+    volumes:
+      - ./data:/data
+    restart: "no"
+  
+  etl-load-interactions:
+    build: { context: ./etl }
+    profiles: [etl]
+    command: ["python3", "load_interactions.py"]
+    env_file: .env
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data/processed:/app/data/processed
+    restart: "no"
 
   db:
     image: postgres:15
