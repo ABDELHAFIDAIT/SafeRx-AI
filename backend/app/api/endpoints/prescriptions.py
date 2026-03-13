@@ -10,10 +10,6 @@ from backend.app.services.prescription_service import create_prescription, get_p
 router = APIRouter()
 
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  POST /prescriptions
-#  Crée une prescription + analyse CDS instantanée
-# ─────────────────────────────────────────────────────────────────────────────
 
 @router.post( "/", response_model=CdsResponse, status_code=status.HTTP_201_CREATED, summary="Créer une prescription et déclencher l'analyse CDS" )
 def create_prescription_endpoint( payload: PrescriptionCreate, db: Session = Depends(get_db), current_user: User = Depends(get_current_user) ):
@@ -55,11 +51,6 @@ def create_prescription_endpoint( payload: PrescriptionCreate, db: Session = Dep
 
 
 
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  GET /prescriptions/{id}
-# ─────────────────────────────────────────────────────────────────────────────
-
 @router.get( "/{prescription_id}", response_model=CdsResponse, summary="Récupérer une prescription avec ses alertes" )
 def get_prescription_endpoint( prescription_id: int, db: Session = Depends(get_db), current_user: User = Depends(get_current_user) ):
     prescription = get_prescription(db=db, prescription_id=prescription_id)
@@ -84,11 +75,6 @@ def get_prescription_endpoint( prescription_id: int, db: Session = Depends(get_d
     )
 
 
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-#  GET /prescriptions/patient/{patient_id}
-# ─────────────────────────────────────────────────────────────────────────────
 
 @router.get( "/patient/{patient_id}", response_model=list[PrescriptionOut], summary="Lister les prescriptions d'un patient" )
 def list_patient_prescriptions( patient_id: int, skip: int = 0, limit: int = 20, db: Session = Depends(get_db), current_user: User = Depends(get_current_user) ):
