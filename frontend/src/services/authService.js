@@ -1,11 +1,9 @@
 import api from "../api/api";
 
-
-
 const decodeJwt = (token) => {
     try {
-        const base64Url = token.split(".")[1];
-        const base64    = base64Url.replace(/-/g, "+").replace(/_/g, "/");
+        const base64Url   = token.split(".")[1];
+        const base64      = base64Url.replace(/-/g, "+").replace(/_/g, "/");
         const jsonPayload = decodeURIComponent(
             atob(base64)
                 .split("")
@@ -18,6 +16,8 @@ const decodeJwt = (token) => {
     }
 };
 
+
+
 const authService = {
 
     login: async (email, password) => {
@@ -29,28 +29,23 @@ const authService = {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
         });
 
-        const { access_token, is_first_login, role,
-                first_name, last_name } = response.data;
+        const { access_token, is_first_login, role, first_name, last_name } = response.data;
 
         if (access_token) {
             localStorage.setItem("token", access_token);
             localStorage.setItem("user", JSON.stringify({
-                first_name,
-                last_name,
-                role,
-                is_first_login,
+                first_name, last_name, role, is_first_login,
             }));
         }
 
         return response.data;
     },
 
-
+    
     getUser: () => {
         try {
             const stored = localStorage.getItem("user");
             if (stored) return JSON.parse(stored);
-
             const token = localStorage.getItem("token");
             if (!token) return null;
             return decodeJwt(token);
@@ -67,6 +62,8 @@ const authService = {
         const token = localStorage.getItem("token");
         if (!token) return false;
         const payload = decodeJwt(token);
+        // ✅ FIX : payload peut être null → vérifier avant d'accéder à .exp
+        if (!payload) return true;
         if (payload.exp && payload.exp * 1000 < Date.now()) {
             authService.logout();
             return false;
@@ -81,10 +78,7 @@ const authService = {
         });
         const user = authService.getUser();
         if (user) {
-            localStorage.setItem("user", JSON.stringify({
-                ...user,
-                is_first_login: false,
-            }));
+            localStorage.setItem("user", JSON.stringify({ ...user, is_first_login: false }));
         }
         return response.data;
     },
@@ -96,6 +90,5 @@ const authService = {
         window.location.href = "/login";
     },
 };
-
 
 export default authService;
