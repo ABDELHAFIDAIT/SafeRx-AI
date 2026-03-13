@@ -7,7 +7,7 @@ import {
     Clock, Filter, MoreVertical, Mail, Lock, RefreshCw,
     AlertTriangle, BarChart3, Shield, Siren
 } from "lucide-react";
-import authService from "../services/authService";
+import authService from "../services/AuthService";
 import api from "../api/api";
 
 /* ─────────────────────────────────────────────────────────

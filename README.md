@@ -7,7 +7,10 @@ SafeRx-AI est un système d’aide à la décision clinique (CDSS) qui analyse l
 │   │   ├── 📁 api
 │   │   │   ├── 📁 endpoints
 │   │   │   │   ├── 🐍 account.py
-│   │   │   │   └── 🐍 auth.py
+│   │   │   │   ├── 🐍 auth.py
+│   │   │   │   ├── 🐍 drugs.py
+│   │   │   │   ├── 🐍 patients.py
+│   │   │   │   └── 🐍 prescriptions.py
 │   │   │   ├── 🐍 deps.py
 │   │   │   └── 🐍 router.py
 │   │   ├── 📁 core
@@ -18,25 +21,36 @@ SafeRx-AI est un système d’aide à la décision clinique (CDSS) qui analyse l
 │   │   │   ├── 🐍 init_db.py
 │   │   │   └── 🐍 session.py
 │   │   ├── 📁 models
+│   │   │   ├── 🐍 cds_alert.py
 │   │   │   ├── 🐍 drug.py
+│   │   │   ├── 🐍 drug_interaction.py
+│   │   │   ├── 🐍 patient.py
+│   │   │   ├── 🐍 prescription.py
 │   │   │   └── 🐍 user.py
 │   │   ├── 📁 schemas
+│   │   │   ├── 🐍 clinical_schemas.py
 │   │   │   └── 🐍 user.py
 │   │   └── 📁 services
+│   │       ├── 🐍 cds_engine.py
 │   │       ├── 🐍 email_service.py
+│   │       ├── 🐍 prescription_service.py
 │   │       └── 🐍 user_service.py
 │   └── 🐍 main.py
 ├── 📁 data
 │   ├── 📁 processed
 │   │   ├── 📁 dci_components
 │   │   │   └── 📄 dci_components.csv
-│   │   └── 📁 drugs_ma_clean
-│   │       └── 📄 drugs_ma_clean.csv
+│   │   ├── 📁 drugs_ma_clean
+│   │   │   └── 📄 drugs_ma_clean.csv
+│   │   └── 📄 interactions_ansm.csv
 │   └── 📁 raw
-│       └── 📄 all_drugs_med_ma.csv
+│       ├── 📄 all_drugs_med_ma.csv
+│       └── 📕 thesaurus_ansm_2023.pdf
 ├── 📁 etl
 │   ├── 🐳 Dockerfile
+│   ├── 🐍 load_interactions.py
 │   ├── 🐍 load_med_ma.py
+│   ├── 🐍 parse_thesaurus_ansm.py
 │   ├── 📄 requirements.txt
 │   └── 🐍 transform_med_ma.py
 ├── 📁 frontend
@@ -48,11 +62,12 @@ SafeRx-AI est un système d’aide à la décision clinique (CDSS) qui analyse l
 │   │   ├── 📁 assets
 │   │   │   └── 🖼️ react.svg
 │   │   ├── 📁 pages
-│   │   │   ├── 📄 adminDashboard.jsx
-│   │   │   ├── 📄 changePassword.jsx
-│   │   │   └── 📄 login.jsx
+│   │   │   ├── 📄 AdminDashboard.jsx
+│   │   │   ├── 📄 ChangePassword.jsx
+│   │   │   ├── 📄 DoctorDashboard.jsx
+│   │   │   └── 📄 Login.jsx
 │   │   ├── 📁 services
-│   │   │   └── 📄 authService.js
+│   │   │   └── 📄 AuthService.js
 │   │   ├── 🎨 App.css
 │   │   ├── 📄 App.jsx
 │   │   ├── 🎨 index.css
