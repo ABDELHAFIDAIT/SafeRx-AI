@@ -7,8 +7,9 @@ import {
     AlertCircle, Zap, ArrowLeft, RefreshCw, FlaskConical,
     Heart, Baby, Brain, Siren, TriangleAlert
 } from "lucide-react";
-import authService from "../services/AuthService";
+import authService from "../services/authService";
 import api from "../api/api";
+import CdsResultPanel from "../components/CdsResultPanel";
 
 /* ─────────────────────────────────────────────
    CONSTANTES
@@ -57,123 +58,123 @@ const Tag = ({ children, color = "slate" }) => (
 /* ─────────────────────────────────────────────
    COMPOSANT : Résultats CDS
 ───────────────────────────────────────────── */
-function CdsResultPanel({ result, onClose, onNewPrescription }) {
-    const [expanded, setExpanded] = useState({});
-    const toggle = (id) => setExpanded(p => ({ ...p, [id]: !p[id] }));
+// function CdsResultPanel({ result, onClose, onNewPrescription }) {
+//     const [expanded, setExpanded] = useState({});
+//     const toggle = (id) => setExpanded(p => ({ ...p, [id]: !p[id] }));
 
-    const majorAlerts = result.alerts.filter(a => a.severity === "MAJOR");
-    const moderateAlerts = result.alerts.filter(a => a.severity === "MODERATE");
-    const minorAlerts = result.alerts.filter(a => a.severity === "MINOR");
-    const isSafe = result.alert_count === 0;
+//     const majorAlerts = result.alerts.filter(a => a.severity === "MAJOR");
+//     const moderateAlerts = result.alerts.filter(a => a.severity === "MODERATE");
+//     const minorAlerts = result.alerts.filter(a => a.severity === "MINOR");
+//     const isSafe = result.alert_count === 0;
 
-    return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4"
-            style={{ background: "rgba(2,8,20,0.85)", backdropFilter: "blur(8px)" }}>
-            <div className="w-full max-w-2xl max-h-[90vh] overflow-hidden rounded-2xl border border-slate-700/60 flex flex-col"
-                style={{ background: "#0d1520" }}>
+//     return (
+//         <div className="fixed inset-0 z-50 flex items-center justify-center p-4"
+//             style={{ background: "rgba(2,8,20,0.85)", backdropFilter: "blur(8px)" }}>
+//             <div className="w-full max-w-2xl max-h-[90vh] overflow-hidden rounded-2xl border border-slate-700/60 flex flex-col"
+//                 style={{ background: "#0d1520" }}>
 
-                {/* Header */}
-                <div className={`px-6 py-4 flex items-center justify-between border-b
-                    ${isSafe ? "border-emerald-700/40 bg-emerald-950/40" : "border-red-700/30 bg-red-950/30"}`}>
-                    <div className="flex items-center gap-3">
-                        {isSafe
-                            ? <ShieldCheck size={22} className="text-emerald-400" />
-                            : <ShieldAlert size={22} className="text-red-400" />}
-                        <div>
-                            <h2 className={`font-semibold text-base ${isSafe ? "text-emerald-300" : "text-red-300"}`}>
-                                {isSafe ? "Prescription sûre" : `${result.alert_count} alerte${result.alert_count > 1 ? "s" : ""} détectée${result.alert_count > 1 ? "s" : ""}`}
-                            </h2>
-                            <p className="text-xs text-slate-500">
-                                Prescription #{result.prescription_id} · Analyse CDS complète
-                            </p>
-                        </div>
-                    </div>
-                    <button onClick={onClose} className="text-slate-500 hover:text-slate-300 transition-colors">
-                        <X size={18} />
-                    </button>
-                </div>
+//                 {/* Header */}
+//                 <div className={`px-6 py-4 flex items-center justify-between border-b
+//                     ${isSafe ? "border-emerald-700/40 bg-emerald-950/40" : "border-red-700/30 bg-red-950/30"}`}>
+//                     <div className="flex items-center gap-3">
+//                         {isSafe
+//                             ? <ShieldCheck size={22} className="text-emerald-400" />
+//                             : <ShieldAlert size={22} className="text-red-400" />}
+//                         <div>
+//                             <h2 className={`font-semibold text-base ${isSafe ? "text-emerald-300" : "text-red-300"}`}>
+//                                 {isSafe ? "Prescription sûre" : `${result.alert_count} alerte${result.alert_count > 1 ? "s" : ""} détectée${result.alert_count > 1 ? "s" : ""}`}
+//                             </h2>
+//                             <p className="text-xs text-slate-500">
+//                                 Prescription #{result.prescription_id} · Analyse CDS complète
+//                             </p>
+//                         </div>
+//                     </div>
+//                     <button onClick={onClose} className="text-slate-500 hover:text-slate-300 transition-colors">
+//                         <X size={18} />
+//                     </button>
+//                 </div>
 
-                {/* Summary bar */}
-                {!isSafe && (
-                    <div className="px-6 py-3 flex items-center gap-3 border-b border-slate-700/40 bg-slate-900/30">
-                        {majorAlerts.length > 0 && (
-                            <span className="flex items-center gap-1.5 text-xs font-medium text-red-300 bg-red-500/10 border border-red-500/20 px-2.5 py-1 rounded-full">
-                                <Siren size={11} /> {majorAlerts.length} critique{majorAlerts.length > 1 ? "s" : ""}
-                            </span>
-                        )}
-                        {moderateAlerts.length > 0 && (
-                            <span className="flex items-center gap-1.5 text-xs font-medium text-amber-300 bg-amber-500/10 border border-amber-500/20 px-2.5 py-1 rounded-full">
-                                <TriangleAlert size={11} /> {moderateAlerts.length} modérée{moderateAlerts.length > 1 ? "s" : ""}
-                            </span>
-                        )}
-                        {minorAlerts.length > 0 && (
-                            <span className="flex items-center gap-1.5 text-xs font-medium text-blue-300 bg-blue-500/10 border border-blue-500/20 px-2.5 py-1 rounded-full">
-                                <Info size={11} /> {minorAlerts.length} mineure{minorAlerts.length > 1 ? "s" : ""}
-                            </span>
-                        )}
-                    </div>
-                )}
+//                 {/* Summary bar */}
+//                 {!isSafe && (
+//                     <div className="px-6 py-3 flex items-center gap-3 border-b border-slate-700/40 bg-slate-900/30">
+//                         {majorAlerts.length > 0 && (
+//                             <span className="flex items-center gap-1.5 text-xs font-medium text-red-300 bg-red-500/10 border border-red-500/20 px-2.5 py-1 rounded-full">
+//                                 <Siren size={11} /> {majorAlerts.length} critique{majorAlerts.length > 1 ? "s" : ""}
+//                             </span>
+//                         )}
+//                         {moderateAlerts.length > 0 && (
+//                             <span className="flex items-center gap-1.5 text-xs font-medium text-amber-300 bg-amber-500/10 border border-amber-500/20 px-2.5 py-1 rounded-full">
+//                                 <TriangleAlert size={11} /> {moderateAlerts.length} modérée{moderateAlerts.length > 1 ? "s" : ""}
+//                             </span>
+//                         )}
+//                         {minorAlerts.length > 0 && (
+//                             <span className="flex items-center gap-1.5 text-xs font-medium text-blue-300 bg-blue-500/10 border border-blue-500/20 px-2.5 py-1 rounded-full">
+//                                 <Info size={11} /> {minorAlerts.length} mineure{minorAlerts.length > 1 ? "s" : ""}
+//                             </span>
+//                         )}
+//                     </div>
+//                 )}
 
-                {/* Alerts list */}
-                <div className="overflow-y-auto flex-1 px-4 py-4 space-y-2">
-                    {isSafe ? (
-                        <div className="flex flex-col items-center justify-center py-12 text-center">
-                            <div className="w-16 h-16 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mb-4">
-                                <ShieldCheck size={28} className="text-emerald-400" />
-                            </div>
-                            <p className="text-emerald-300 font-medium mb-1">Aucune interaction détectée</p>
-                            <p className="text-slate-500 text-sm">Cette prescription est conforme aux règles CDS SafeRx.</p>
-                        </div>
-                    ) : (
-                        result.alerts.map((alert) => {
-                            const cfg = SEVERITY_CONFIG[alert.severity] || SEVERITY_CONFIG.MINOR;
-                            const Icon = cfg.icon;
-                            const isExpanded = expanded[alert.id];
-                            return (
-                                <div key={alert.id}
-                                    className={`rounded-xl border ${cfg.border} ${cfg.bg} overflow-hidden transition-all`}>
-                                    <button
-                                        onClick={() => toggle(alert.id)}
-                                        className="w-full px-4 py-3 flex items-start gap-3 text-left">
-                                        <Icon size={15} className={`${cfg.text} mt-0.5 shrink-0`} />
-                                        <div className="flex-1 min-w-0">
-                                            <div className="flex items-center gap-2 flex-wrap">
-                                                <span className={`text-sm font-medium ${cfg.text}`}>{alert.title}</span>
-                                                <span className={`text-[10px] px-1.5 py-0.5 rounded border font-medium ${cfg.badge}`}>
-                                                    {ALERT_TYPE_LABEL[alert.alert_type] || alert.alert_type}
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <ChevronDown size={13} className={`text-slate-500 shrink-0 mt-0.5 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
-                                    </button>
-                                    {isExpanded && (
-                                        <div className="px-4 pb-3 text-xs text-slate-400 border-t border-white/5 pt-3 leading-relaxed">
-                                            {alert.detail}
-                                        </div>
-                                    )}
-                                </div>
-                            );
-                        })
-                    )}
-                </div>
+//                 {/* Alerts list */}
+//                 <div className="overflow-y-auto flex-1 px-4 py-4 space-y-2">
+//                     {isSafe ? (
+//                         <div className="flex flex-col items-center justify-center py-12 text-center">
+//                             <div className="w-16 h-16 rounded-full bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mb-4">
+//                                 <ShieldCheck size={28} className="text-emerald-400" />
+//                             </div>
+//                             <p className="text-emerald-300 font-medium mb-1">Aucune interaction détectée</p>
+//                             <p className="text-slate-500 text-sm">Cette prescription est conforme aux règles CDS SafeRx.</p>
+//                         </div>
+//                     ) : (
+//                         result.alerts.map((alert) => {
+//                             const cfg = SEVERITY_CONFIG[alert.severity] || SEVERITY_CONFIG.MINOR;
+//                             const Icon = cfg.icon;
+//                             const isExpanded = expanded[alert.id];
+//                             return (
+//                                 <div key={alert.id}
+//                                     className={`rounded-xl border ${cfg.border} ${cfg.bg} overflow-hidden transition-all`}>
+//                                     <button
+//                                         onClick={() => toggle(alert.id)}
+//                                         className="w-full px-4 py-3 flex items-start gap-3 text-left">
+//                                         <Icon size={15} className={`${cfg.text} mt-0.5 shrink-0`} />
+//                                         <div className="flex-1 min-w-0">
+//                                             <div className="flex items-center gap-2 flex-wrap">
+//                                                 <span className={`text-sm font-medium ${cfg.text}`}>{alert.title}</span>
+//                                                 <span className={`text-[10px] px-1.5 py-0.5 rounded border font-medium ${cfg.badge}`}>
+//                                                     {ALERT_TYPE_LABEL[alert.alert_type] || alert.alert_type}
+//                                                 </span>
+//                                             </div>
+//                                         </div>
+//                                         <ChevronDown size={13} className={`text-slate-500 shrink-0 mt-0.5 transition-transform ${isExpanded ? "rotate-180" : ""}`} />
+//                                     </button>
+//                                     {isExpanded && (
+//                                         <div className="px-4 pb-3 text-xs text-slate-400 border-t border-white/5 pt-3 leading-relaxed">
+//                                             {alert.detail}
+//                                         </div>
+//                                     )}
+//                                 </div>
+//                             );
+//                         })
+//                     )}
+//                 </div>
 
-                {/* Footer */}
-                <div className="px-6 py-4 border-t border-slate-700/40 flex gap-3 justify-end bg-slate-900/20">
-                    <button
-                        onClick={onNewPrescription}
-                        className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-slate-300 border border-slate-600/50 hover:border-slate-500/70 hover:text-white transition-all">
-                        <Plus size={14} /> Nouvelle prescription
-                    </button>
-                    <button
-                        onClick={onClose}
-                        className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-blue-600 hover:bg-blue-500 text-white transition-all">
-                        <FileText size={14} /> Voir les détails
-                    </button>
-                </div>
-            </div>
-        </div>
-    );
-}
+//                 {/* Footer */}
+//                 <div className="px-6 py-4 border-t border-slate-700/40 flex gap-3 justify-end bg-slate-900/20">
+//                     <button
+//                         onClick={onNewPrescription}
+//                         className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-slate-300 border border-slate-600/50 hover:border-slate-500/70 hover:text-white transition-all">
+//                         <Plus size={14} /> Nouvelle prescription
+//                     </button>
+//                     <button
+//                         onClick={onClose}
+//                         className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-blue-600 hover:bg-blue-500 text-white transition-all">
+//                         <FileText size={14} /> Voir les détails
+//                     </button>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// }
 
 /* ─────────────────────────────────────────────
    COMPOSANT : Recherche de médicament
