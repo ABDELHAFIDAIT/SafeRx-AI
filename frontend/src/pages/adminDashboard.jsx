@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
     ShieldCheck, Users, LayoutDashboard, ClipboardList,
     LogOut, Plus, Search, CheckCircle2, AlertCircle,
@@ -7,49 +7,41 @@ import {
     Clock, Filter, MoreVertical, Mail, Lock, RefreshCw,
     AlertTriangle, BarChart3, Shield, Siren
 } from "lucide-react";
-import authService from "../services/AuthService";
+import authService from "../services/authService";
 import api from "../api/api";
 
 /* ─────────────────────────────────────────────────────────
-   MOCK DATA  (à remplacer par les vrais appels API)
+   HELPERS — mapping données API → format UI
 ───────────────────────────────────────────────────────── */
-const MOCK_USERS = [
-    { id: 1, first_name: "Youssef",  last_name: "Benali",    email: "y.benali@chu-rabat.ma",    role: "doctor",      is_active: true,  is_first_login: false, created_at: "2025-09-12" },
-    { id: 2, first_name: "Fatima",   last_name: "El Idrissi",email: "f.elidrissi@chu-rabat.ma", role: "pharmacist",  is_active: true,  is_first_login: false, created_at: "2025-10-03" },
-    { id: 3, first_name: "Karim",    last_name: "Oualid",    email: "k.oualid@hopital-agadir.ma",role: "doctor",     is_active: true,  is_first_login: true,  created_at: "2026-01-17" },
-    { id: 4, first_name: "Nadia",    last_name: "Cherkaoui", email: "n.cherkaoui@clinique-cs.ma",role: "pharmacist", is_active: false, is_first_login: false, created_at: "2025-11-28" },
-    { id: 5, first_name: "Hassan",   last_name: "Moussaoui", email: "h.moussaoui@chu-casa.ma",  role: "doctor",      is_active: true,  is_first_login: false, created_at: "2026-02-05" },
-    { id: 6, first_name: "Imane",    last_name: "Tahiri",    email: "i.tahiri@pharmacie-fes.ma", role: "pharmacist", is_active: true,  is_first_login: false, created_at: "2026-02-20" },
-];
-
-const MOCK_AUDIT = [
-    { id: 1, timestamp: "2026-03-09 08:42:11", user: "Dr. Youssef Benali",     action: "ALERT_ACCEPTED",  drug: "Warfarine 5mg",      severity: "MAJOR",    detail: "Interaction avec Aspirine détectée et acceptée" },
-    { id: 2, timestamp: "2026-03-09 08:31:05", user: "Ph. Fatima El Idrissi",  action: "OVERRIDE",        drug: "Métformine 1000mg",  severity: "MODERATE", detail: "Insuffisance rénale — override justifié par le praticien" },
-    { id: 3, timestamp: "2026-03-09 08:15:58", user: "Dr. Hassan Moussaoui",   action: "ALERT_ACCEPTED",  drug: "Amoxicilline 500mg", severity: "MINOR",    detail: "Redondance de DCI détectée" },
-    { id: 4, timestamp: "2026-03-09 07:58:22", user: "Dr. Youssef Benali",     action: "ALERT_IGNORED",   drug: "Paracétamol 1g",     severity: "MINOR",    detail: "Alerte de posologie ignorée" },
-    { id: 5, timestamp: "2026-03-09 07:44:37", user: "Ph. Imane Tahiri",       action: "PRESCRIPTION_OK", drug: "Ibuprofène 400mg",   severity: "NONE",     detail: "Prescription validée sans alerte" },
-    { id: 6, timestamp: "2026-03-09 07:29:03", user: "Dr. Karim Oualid",       action: "OVERRIDE",        drug: "Digoxine 0.25mg",    severity: "MAJOR",    detail: "Contre-indication cardiaque — override médecin" },
-    { id: 7, timestamp: "2026-03-09 07:11:45", user: "Ph. Fatima El Idrissi",  action: "ALERT_ACCEPTED",  drug: "Clopidogrel 75mg",   severity: "MAJOR",    detail: "Interaction AVK × Clopidogrel prise en compte" },
-    { id: 8, timestamp: "2026-03-09 06:55:10", user: "Dr. Hassan Moussaoui",   action: "PRESCRIPTION_OK", drug: "Amoxiclav 1g",       severity: "NONE",     detail: "Prescription validée sans alerte" },
-];
-
-const MOCK_STATS = {
-    totalUsers: 6,
-    activeDoctors: 3,
-    activePharmacists: 3,
-    prescriptionsToday: 148,
-    alertsToday: 34,
-    overrideRate: 12.4,
-    complianceRate: 87.6,
-    avgResponseMs: 187,
+// Décision backend → label action UI
+const decisionToAction = {
+    ACCEPTED: "ALERT_ACCEPTED",
+    IGNORED:  "ALERT_IGNORED",
+    OVERRIDE: "OVERRIDE",
 };
 
+const formatDate = (iso) => {
+    if (!iso) return "—";
+    const d = new Date(iso);
+    return d.toISOString().slice(0, 10);
+};
+
+const formatDateTime = (iso) => {
+    if (!iso) return { date: "—", time: "—" };
+    const d = new Date(iso);
+    return {
+        date: d.toLocaleDateString("fr-FR"),
+        time: d.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit", second: "2-digit" }),
+    };
+};
+
+// TOP_ERRORS reste statique (nécessiterait un endpoint dédié)
 const TOP_ERRORS = [
-    { drug: "Warfarine",      count: 24, type: "Interaction" },
-    { drug: "Métformine",     count: 18, type: "Posologie rénale" },
-    { drug: "Digoxine",       count: 11, type: "Contre-indication" },
-    { drug: "Amoxicilline",   count:  9, type: "Redondance DCI" },
-    { drug: "Clopidogrel",    count:  7, type: "Interaction AVK" },
+    { drug: "Warfarine",    count: 24, type: "Interaction" },
+    { drug: "Métformine",   count: 18, type: "Posologie rénale" },
+    { drug: "Digoxine",     count: 11, type: "Contre-indication" },
+    { drug: "Amoxicilline", count:  9, type: "Redondance DCI" },
+    { drug: "Clopidogrel",  count:  7, type: "Interaction AVK" },
 ];
 
 /* ─────────────────────────────────────────────────────────
@@ -192,15 +184,31 @@ const OverviewView = ({ stats }) => (
    VIEW — USERS
 ───────────────────────────────────────────────────────── */
 const UsersView = () => {
-    const [users, setUsers]               = useState(MOCK_USERS);
+    const [users, setUsers]               = useState([]);
     const [search, setSearch]             = useState("");
     const [roleFilter, setRoleFilter]     = useState("all");
     const [showForm, setShowForm]         = useState(false);
     const [formData, setFormData]         = useState({ first_name: "", last_name: "", email: "", role: "doctor" });
-    const [showPw, setShowPw]             = useState(false);
     const [formError, setFormError]       = useState("");
     const [formSuccess, setFormSuccess]   = useState("");
     const [isLoading, setIsLoading]       = useState(false);
+    const [loadingUsers, setLoadingUsers] = useState(true);
+
+    // ✅ Charger les vrais utilisateurs depuis l'API
+    useEffect(() => {
+        const fetchUsers = async () => {
+            setLoadingUsers(true);
+            try {
+                const res = await api.get("/account/users");
+                setUsers(res.data || []);
+            } catch {
+                setUsers([]);
+            } finally {
+                setLoadingUsers(false);
+            }
+        };
+        fetchUsers();
+    }, []);
 
     const filtered = users.filter(u => {
         const matchSearch = `${u.first_name} ${u.last_name} ${u.email}`.toLowerCase().includes(search.toLowerCase());
@@ -213,11 +221,9 @@ const UsersView = () => {
         setFormError(""); setFormSuccess("");
         setIsLoading(true);
         try {
-            // const res = await api.post("/account/create", formData);
-            // Simulation (mock)
-            await new Promise(r => setTimeout(r, 900));
-            const newUser = { id: Date.now(), ...formData, is_active: true, is_first_login: true, created_at: new Date().toISOString().slice(0, 10) };
-            setUsers(prev => [newUser, ...prev]);
+            // ✅ Vrai appel API
+            const res = await api.post("/account/create", formData);
+            setUsers(prev => [res.data, ...prev]);
             setFormSuccess(`Compte créé. Un email a été envoyé à ${formData.email}.`);
             setFormData({ first_name: "", last_name: "", email: "", role: "doctor" });
             setTimeout(() => { setFormSuccess(""); setShowForm(false); }, 3000);
@@ -228,6 +234,7 @@ const UsersView = () => {
         }
     };
 
+    // ✅ toggleActive sans appel API dédié pour l'instant (UI optimiste)
     const toggleActive = (id) =>
         setUsers(prev => prev.map(u => u.id === id ? { ...u, is_active: !u.is_active } : u));
 
@@ -387,7 +394,7 @@ const UsersView = () => {
             <div className="bg-white rounded-2xl border border-slate-100 shadow-sm shadow-slate-100 overflow-hidden">
                 <div className="px-5 py-4 border-b border-slate-100 flex items-center justify-between">
                     <h3 className="font-semibold text-slate-700 text-sm">
-                        {filtered.length} utilisateur{filtered.length > 1 ? "s" : ""}
+                        {loadingUsers ? "Chargement…" : `${filtered.length} utilisateur${filtered.length > 1 ? "s" : ""}`}
                     </h3>
                 </div>
                 <div className="overflow-x-auto">
@@ -430,7 +437,7 @@ const UsersView = () => {
                                             : <span className="text-xs text-slate-400 flex items-center gap-1"><CheckCircle2 size={12} className="text-emerald-500" />Complété</span>
                                         }
                                     </td>
-                                    <td className="px-4 py-3 text-xs text-slate-400">{user.created_at}</td>
+                                    <td className="px-4 py-3 text-xs text-slate-400">{formatDate(user.created_at)}</td>
                                     <td className="px-4 py-3">
                                         <button
                                             onClick={() => toggleActive(user.id)}
@@ -460,9 +467,42 @@ const UsersView = () => {
    VIEW — AUDIT TRAIL
 ───────────────────────────────────────────────────────── */
 const AuditView = () => {
-    const [filter, setFilter] = useState("all");
+    const [filter, setFilter]   = useState("all");
+    const [logs, setLogs]       = useState([]);
+    const [loading, setLoading] = useState(true);
 
-    const logs = filter === "all" ? MOCK_AUDIT : MOCK_AUDIT.filter(l => l.action === filter);
+    // ✅ Charger le vrai journal d'audit
+    useEffect(() => {
+        const fetchAudit = async () => {
+            setLoading(true);
+            try {
+                const res = await api.get("/audit/recent?limit=100");
+                setLogs(res.data || []);
+            } catch {
+                setLogs([]);
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchAudit();
+    }, []);
+
+    // Adapter le format API → format UI
+    const mapped = logs.map(entry => ({
+        id:        entry.id,
+        timestamp: entry.created_at,
+        action:    decisionToAction[entry.decision] || entry.decision,
+        severity:  entry.alert_severity || "NONE",
+        detail:    entry.alert_title || "—",
+        drug:      entry.alert_type   || "—",
+        justif:    entry.justification,
+    }));
+
+    const filtered = filter === "all"
+        ? mapped
+        : mapped.filter(l => l.action === filter);
+
+    const overrideCount = mapped.filter(l => l.action === "OVERRIDE").length;
 
     return (
         <div className="flex flex-col gap-5">
@@ -491,38 +531,50 @@ const AuditView = () => {
             <div className="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
                 <div className="px-5 py-4 border-b border-slate-100 flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                    <span className="text-sm font-semibold text-slate-700">Journal immuable · {logs.length} entrées</span>
+                    <span className="text-sm font-semibold text-slate-700">
+                        {loading ? "Chargement…" : `Journal immuable · ${filtered.length} entrée${filtered.length > 1 ? "s" : ""}`}
+                    </span>
                 </div>
 
+                {loading ? (
+                    <div className="flex justify-center py-12">
+                        <Spinner />
+                    </div>
+                ) : filtered.length === 0 ? (
+                    <div className="py-12 text-center text-slate-400 text-sm">Aucune entrée d'audit.</div>
+                ) : (
                 <div className="divide-y divide-slate-50">
-                    {logs.map(log => (
+                    {filtered.map(log => {
+                        const { date, time } = formatDateTime(log.timestamp);
+                        return (
                         <div key={log.id} className="px-5 py-4 flex items-start gap-4 hover:bg-slate-50 transition-colors">
-                            {/* Timestamp */}
                             <div className="shrink-0 w-36">
-                                <p className="text-xs font-mono text-slate-500">{log.timestamp.split(" ")[0]}</p>
-                                <p className="text-xs font-mono font-bold text-slate-700">{log.timestamp.split(" ")[1]}</p>
+                                <p className="text-xs font-mono text-slate-500">{date}</p>
+                                <p className="text-xs font-mono font-bold text-slate-700">{time}</p>
                             </div>
-                            {/* Action icon */}
-                            <div className="shrink-0 mt-0.5">{actionIcon[log.action]}</div>
-                            {/* Content */}
+                            <div className="shrink-0 mt-0.5">{actionIcon[log.action] || actionIcon["PRESCRIPTION_OK"]}</div>
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-center gap-2 flex-wrap mb-1">
-                                    <span className="text-sm font-semibold text-slate-800">{log.user}</span>
-                                    <span className={`text-xs font-semibold px-2 py-0.5 rounded-full border ${severityColor[log.severity]}`}>
+                                    <span className="text-sm font-semibold text-slate-800">{log.action}</span>
+                                    <span className={`text-xs font-semibold px-2 py-0.5 rounded-full border ${severityColor[log.severity] || severityColor["NONE"]}`}>
                                         {log.severity === "NONE" ? "Aucune alerte" : log.severity}
                                     </span>
                                 </div>
                                 <p className="text-xs text-slate-500">{log.detail}</p>
+                                {log.justif && (
+                                    <p className="text-xs text-amber-600 mt-1 italic">Justification : {log.justif}</p>
+                                )}
                             </div>
-                            {/* Drug */}
                             <div className="shrink-0 text-right hidden sm:block">
                                 <span className="text-xs font-semibold bg-slate-100 text-slate-600 px-2.5 py-1 rounded-lg">
                                     {log.drug}
                                 </span>
                             </div>
                         </div>
-                    ))}
+                        );
+                    })}
                 </div>
+                )}
             </div>
         </div>
     );
@@ -533,14 +585,54 @@ const AuditView = () => {
 ───────────────────────────────────────────────────────── */
 const AdminDashboard = () => {
     const [activeNav, setActiveNav] = useState("overview");
+    const [stats,     setStats]     = useState(null);
+    const [auditCount, setAuditCount] = useState(0);
+    const currentUser = authService.getUser();
 
-    const handleLogout = () => {
-        authService.logout();
-        window.location.href = "/login";
-    };
+    // ✅ Charger les stats réelles au montage
+    useEffect(() => {
+        const fetchStats = async () => {
+            try {
+                const [usersRes, auditRes] = await Promise.all([
+                    api.get("/account/users"),
+                    api.get("/audit/recent?limit=200"),
+                ]);
+
+                const users     = usersRes.data  || [];
+                const auditLogs = auditRes.data   || [];
+
+                const activeDoctors      = users.filter(u => u.role === "doctor"      && u.is_active).length;
+                const activePharmacists  = users.filter(u => u.role === "pharmacist"  && u.is_active).length;
+                const overrides          = auditLogs.filter(l => l.decision === "OVERRIDE").length;
+                const accepted           = auditLogs.filter(l => l.decision === "ACCEPTED").length;
+                const total              = auditLogs.length;
+                const overrideRate       = total > 0 ? +((overrides / total) * 100).toFixed(1) : 0;
+                const complianceRate     = total > 0 ? +((accepted  / total) * 100).toFixed(1) : 100;
+
+                setStats({
+                    totalUsers:        users.length,
+                    activeDoctors,
+                    activePharmacists,
+                    prescriptionsToday: "—",   // nécessiterait un endpoint dédié
+                    alertsToday:        total,
+                    overrideRate,
+                    complianceRate,
+                    avgResponseMs:      187,    // placeholder
+                });
+                setAuditCount(auditLogs.filter(l => l.decision === "OVERRIDE").length);
+            } catch {
+                setStats(null);
+            }
+        };
+        fetchStats();
+    }, []);
+
+    const handleLogout = () => authService.logout();
 
     const views = {
-        overview: <OverviewView stats={MOCK_STATS} />,
+        overview: stats
+            ? <OverviewView stats={stats} />
+            : <div className="flex justify-center py-20"><Spinner /></div>,
         users:    <UsersView />,
         audit:    <AuditView />,
     };
@@ -581,10 +673,14 @@ const AdminDashboard = () => {
                     {/* Admin badge */}
                     <div className="px-5 py-4 border-b border-white border-opacity-10">
                         <div className="flex items-center gap-2.5">
-                            <div className="w-8 h-8 rounded-xl bg-white bg-opacity-10 flex items-center justify-center text-white text-xs font-bold">AD</div>
+                            <div className="w-8 h-8 rounded-xl bg-white bg-opacity-10 flex items-center justify-center text-white text-xs font-bold">
+                                {currentUser?.first_name?.[0]}{currentUser?.last_name?.[0]}
+                            </div>
                             <div>
-                                <p className="text-white text-xs font-semibold">Admin User</p>
-                                <p className="text-blue-400 text-xs">admin@saferx.ai</p>
+                                <p className="text-white text-xs font-semibold">
+                                    {currentUser?.first_name} {currentUser?.last_name}
+                                </p>
+                                <p className="text-blue-400 text-xs">Administrateur</p>
                             </div>
                         </div>
                     </div>
@@ -603,9 +699,9 @@ const AdminDashboard = () => {
                             >
                                 <Icon size={16} className={activeNav === id ? "text-blue-300" : ""} />
                                 {label}
-                                {id === "audit" && (
+                                {id === "audit" && auditCount > 0 && (
                                     <span className="ml-auto bg-amber-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-md">
-                                        {MOCK_AUDIT.filter(l => l.action === "OVERRIDE").length}
+                                        {auditCount}
                                     </span>
                                 )}
                             </button>
