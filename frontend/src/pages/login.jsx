@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Mail, Lock, Eye, EyeOff, ShieldCheck, ArrowRight, Stethoscope, Activity, AlertCircle } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import authService from "../services/AuthService";
+import authService from "../services/authService";
 
 const Login = () => {
     const navigate = useNavigate();
