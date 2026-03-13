@@ -4,7 +4,7 @@ import {
     AlertCircle, CheckCircle2, KeyRound, RefreshCw,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import authService from "../services/AuthService";
+import authService from "../services/authService";
 
 /* ─── Règles de force du mot de passe ─────────────────────────── */
 const rules = [
@@ -56,7 +56,13 @@ const ChangePassword = () => {
         try {
             await authService.changePassword(newPassword);
             setSuccess(true);
-            setTimeout(() => alert("Password Changed Successfully !"), 2500);
+            // ✅ FIX : navigate selon le rôle au lieu d'un alert()
+            setTimeout(() => {
+                const user = authService.getUser();
+                const role = user?.role?.toLowerCase();
+                if (role === "admin") navigate("/dashboard/admin");
+                else navigate("/dashboard/doctor");
+            }, 2500);
         } catch (err) {
             setError(err.response?.data?.detail || "Une erreur est survenue.");
         } finally {
@@ -191,8 +197,8 @@ const ChangePassword = () => {
                                                     <div
                                                         key={lvl}
                                                         className={`h-1 flex-1 rounded-full transition-all duration-300 ${lvl <= strength.level
-                                                                ? strength.color
-                                                                : "bg-slate-200"
+                                                            ? strength.color
+                                                            : "bg-slate-200"
                                                             }`}
                                                     />
                                                 ))}
@@ -201,9 +207,9 @@ const ChangePassword = () => {
                                                 <p className="text-xs text-slate-500">
                                                     Force :
                                                     <span className={`font-semibold ml-1 ${strength.level <= 1 ? "text-red-500" :
-                                                            strength.level === 2 ? "text-amber-500" :
-                                                                strength.level === 3 ? "text-blue-500" :
-                                                                    "text-emerald-500"
+                                                        strength.level === 2 ? "text-amber-500" :
+                                                            strength.level === 3 ? "text-blue-500" :
+                                                                "text-emerald-500"
                                                         }`}>
                                                         {strength.label}
                                                     </span>
@@ -236,10 +242,10 @@ const ChangePassword = () => {
                                         <input
                                             type={showConfirm ? "text" : "password"}
                                             className={`w-full pl-10 pr-10 py-2.5 border rounded-xl bg-slate-50 text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:border-transparent focus:bg-white transition-all ${confirmPassword.length > 0
-                                                    ? passwordsMatch
-                                                        ? "border-emerald-300 focus:ring-emerald-400"
-                                                        : "border-red-300 focus:ring-red-400"
-                                                    : "border-slate-200 focus:ring-blue-500"
+                                                ? passwordsMatch
+                                                    ? "border-emerald-300 focus:ring-emerald-400"
+                                                    : "border-red-300 focus:ring-red-400"
+                                                : "border-slate-200 focus:ring-blue-500"
                                                 }`}
                                             placeholder="••••••••"
                                             value={confirmPassword}
